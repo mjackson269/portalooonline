@@ -1,0 +1,115 @@
+[
+  {
+    "slug": "get-loos",
+    "company": "Get Loos",
+    "website": "https://www.getloos.co.uk/",
+    "phone": "0345 565 2680",
+    "email": "info@get-loos.co.uk",
+    "headOffice": "Sheffield",
+    "areasCovered": [
+      "Sheffield",
+      "Rotherham",
+      "Doncaster",
+      "Barnsley",
+      "Chesterfield"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Disabled Toilets",
+      "Baby Changing Units",
+      "Welfare Units"
+    ],
+    "description": "Sheffield-based portable toilet hire company serving South Yorkshire and the East Midlands.",
+    "featured": false
+  },
+  {
+    "slug": "elliott-loo-hire",
+    "company": "Elliott Loo Hire",
+    "website": "https://www.elliottuk.com/",
+    "phone": "0845 521 7283",
+    "email": "loo@elliottuk.com",
+    "headOffice": "Sheffield",
+    "areasCovered": [
+      "Sheffield",
+      "South Yorkshire",
+      "Nationwide"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Long-Term Hire"
+    ],
+    "description": "Major portable sanitation provider with a Sheffield depot.",
+    "featured": false
+  },
+  {
+    "slug": "william-g-search",
+    "company": "William G Search Ltd",
+    "website": "https://www.wgsearch.co.uk/",
+    "phone": "0114 244 6521",
+    "email": "info@wgsearch.co.uk",
+    "headOffice": "Leeds",
+    "areasCovered": [
+      "Sheffield",
+      "Leeds",
+      "Nottingham",
+      "Manchester"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Self Contained Toilets",
+      "Mains Toilets",
+      "Welfare Units",
+      "Portable Accommodation"
+    ],
+    "description": "Established hire company supplying toilets and welfare facilities.",
+    "featured": false
+  },
+  {
+    "slug": "srp-hire-solutions",
+    "company": "SRP Hire Solutions Ltd",
+    "website": "https://www.srptoilethire.co.uk/",
+    "phone": "0333 577 8003",
+    "email": "hiredesk@srphiresolutions.com",
+    "headOffice": "Lincoln",
+    "areasCovered": [
+      "Sheffield",
+      "Rotherham",
+      "Barnsley",
+      "Doncaster"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Welfare Units",
+      "Luxury Hire",
+      "Site Services"
+    ],
+    "description": "Portable toilet and welfare specialist serving South Yorkshire.",
+    "featured": false
+  },
+  {
+    "slug": "green-toilet-company",
+    "company": "The Green Toilet Company",
+    "website": "https://www.thegreentoiletcompany.co.uk/",
+    "phone": "01709 819695",
+    "email": "",
+    "headOffice": "Rotherham",
+    "areasCovered": [
+      "South Yorkshire",
+      "West Yorkshire",
+      "North Yorkshire"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilets",
+      "Portable Showers",
+      "Welfare Solutions"
+    ],
+    "description": "South Yorkshire portable sanitation specialist for sites and events.",
+    "featured": false
+  }
+]
