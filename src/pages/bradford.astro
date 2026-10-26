@@ -1,167 +1,21 @@
 ---
-import Layout from "../layouts/Layout.astro";
-
-const suppliers = [
-  {
-    company: "George Shaw & Sons Toilet Hire",
-    phone: "01484 982467",
-    website: "https://www.georgeshawtoilethire.com",
-    services: "Portable Toilets, Welfare Units, Luxury Toilet Trailers",
-    description:
-      "Family-run Yorkshire toilet and welfare hire specialist serving Bradford and West Yorkshire."
-  },
-  {
-    company: "Toilets On The Go",
-    phone: "0333 772 1515",
-    website: "https://www.toiletsonthego.co.uk",
-    services: "Portable Toilets, Luxury Toilet Trailers, Welfare Units",
-    description:
-      "Portable toilet and welfare hire across Bradford and the wider Yorkshire region."
-  },
-  {
-    company: "Euroloo",
-    phone: "01274 061524",
-    website: "https://www.euroloo.com",
-    services: "Portable Toilets, Welfare Hire, Toilet Servicing",
-    description:
-      "Commercial portable toilet hire and servicing throughout Bradford."
-  },
-  {
-    company: "Convenience Hire",
-    phone: "01535 646463",
-    website: "https://conveniencehire.co.uk",
-    services: "Portable Toilets, Luxury Toilet Trailers, Accessible Toilets",
-    description:
-      "Established Yorkshire supplier serving Bradford events and construction sites."
-  },
-  {
-    company: "Fast Loo",
-    phone: "0113 300 8021",
-    website: "https://www.fastloo.co.uk",
-    services: "Portable Toilets, Event Toilets, Welfare Units",
-    description:
-      "Reliable toilet hire for events, construction projects and temporary sites."
-  }
-];
+import suppliers from "../data/bradford.json";
 ---
 
-<Layout title="Portaloo Hire Bradford | Portaloo Online">
+<h1>Portaloo Hire Leeds</h1>
 
-<section class="hero">
-  <h1>Portaloo Hire Bradford</h1>
+{
+  suppliers.map((supplier) => (
+    <div>
+      <h2>{supplier.company}</h2>
 
-  <p>
-    Compare portable toilet hire companies serving Bradford and the
-    surrounding West Yorkshire area.
-  </p>
-</section>
+      <p>{supplier.description}</p>
 
-<section>
-  <h2>Bradford Suppliers</h2>
+      <p>{supplier.phone}</p>
 
-  <div class="supplier-grid">
-    {suppliers.map((supplier) => (
-      <article class="supplier-card">
-
-        <h3>{supplier.company}</h3>
-
-        <p>{supplier.description}</p>
-
-        <p>
-          <strong>Phone:</strong>
-          {supplier.phone}
-        </p>
-
-        <p>
-          <strong>Services:</strong>
-          {supplier.services}
-        </p>
-
-        <a
-          href={supplier.website}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button"
-        >
-          Visit Website
-        </a>
-
-      </article>
-    ))}
-  </div>
-</section>
-
-<section class="seo-content">
-
-  <h2>Finding Portable Toilet Hire in Bradford</h2>
-
-  <p>
-    Whether you're organising a wedding, festival, outdoor event,
-    building project or long-term construction site, Bradford has
-    several suppliers offering portable toilets, welfare units,
-    disabled-access facilities and luxury toilet trailers.
-  </p>
-
-  <p>
-    Compare providers, check availability and contact suppliers
-    directly to obtain quotations.
-  </p>
-
-</section>
-
-</Layout>
-
-<style>
-.hero {
-  max-width: 800px;
-  margin: 3rem auto;
-  text-align: center;
+      <a href={supplier.website}>
+        Visit Website
+      </a>
+    </div>
+  ))
 }
-
-.hero h1 {
-  font-size: 3rem;
-}
-
-.hero p {
-  color: #666;
-}
-
-.supplier-grid {
-  display: grid;
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.supplier-card {
-  background: #f8f8f8;
-  padding: 1.5rem;
-  border-radius: 12px;
-}
-
-.supplier-card h3 {
-  margin-top: 0;
-}
-
-.button {
-  display: inline-block;
-  margin-top: 1rem;
-  background: #0066cc;
-  color: white;
-  padding: 0.75rem 1rem;
-  border-radius: 6px;
-  text-decoration: none;
-}
-
-.button:hover {
-  background: #0055aa;
-}
-
-.seo-content {
-  max-width: 800px;
-  margin: 4rem auto;
-}
-
-.seo-content p {
-  line-height: 1.7;
-}
-</style>
