@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "ebor-loo-hire",
+    "company": "Ebor Loo Hire",
+    "website": "https://www.eborloohire.co.uk/",
+    "phone": "07804 985285",
+    "email": "info@eborloohire.co.uk",
+    "headOffice": "York YO30",
+    "areasCovered": ["York", "Yorkshire"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Short-Term Hire",
+      "Long-Term Hire"
+    ],
+    "description": "York-based provider supplying portable toilets for construction, renovations, festivals, weddings, sports and outdoor gatherings.",
+    "featured": false
+  },
+  {
+    "slug": "a64-loo-hire",
+    "company": "A64 Loo Hire",
+    "website": "http://www.partyloo.co.uk/Guide.html",
+    "phone": "01904 400274",
+    "email": "sales@A64loohire.co.uk",
+    "headOffice": "North Lane, Malton Road, Huntington, York YO32 9SU",
+    "areasCovered": ["York and surrounding areas"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Disabled Access Toilets",
+      "Urinals"
+    ],
+    "description": "Established York operator supplying serviced toilets and trailer units for construction sites, parties, weddings and major events.",
+    "featured": false
+  },
+  {
+    "slug": "bridge-event-hire",
+    "company": "Bridge Event Hire",
+    "website": "https://bridgeeventhire.co.uk/",
+    "phone": "07464 473848",
+    "email": "",
+    "headOffice": "Bridge Farm, Aldwark Bridge Lane, York YO26 9SL",
+    "areasCovered": ["Yorkshire"],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Wedding Toilets",
+      "Event Toilets"
+    ],
+    "description": "York-based supplier of luxury toilet trailers for weddings, parties and corporate events across Yorkshire.",
+    "featured": false
+  },
+  {
+    "slug": "yorloos",
+    "company": "YorLoos",
+    "website": "https://www.yorloos.co.uk/",
+    "phone": "07939 255535",
+    "email": "enquiries@yorloos.co.uk",
+    "headOffice": "Whitethorn Farm, Cropton, Pickering, North Yorkshire YO18 8HJ",
+    "areasCovered": ["Yorkshire"],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Construction Site Toilets",
+      "Showers",
+      "Liquid Waste Services"
+    ],
+    "description": "North Yorkshire provider offering standard, luxury and long-term sanitation hire for events and construction sites.",
+    "featured": false
+  },
+  {
+    "slug": "elite-hire-york",
+    "company": "Elite Hire York",
+    "website": "https://www.luxurytoilethireyork.com/",
+    "phone": "07943 636280",
+    "email": "stephengore395@btinternet.com",
+    "headOffice": "Gribthorpe, East Yorkshire DN14 7NT",
+    "areasCovered": ["Yorkshire and surrounding areas"],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Portable Toilets",
+      "Accessible Toilets",
+      "Wedding Toilets",
+      "Long-Term Hire"
+    ],
+    "description": "Family-run supplier providing luxury trailers, portaloos and accessible units across York, Yorkshire and surrounding areas.",
+    "featured": false
+  },
+  {
+    "slug": "toodoloo",
+    "company": "Toodoloo",
+    "website": "https://www.toodoloo.co.uk/",
+    "phone": "07836 255173",
+    "email": "enquiries@toodoloo.co.uk",
+    "headOffice": "Yorkshire",
+    "areasCovered": [
+      "Hull",
+      "Beverley",
+      "Driffield",
+      "York",
+      "Harrogate",
+      "Yorkshire",
+      "North Lincolnshire"
+    ],
+    "services": [
+      "Luxury Toilets",
+      "Portable Toilets",
+      "Disabled Access Toilets",
+      "Baby-Changing Toilets",
+      "Event Toilets"
+    ],
+    "description": "Family business supplying luxury and accessible event toilets across York, Yorkshire and North Lincolnshire.",
+    "featured": false
+  },
+  {
+    "slug": "north-yorkshire-conveniences",
+    "company": "North Yorkshire Conveniences",
+    "website": "https://www.northyorkshireconveniences.com/",
+    "phone": "01765 650425",
+    "email": "info@northyorkshireconveniences.com",
+    "headOffice": "Musterfield Farm, North Stainley, Ripon HG4 3JQ",
+    "areasCovered": ["Yorkshire"],
+    "services": [
+      "Portable Toilets",
+      "Luxury Toilet Trailers",
+      "Event Toilets",
+      "Portable Showers",
+      "Septic Tank Emptying"
+    ],
+    "description": "Independent family provider of serviced portable and luxury toilets for events and temporary sites across Yorkshire.",
+    "featured": false
+  },
+  {
+    "slug": "addplant",
+    "company": "Addplant Ltd",
+    "website": "https://www.addplant.co.uk/locations/york/portable-toilet-hire-york",
+    "phone": "01482 867227",
+    "email": "hire@addplant.co.uk",
+    "headOffice": "Grovehill Road, Beverley HU17 0JN",
+    "areasCovered": ["York", "Yorkshire", "Lincolnshire"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilet Trailers",
+      "Toilet Blocks",
+      "Hot Wash Toilets",
+      "Welfare Units"
+    ],
+    "description": "Yorkshire hire company supplying toilets, luxury trailers, blocks and welfare units for York sites and events.",
+    "featured": false
+  },
+  {
+    "slug": "fast-loo",
+    "company": "Fast Loo",
+    "website": "https://www.fastloo.co.uk/event-toilet-hire-york/",
+    "phone": "0113 3008021",
+    "email": "",
+    "headOffice": "Home Farm, Scholes Lane, Leeds LS15 4NE",
+    "areasCovered": ["York", "Leeds", "Harrogate", "Selby", "Wakefield"],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Urinals",
+      "Waste Tanks",
+      "Welfare Servicing"
+    ],
+    "description": "Regional supplier providing serviced portable toilets and urinals for York events, sites and private functions.",
+    "featured": false
+  }
+]
