@@ -1,0 +1,193 @@
+[
+  {
+    "slug": "waterland-event-hire-site-services",
+    "company": "Waterland Event Hire & Site Services",
+    "website": "https://waterlandeventhire.co.uk/",
+    "phone": "01430 421417; 07904 472633",
+    "email": "info@waterlandeventhire.co.uk",
+    "headOffice": "Wallingfen Business Park, Main Road, Brough HU15 2RH",
+    "areasCovered": ["Hull", "Beverley", "Howden", "East Yorkshire"],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Urinals",
+      "Baby-Changing Toilets"
+    ],
+    "description": "Family-run East Yorkshire supplier providing toilet hire for events, construction sites and temporary workplaces around Hull.",
+    "featured": false
+  },
+  {
+    "slug": "maximus-hire-group",
+    "company": "Maximus Hire Group",
+    "website": "https://maximushiregroup.co.uk/",
+    "phone": "0800 310 1045",
+    "email": "info@maximushiregroup.co.uk",
+    "headOffice": "Bridlington YO15 3QY",
+    "areasCovered": ["Hull", "East Yorkshire", "North Yorkshire", "Lincolnshire"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Showers",
+      "Welfare Units"
+    ],
+    "description": "East Yorkshire operator supplying toilets, showers and welfare units for sites and events.",
+    "featured": false
+  },
+  {
+    "slug": "addplant",
+    "company": "Addplant Ltd",
+    "website": "https://www.addplant.co.uk/locations/hull/portable-toilet-hire-hull",
+    "phone": "01482 867227",
+    "email": "hire@addplant.co.uk",
+    "headOffice": "Beverley HU17 0JN",
+    "areasCovered": ["Hull", "Yorkshire", "Lincolnshire"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Toilet Blocks",
+      "Hot Wash Toilets",
+      "Welfare Units"
+    ],
+    "description": "Beverley-based hire company supplying serviced toilets and welfare units.",
+    "featured": false
+  },
+  {
+    "slug": "mobaloo",
+    "company": "Mobaloo",
+    "website": "https://www.mobalootoilethire.com/areas-we-cover/yorkshire/portable-toilets-hull",
+    "phone": "01759 380190",
+    "email": "info@mobalootoilethire.com",
+    "headOffice": "Yorkshire",
+    "areasCovered": ["Hull", "Yorkshire", "United Kingdom"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Handwash Stations",
+      "Septic Services"
+    ],
+    "description": "Nationwide operator providing standard and luxury sanitation solutions.",
+    "featured": false
+  },
+  {
+    "slug": "tardis-environmental",
+    "company": "Tardis Environmental",
+    "website": "https://tardishire.co.uk/",
+    "phone": "0800 731 0589; 01482 947572",
+    "email": "sales@tardishire.co.uk",
+    "headOffice": "Hull HU4 6PA",
+    "areasCovered": ["Hull", "United Kingdom"],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Disabled Toilets",
+      "Showers",
+      "Urinals",
+      "Welfare Servicing"
+    ],
+    "description": "National environmental company with a dedicated Hull depot.",
+    "featured": false
+  },
+  {
+    "slug": "bukaloo",
+    "company": "Bukaloo",
+    "website": "https://www.bukaloo.co.uk/",
+    "phone": "0800 456 1502",
+    "email": "",
+    "headOffice": "Scunthorpe DN15 9YJ",
+    "areasCovered": ["Hull", "Beverley", "Goole", "Yorkshire", "Lincolnshire"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Disabled Toilets",
+      "Urinals",
+      "Hot Wash Toilets",
+      "Mains Toilets"
+    ],
+    "description": "Portable toilet operator serving Yorkshire, Lincolnshire and the Humber.",
+    "featured": false
+  },
+  {
+    "slug": "lincs-county-loos",
+    "company": "Lincs County Loos Ltd",
+    "website": "https://www.lincscountyloos.co.uk/geo/hull",
+    "phone": "01507 201777; 07842 424275",
+    "email": "info@lincscountyloos.co.uk",
+    "headOffice": "Alford, Lincolnshire LN13 9JE",
+    "areasCovered": ["Hull", "Lincolnshire", "Nationwide"],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Disabled Toilets",
+      "Luxury Toilet Trailers",
+      "Welfare Units"
+    ],
+    "description": "Lincolnshire family business providing portable toilets and welfare units.",
+    "featured": false
+  },
+  {
+    "slug": "toodoloo",
+    "company": "Toodoloo",
+    "website": "https://www.toodoloo.co.uk/",
+    "phone": "07836 255173; 07884 194499",
+    "email": "enquiries@toodoloo.co.uk",
+    "headOffice": "Sigglesthorne, Hull HU11 5QF",
+    "areasCovered": ["Hull", "Beverley", "Driffield", "York", "Harrogate"],
+    "services": [
+      "Luxury Toilets",
+      "Portable Toilets",
+      "Disabled Access Toilets",
+      "Baby-Changing Toilets",
+      "Event Toilets"
+    ],
+    "description": "Family business supplying luxury and accessible toilet facilities.",
+    "featured": false
+  },
+  {
+    "slug": "118-toilets",
+    "company": "118 Toilets",
+    "website": "https://www.118toilets.com/portable-toilet-hire/portable-toilet-hire-hull/",
+    "phone": "0800 118 1931",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": ["Hull"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Wheelchair Accessible Toilets"
+    ],
+    "description": "National provider offering short and long-term toilet hire in Hull.",
+    "featured": false
+  },
+  {
+    "slug": "local-toilet-hire",
+    "company": "Local Toilet Hire Ltd",
+    "website": "https://www.localtoilethire.co.uk/",
+    "phone": "0800 907 0086",
+    "email": "info@localtoilethire.co.uk",
+    "headOffice": "Worthing BN11 1TA",
+    "areasCovered": ["Hull", "United Kingdom"],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Disabled Access Toilets"
+    ],
+    "description": "Nationwide provider supplying site and event toilet hire.",
+    "featured": false
+  }
+]
