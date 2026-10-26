@@ -1,0 +1,21 @@
+---
+import suppliers from "../data/sheffield.json";
+---
+
+<h1>Portaloo Hire Sheffield</h1>
+
+{
+  suppliers.map((supplier) => (
+    <div>
+      <h2>{supplier.company}</h2>
+
+      <p>{supplier.description}</p>
+
+      <p>{supplier.phone}</p>
+
+      <a href={supplier.website}>
+        Visit Website
+      </a>
+    </div>
+  ))
+}
