@@ -12,42 +12,44 @@ const cities = [
 
 <Layout title="Portaloo Online | Find Portable Toilet Hire Across Yorkshire">
 
-<section class="hero">
-  <h1>Find Portaloo Hire Companies Across Yorkshire</h1>
+  <section class="hero">
+    <h1>Find Portaloo Hire Companies Across Yorkshire</h1>
 
-  <p>
-    Compare portable toilet hire companies serving Yorkshire.
-    Find suppliers for events, weddings, festivals, construction
-    sites and welfare units.
-  </p>
-</section>
+    <p>
+      Compare portable toilet hire companies serving Yorkshire.
+      Find suppliers for events, weddings, festivals, construction
+      sites and welfare units.
+    </p>
+  </section>
 
-<section class="cities">
-  <h2>Browse by Location</h2>
+  <section class="cities">
+    <h2>Browse by Location</h2>
 
-  <div class="grid">
-    {cities.map(city => (
-      <a
-        href={`/${city.toLowerCase()}/`}
-        class="card"
-      >
-        <h3>{city}</h3>
-        <p>View suppliers in {city}</p>
-      </a>
-    ))}
-  </div>
-</section>
+    <div class="grid">
+      {cities.map(city => (
+        <a
+          href={`/${city.toLowerCase()}/`}
+          class="card"
+        >
+          <h3>{city}</h3>
+          <p>View suppliers in {city}</p>
+        </a>
+      ))}
+    </div>
+  </section>
 
-<section class="about">
-  <h2>About Portaloo Online</h2>
+  <section class="about">
+    <h2>About Portaloo Online</h2>
 
-  <p>
-    Portaloo Online helps customers find portable toilet hire
-    companies throughout Yorkshire. Whether you need a single site
-    toilet, luxury toilet trailer, welfare unit or accessible
-    facilities, our directory helps you compare suppliers quickly.
-  </p>
-</section>
+    <p>
+      Portaloo Online helps customers find portable toilet hire
+      companies throughout Yorkshire. Whether you need a single site
+      toilet, luxury toilet trailer, welfare unit or accessible
+      facilities, our directory helps you compare suppliers quickly.
+    </p>
+  </section>
+
+</Layout>
 
 <style>
 .hero {
