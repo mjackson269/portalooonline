@@ -1,28 +1,21 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import suppliers from "../data/leeds.json";
 ---
-
-<Layout title="Portaloo Hire Leeds">
 
 <h1>Portaloo Hire Leeds</h1>
 
-<h2>Retrac Toilet Hire</h2>
+{
+  suppliers.map((supplier) => (
+    <div>
+      <h2>{supplier.company}</h2>
 
-<p>
-Phone: 0113 253 8804
-</p>
+      <p>{supplier.description}</p>
 
-<p>
-Website:
-<a href="https://www.retractoilethire.co.uk">
-Retrac Toilet Hire
-</a>
-</p>
+      <p>{supplier.phone}</p>
 
-<p>
-Services:
-Portable Toilets, Event Toilets,
-Luxury Toilet Trailers
-</p>
-
-</Layout>
+      <a href={supplier.website}>
+        Visit Website
+      </a>
+    </div>
+  ))
+}
