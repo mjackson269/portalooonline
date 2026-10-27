@@ -1,162 +1,491 @@
 [
-  {
-    "company": "Retrac Toilet Hire",
-    "slug": "retrac-toilet-hire",
-    "website": "https://www.retractoilethire.co.uk/",
-    "phone": "0113 253 8804",
-    "email": "info@retractoilethire.co.uk",
-    "featured": false
-  },
-  {
-    "company": "G&S Toilet Hire Ltd",
-    "slug": "gs-toilet-hire",
-    "website": "https://www.northerntoilethire.co.uk/",
-    "phone": "07930 391011",
-    "email": "",
-    "featured": false
-  },
-  {
-    "company": "Convenience Hire Ltd",
-    "slug": "convenience-hire",
-    "website": "https://conveniencehire.co.uk/",
-    "phone": "01535 646463",
-    "email": "info@conveniencehire.co.uk",
-    "featured": false
-  },
-  {
-    "company": "Euroloo",
-    "slug": "euroloo",
-    "website": "https://www.euroloo.com/",
-    "phone": "0808 291 1507",
-    "email": "sales@euroloo.com",
-    "featured": false
-  },
-  {
-    "company": "Local Toilet Hire Ltd",
-    "slug": "local-toilet-hire",
-    "website": "https://www.localtoilethire.co.uk/",
-    "phone": "0800 907 0086",
-    "email": "info@localtoilethire.co.uk",
-    "featured": false
-  },
-  {
-    "company": "Challenger Site Services",
-    "slug": "challenger-site-services",
-    "website": "https://challengernw.co.uk/",
-    "phone": "0161 414 0037",
-    "email": "hiredesk@challengernw.co.uk",
-    "featured": false
-  },
-  {
-    "company": "Toilets On The Go",
-    "slug": "toilets-on-the-go",
-    "website": "https://www.toiletsonthego.co.uk/",
-    "phone": "0333 772 1515",
-    "email": "admin@toiletsonthego.co.uk",
-    "featured": false
-  },
-  {
-    "company": "Mobaloo",
-    "slug": "mobaloo",
-    "website": "https://www.mobalootoilethire.com/",
-    "phone": "01759 380190",
-    "email": "info@mobalootoilethire.com",
-    "featured": false
-  },
-  {
-    "company": "Addplant Ltd",
-    "slug": "addplant",
-    "website": "https://www.addplant.co.uk/",
-    "phone": "01482 867 227",
-    "email": "hire@addplant.co.uk",
-    "featured": false
-  },
-  {
-    "company": "Fast Loo",
-    "slug": "fast-loo",
-    "website": "https://www.fastloo.co.uk/",
-    "phone": "0113 300 8021",
-    "email": "info@fastloo.co.uk",
-    "featured": false
-  },
-  {
-    "company": "George Shaw & Sons",
-    "slug": "george-shaw-and-sons",
-    "website": "https://www.georgeshawtoilethire.com/",
-    "phone": "01484 982467",
-    "email": "hello@shawtoilethire.co.uk",
-    "featured": false
-  },
-  {
-    "company": "Top Hat Luxury Toilets",
-    "slug": "top-hat-luxury-toilets",
-    "website": "https://www.yell.com/biz/top-hat-luxury-toilets-huddersfield-10904378/",
-    "phone": "01484 810310",
-    "email": "",
-    "featured": false
-  },
-  {
-    "company": "Rollaloo Ltd",
-    "slug": "rollaloo",
-    "website": "http://www.rollaloo.com/",
-    "phone": "01422 893553",
-    "email": "",
-    "featured": false
-  },
-  {
-    "company": "North Yorkshire Conveniences",
-    "slug": "north-yorkshire-conveniences",
-    "website": "https://www.northyorkshireconveniences.com/",
-    "phone": "07849 333305",
-    "email": "info@northyorkshireconveniences.com",
-    "featured": false
-  },
-  {
-    "company": "Elite Hire York",
-    "slug": "elite-hire-york",
-    "website": "https://www.luxurytoilethireyork.com/",
-    "phone": "01757 289467",
-    "email": "stephengore395@btinternet.com",
-    "featured": false
-  },
-  {
-    "company": "Nomadic Washrooms Ltd",
-    "slug": "nomadic-washrooms",
-    "website": "https://nomadicwashrooms.co.uk/",
-    "phone": "0113 436 0540",
-    "email": "info@nomadicwashrooms.co.uk",
-    "featured": false
-  },
-  {
-    "company": "Plush Flush Ltd",
-    "slug": "plush-flush",
-    "website": "https://plushflush.co.uk/",
-    "phone": "07528 528539",
-    "email": "jamie@plushflush.co.uk",
-    "featured": false
-  },
-  {
-    "company": "UK Loos",
-    "slug": "uk-loos",
-    "website": "https://www.ukloos.com/",
-    "phone": "0330 333 8178",
-    "email": "hello@thewillpowergroup.com",
-    "featured": false
-  },
-  {
-    "company": "Toilet Hire 24/7",
-    "slug": "toilet-hire-247",
-    "website": "https://www.toilethire247.com/",
-    "phone": "0800 009 6520",
-    "email": "info@toilethire247.com",
-    "featured": false
-  },
-  {
-    "company": "Toilets2Go",
-    "slug": "toilets2go",
-    "website": "https://www.toilets2go.co.uk/",
-    "phone": "0800 028 1783",
-    "email": "info@toilets2go.co.uk",
-    "featured": false
-  }
+    {
+        "company": "Retrac Toilet Hire",
+        "slug": "retrac-toilet-hire",
+        "website": "https://www.retractoilethire.co.uk/",
+        "phone": "0113 253 8804",
+        "email": "info@retractoilethire.co.uk",
+        "headOffice": "Deanfield Mills, Asquith Avenue, Morley, Leeds LS27 9QS",
+        "areasCovered": [
+            "Bradford",
+            "Leeds",
+            "Wakefield",
+            "Barnsley",
+            "Doncaster",
+            "Huddersfield",
+            "Halifax",
+            "West Yorkshire"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Luxury Toilet Trailers",
+            "Long-Term Hire",
+            "Wedding Toilets"
+        ],
+        "description": "Established Yorkshire supplier providing portable, event, long-term and luxury toilet hire across Bradford and West Yorkshire.",
+        "featured": false
+    },
+    {
+        "company": "G&S Toilet Hire Ltd",
+        "slug": "gs-toilet-hire",
+        "website": "https://www.northerntoilethire.co.uk/",
+        "phone": "07930 391011",
+        "email": "gstoilethire@live.co.uk",
+        "headOffice": "368 Bradley Road, Huddersfield, West Yorkshire HD2 1PU",
+        "areasCovered": [
+            "Bradford",
+            "Huddersfield",
+            "Leeds",
+            "Wakefield",
+            "Halifax",
+            "Harrogate",
+            "York",
+            "Barnsley",
+            "Skipton",
+            "West Yorkshire"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Luxury Toilet Trailers",
+            "Urinals",
+            "Accessible Toilets",
+            "Welfare Servicing"
+        ],
+        "description": "West Yorkshire family business supplying portable and luxury toilets for construction sites, weddings, parties, festivals and corporate events.",
+        "featured": false
+    },
+    {
+        "company": "Convenience Hire Ltd",
+        "slug": "convenience-hire",
+        "website": "https://conveniencehire.co.uk/",
+        "phone": "01535 646463",
+        "email": "info@conveniencehire.co.uk",
+        "headOffice": "Grange Farm, Oakworth, Keighley BD22 0QR",
+        "areasCovered": [
+            "Bradford",
+            "Keighley",
+            "Bingley",
+            "Skipton",
+            "Ilkley",
+            "Otley",
+            "Shipley",
+            "Leeds",
+            "Harrogate",
+            "Halifax",
+            "Huddersfield"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Luxury Toilet Trailers",
+            "Accessible Toilets",
+            "Urinals"
+        ],
+        "description": "Family-owned mobile toilet hire company serving events, weddings and construction sites across Bradford and neighbouring Yorkshire areas.",
+        "featured": false
+    },
+    {
+        "company": "Euroloo",
+        "slug": "euroloo",
+        "website": "https://www.euroloo.com/portable-toilet-hire/west-yorkshire/bradford/",
+        "phone": "01274 061524",
+        "email": "hello@euroloo.com",
+        "headOffice": "Great Mascalls Farm, West Hanningfield Road, Chelmsford CM2 7TA",
+        "areasCovered": [
+            "Bradford",
+            "West Yorkshire",
+            "England"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Construction Site Toilets",
+            "Event Toilets",
+            "Welfare Units",
+            "Toilet Servicing",
+            "Tank Emptying"
+        ],
+        "description": "National toilet and welfare provider offering next-day portable toilet delivery and scheduled weekly servicing in Bradford.",
+        "featured": false
+    },
+    {
+        "company": "Local Toilet Hire Ltd",
+        "slug": "local-toilet-hire",
+        "website": "https://www.localtoilethire.co.uk/",
+        "phone": "0800 907 0086",
+        "email": "info@localtoilethire.co.uk",
+        "headOffice": "Sussex Chambers, 5 Liverpool Terrace, Worthing BN11 1TA",
+        "areasCovered": [
+            "Bradford",
+            "West Yorkshire",
+            "United Kingdom"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Construction Site Toilets",
+            "Event Toilets",
+            "Luxury Toilet Trailers",
+            "Accessible Toilets"
+        ],
+        "description": "Nationwide supplier providing short and long-term site, event, accessible and luxury toilet hire in Bradford.",
+        "featured": false
+    },
+    {
+        "company": "Challenger Site Services",
+        "slug": "challenger-site-services",
+        "website": "https://challengernw.co.uk/product-category/toilet-hire-bradford/",
+        "phone": "0161 414 0037",
+        "email": "hiredesk@challengernw.co.uk",
+        "headOffice": "50 Winton Street, Ashton-under-Lyne, Greater Manchester OL6 8NL",
+        "areasCovered": [
+            "Bradford",
+            "Bradford surrounding areas",
+            "North West England"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Hot Wash Toilets",
+            "Wheelchair Accessible Toilets",
+            "Welfare Servicing"
+        ],
+        "description": "Regional sanitation company supplying serviced portable toilets for Bradford construction sites, refurbishments, community events, parties and concerts.",
+        "featured": false
+    },
+    {
+        "company": "Toilets On The Go",
+        "slug": "toilets-on-the-go",
+        "website": "https://www.toiletsonthego.co.uk/",
+        "phone": "0333 772 1515",
+        "email": "admin@toiletsonthego.co.uk",
+        "headOffice": "Unit 10, Albert Street Industrial Estate, Horwich, Bolton BL6 7AP",
+        "areasCovered": [
+            "Bradford",
+            "Leeds",
+            "Wakefield",
+            "Huddersfield",
+            "Halifax",
+            "West Yorkshire",
+            "North West England"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Luxury Toilet Trailers",
+            "Showers",
+            "Welfare Units",
+            "Urinals",
+            "Handwash Stations"
+        ],
+        "description": "Regional supplier providing portable toilets, luxury trailers, showers and welfare facilities across Bradford, West Yorkshire and the North West.",
+        "featured": false
+    },
+    {
+        "company": "Mobaloo",
+        "slug": "mobaloo",
+        "website": "https://www.mobalootoilethire.com/areas-we-cover/yorkshire/toilet-hire-in-bradford",
+        "phone": "01759 380190",
+        "email": "info@mobalootoilethire.com",
+        "headOffice": "Yorkshire",
+        "areasCovered": [
+            "Bradford",
+            "Yorkshire",
+            "United Kingdom"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Luxury Toilet Trailers",
+            "Accessible Toilets",
+            "Handwash Stations"
+        ],
+        "description": "Yorkshire-based supplier providing standard, luxury and accessible portable toilets for Bradford events, weddings and construction projects.",
+        "featured": false
+    },
+    {
+        "company": "Addplant Ltd",
+        "slug": "addplant",
+        "website": "https://www.addplant.co.uk/locations/bradford",
+        "phone": "01482 867 227",
+        "email": "hire@addplant.co.uk",
+        "headOffice": "Grovehill Road, Beverley HU17 0JN",
+        "areasCovered": [
+            "Bradford",
+            "Keighley",
+            "Shipley",
+            "West Yorkshire",
+            "Yorkshire",
+            "Lincolnshire"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Construction Site Toilets",
+            "Event Toilets",
+            "Urinals",
+            "Toilet Blocks",
+            "Hot Wash Toilets",
+            "Welfare Units"
+        ],
+        "description": "Yorkshire hire company supplying serviced portable toilets, urinals, blocks and site welfare facilities throughout Bradford and West Yorkshire.",
+        "featured": false
+    },
+    {
+        "company": "Fast Loo",
+        "slug": "fast-loo",
+        "website": "https://www.fastloo.co.uk/portable-toilet-hire-bradford/",
+        "phone": "0113 300 8021",
+        "email": "info@fastloo.co.uk",
+        "headOffice": "Home Farm, Scholes Lane, Leeds LS15 4NE",
+        "areasCovered": [
+            "Bradford",
+            "Bradford surrounding areas",
+            "Leeds",
+            "West Yorkshire"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Urinals",
+            "Long-Term Hire",
+            "Weekly Servicing"
+        ],
+        "description": "Regional supplier offering portable toilets and urinals for Bradford building sites, festivals, parties, schools and community events.",
+        "featured": false
+    },
+    {
+        "company": "George Shaw & Sons",
+        "slug": "george-shaw-and-sons",
+        "website": "https://www.georgeshawtoilethire.com/",
+        "phone": "01484 982467",
+        "email": "hello@shawtoilethire.co.uk",
+        "headOffice": "Huddersfield, West Yorkshire",
+        "areasCovered": [
+            "Bradford",
+            "Huddersfield",
+            "Halifax",
+            "Sheffield",
+            "Wakefield",
+            "Yorkshire"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Welfare Units",
+            "Luxury Toilet Trailers",
+            "Showers",
+            "Accessible Toilets",
+            "Urinals"
+        ],
+        "description": "Huddersfield family business providing toilet and welfare hire for construction sites, festivals, weddings and events throughout Yorkshire.",
+        "featured": false
+    },
+    {
+        "company": "Top Hat Luxury Toilets",
+        "slug": "top-hat-luxury-toilets",
+        "website": "https://tophattoilets.co.uk/",
+        "phone": "01484 810310",
+        "email": "",
+        "headOffice": "Huddersfield, West Yorkshire",
+        "areasCovered": [
+            "Bradford",
+            "Huddersfield",
+            "West Yorkshire",
+            "Yorkshire"
+        ],
+        "services": [
+            "Luxury Toilet Trailers",
+            "Wedding Toilets",
+            "Party Toilets",
+            "Corporate Event Toilets"
+        ],
+        "description": "Family-run luxury toilet trailer supplier specialising in weddings, parties and corporate functions across West Yorkshire.",
+        "featured": false
+    },
+    {
+        "company": "Rollaloo Ltd",
+        "slug": "rollaloo",
+        "website": "https://rollaloo.com/",
+        "phone": "01422 893553",
+        "email": "sales@rollaloo.com",
+        "headOffice": "Unit 12, Bowers Mill, Branch Road, Barkisland, Halifax HX4 0AD",
+        "areasCovered": [
+            "Bradford",
+            "Halifax",
+            "West Yorkshire",
+            "England",
+            "Wales",
+            "Scotland",
+            "Ireland"
+        ],
+        "services": [
+            "Luxury Toilet Trailers",
+            "Portable Showers",
+            "Toilet Pods",
+            "Event Toilets",
+            "Camping Facilities"
+        ],
+        "description": "West Yorkshire company supplying luxury portable toilet and shower trailers and pods for events and camping facilities.",
+        "featured": false
+    },
+    {
+        "company": "North Yorkshire Conveniences",
+        "slug": "north-yorkshire-conveniences",
+        "website": "https://www.northyorkshireconveniences.com/",
+        "phone": "07849 333305",
+        "email": "info@northyorkshireconveniences.com",
+        "headOffice": "Musterfield Farm, North Stainley, Ripon HG4 3JQ",
+        "areasCovered": [
+            "Bradford",
+            "Yorkshire"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Luxury Toilet Trailers",
+            "Portable Showers",
+            "Septic Tank Emptying"
+        ],
+        "description": "Independent family supplier offering serviced portable and luxury toilets for events and temporary sites across Yorkshire.",
+        "featured": false
+    },
+    {
+        "company": "Elite Hire York",
+        "slug": "elite-hire-york",
+        "website": "https://www.luxurytoilethireyork.com/",
+        "phone": "01757 289467",
+        "email": "stephengore395@btinternet.com",
+        "headOffice": "Gribthorpe, East Yorkshire DN14 7NT",
+        "areasCovered": [
+            "Bradford",
+            "Yorkshire",
+            "Yorkshire surrounding areas"
+        ],
+        "services": [
+            "Luxury Toilet Trailers",
+            "Portable Toilets",
+            "Accessible Toilets",
+            "Wedding Toilets",
+            "Long-Term Hire"
+        ],
+        "description": "Family-run supplier providing luxury trailers, portaloos and accessible units across Yorkshire and surrounding areas.",
+        "featured": false
+    },
+    {
+        "company": "Nomadic Washrooms Ltd",
+        "slug": "nomadic-washrooms",
+        "website": "https://nomadicwashrooms.co.uk/",
+        "phone": "0113 436 0540",
+        "email": "info@nomadicwashrooms.co.uk",
+        "headOffice": "Leeds yard, Leeds",
+        "areasCovered": [
+            "Bradford",
+            "Yorkshire",
+            "North of England"
+        ],
+        "services": [
+            "Luxury Toilet Trailers",
+            "Luxury Shower Trailers",
+            "Wedding Toilets",
+            "Festival Toilets",
+            "Corporate Event Toilets"
+        ],
+        "description": "Luxury washroom provider supplying shepherd-hut toilet and shower trailers for weddings, festivals and corporate events across Yorkshire.",
+        "featured": false
+    },
+    {
+        "company": "Plush Flush Ltd",
+        "slug": "plush-flush",
+        "website": "https://plushflush.co.uk/",
+        "phone": "07528 528539",
+        "email": "jamie@plushflush.co.uk",
+        "headOffice": "Huddersfield, West Yorkshire",
+        "areasCovered": [
+            "Bradford",
+            "Huddersfield",
+            "Yorkshire"
+        ],
+        "services": [
+            "Luxury Toilet Trailers",
+            "Wedding Toilets",
+            "Corporate Event Toilets",
+            "Sporting Event Toilets",
+            "Private Party Toilets"
+        ],
+        "description": "Huddersfield family business providing bespoke luxury toilet trailers for weddings, parties, corporate functions and sporting events.",
+        "featured": false
+    },
+    {
+        "company": "UK Loos",
+        "slug": "uk-loos",
+        "website": "https://www.ukloos.com/",
+        "phone": "0330 333 8178",
+        "email": "hello@thewillpowergroup.com",
+        "headOffice": "United Kingdom",
+        "areasCovered": [
+            "Bradford",
+            "United Kingdom"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Luxury Toilets",
+            "Accessible Toilets"
+        ],
+        "description": "UK-wide supplier offering temporary toilet facilities for construction sites, outdoor events and private functions.",
+        "featured": false
+    },
+    {
+        "company": "Toilet Hire 24/7",
+        "slug": "toilet-hire-247",
+        "website": "https://www.toilethire247.com/",
+        "phone": "0800 009 6520",
+        "email": "info@toilethire247.com",
+        "headOffice": "Unit 4, Coventry Road, Lutterworth",
+        "areasCovered": [
+            "Bradford",
+            "West Yorkshire",
+            "United Kingdom"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Luxury Toilets",
+            "Accessible Toilets",
+            "Urinals",
+            "Showers"
+        ],
+        "description": "Nationwide temporary toilet provider offering site, event, luxury, accessible, urinal and shower facilities for Bradford customers.",
+        "featured": false
+    },
+    {
+        "company": "Toilets2Go",
+        "slug": "toilets2go",
+        "website": "https://www.toilets2go.co.uk/",
+        "phone": "0800 028 1783",
+        "email": "info@toilets2go.co.uk",
+        "headOffice": "United Kingdom",
+        "areasCovered": [
+            "Bradford",
+            "United Kingdom"
+        ],
+        "services": [
+            "Portable Toilets",
+            "Event Toilets",
+            "Construction Site Toilets",
+            "Accessible Toilets",
+            "Luxury Toilets"
+        ],
+        "description": "Portable toilet hire provider serving construction projects, events and temporary sites across Bradford and the United Kingdom.",
+        "featured": false
+    }
 ]

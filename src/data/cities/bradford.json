@@ -1,0 +1,30 @@
+{
+  "name": "Bradford",
+  "nation": "England",
+  "region": "West Yorkshire",
+  "description": "Compare portable toilet suppliers serving Bradford and the surrounding West Yorkshire area.",
+  "intro": "",
+  "published": true,
+  "suppliers": [
+    "retrac-toilet-hire",
+    "gs-toilet-hire",
+    "convenience-hire",
+    "euroloo",
+    "local-toilet-hire",
+    "challenger-site-services",
+    "toilets-on-the-go",
+    "mobaloo",
+    "addplant",
+    "fast-loo",
+    "george-shaw-and-sons",
+    "top-hat-luxury-toilets",
+    "rollaloo",
+    "north-yorkshire-conveniences",
+    "elite-hire-york",
+    "nomadic-washrooms",
+    "plush-flush",
+    "uk-loos",
+    "toilet-hire-247",
+    "toilets2go"
+  ]
+}

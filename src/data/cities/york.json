@@ -1,0 +1,90 @@
+{
+  "name": "York",
+  "nation": "England",
+  "region": "North Yorkshire",
+  "description": "Compare site, event and luxury toilet hire companies serving York.",
+  "intro": "",
+  "published": true,
+  "suppliers": [
+    "ebor-loo-hire",
+    "a64-loo-hire",
+    "bridge-event-hire",
+    "yorloos",
+    {
+      "slug": "elite-hire-york",
+      "phone": "07943 636280",
+      "areasCovered": [
+        "Yorkshire and surrounding areas"
+      ],
+      "description": "Family-run supplier providing luxury trailers, portaloos and accessible units across York, Yorkshire and surrounding areas."
+    },
+    {
+      "slug": "toodoloo",
+      "phone": "07836 255173",
+      "headOffice": "Yorkshire",
+      "areasCovered": [
+        "Hull",
+        "Beverley",
+        "Driffield",
+        "York",
+        "Harrogate",
+        "Yorkshire",
+        "North Lincolnshire"
+      ],
+      "description": "Family business supplying luxury and accessible event toilets across York, Yorkshire and North Lincolnshire."
+    },
+    {
+      "slug": "north-yorkshire-conveniences",
+      "phone": "01765 650425",
+      "areasCovered": [
+        "Yorkshire"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Luxury Toilet Trailers",
+        "Event Toilets",
+        "Portable Showers",
+        "Septic Tank Emptying"
+      ],
+      "description": "Independent family provider of serviced portable and luxury toilets for events and temporary sites across Yorkshire."
+    },
+    {
+      "slug": "addplant",
+      "website": "https://www.addplant.co.uk/locations/york/portable-toilet-hire-york",
+      "areasCovered": [
+        "York",
+        "Yorkshire",
+        "Lincolnshire"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Construction Site Toilets",
+        "Luxury Toilet Trailers",
+        "Toilet Blocks",
+        "Hot Wash Toilets",
+        "Welfare Units"
+      ],
+      "description": "Yorkshire hire company supplying toilets, luxury trailers, blocks and welfare units for York sites and events."
+    },
+    {
+      "slug": "fast-loo",
+      "website": "https://www.fastloo.co.uk/event-toilet-hire-york/",
+      "areasCovered": [
+        "York",
+        "Leeds",
+        "Harrogate",
+        "Selby",
+        "Wakefield"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Event Toilets",
+        "Construction Site Toilets",
+        "Urinals",
+        "Waste Tanks",
+        "Welfare Servicing"
+      ],
+      "description": "Regional supplier providing serviced portable toilets and urinals for York events, sites and private functions."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Sheffield",
+  "nation": "England",
+  "region": "South Yorkshire",
+  "description": "Browse portable toilet hire companies covering Sheffield and South Yorkshire.",
+  "intro": "",
+  "published": true,
+  "suppliers": [
+    {
+      "slug": "get-loos",
+      "website": "https://www.getloos.co.uk/",
+      "headOffice": "Sheffield",
+      "areasCovered": [
+        "Sheffield",
+        "Rotherham",
+        "Doncaster",
+        "Barnsley",
+        "Chesterfield"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Construction Site Toilets",
+        "Event Toilets",
+        "Disabled Toilets",
+        "Baby Changing Units",
+        "Welfare Units"
+      ],
+      "description": "Sheffield-based portable toilet hire company serving South Yorkshire and the East Midlands."
+    },
+    "elliott-loo-hire",
+    "william-g-search",
+    "srp-hire-solutions",
+    "green-toilet-company"
+  ]
+}

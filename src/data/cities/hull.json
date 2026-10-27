@@ -1,0 +1,71 @@
+{
+  "name": "Hull",
+  "nation": "England",
+  "region": "East Yorkshire",
+  "description": "Find portable toilet and welfare facility suppliers covering Hull and the East Riding.",
+  "intro": "",
+  "published": true,
+  "suppliers": [
+    "waterland-event-hire-site-services",
+    "maximus-hire-group",
+    {
+      "slug": "addplant",
+      "website": "https://www.addplant.co.uk/locations/hull/portable-toilet-hire-hull",
+      "headOffice": "Beverley HU17 0JN",
+      "areasCovered": [
+        "Hull",
+        "Yorkshire",
+        "Lincolnshire"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Construction Site Toilets",
+        "Event Toilets",
+        "Luxury Toilet Trailers",
+        "Toilet Blocks",
+        "Hot Wash Toilets",
+        "Welfare Units"
+      ],
+      "description": "Beverley-based hire company supplying serviced toilets and welfare units."
+    },
+    {
+      "slug": "mobaloo",
+      "website": "https://www.mobalootoilethire.com/areas-we-cover/yorkshire/portable-toilets-hull",
+      "areasCovered": [
+        "Hull",
+        "Yorkshire",
+        "United Kingdom"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Construction Site Toilets",
+        "Event Toilets",
+        "Luxury Toilet Trailers",
+        "Handwash Stations",
+        "Septic Services"
+      ],
+      "description": "Nationwide operator providing standard and luxury sanitation solutions."
+    },
+    "tardis-environmental",
+    "bukaloo",
+    "lincs-county-loos",
+    "toodoloo",
+    "118-toilets",
+    {
+      "slug": "local-toilet-hire",
+      "headOffice": "Worthing BN11 1TA",
+      "areasCovered": [
+        "Hull",
+        "United Kingdom"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Construction Site Toilets",
+        "Event Toilets",
+        "Luxury Toilet Trailers",
+        "Disabled Access Toilets"
+      ],
+      "description": "Nationwide provider supplying site and event toilet hire."
+    }
+  ]
+}

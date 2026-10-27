@@ -1,0 +1,164 @@
+{
+  "name": "Leeds",
+  "nation": "England",
+  "region": "West Yorkshire",
+  "description": "Find portable toilet, event toilet and welfare unit suppliers serving Leeds.",
+  "intro": "",
+  "published": true,
+  "suppliers": [
+    {
+      "slug": "retrac-toilet-hire",
+      "areasCovered": [
+        "Leeds",
+        "West Yorkshire",
+        "Bradford",
+        "Wakefield",
+        "Barnsley",
+        "Doncaster",
+        "Huddersfield",
+        "Halifax"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Event Toilets",
+        "Luxury Toilet Trailers",
+        "Long-Term Toilets",
+        "Wedding Toilets"
+      ],
+      "description": "Leeds-based specialist providing portable, event, long-term and luxury toilet hire throughout West Yorkshire."
+    },
+    {
+      "slug": "fast-loo",
+      "website": "https://www.fastloo.co.uk/",
+      "areasCovered": [
+        "Leeds",
+        "Harrogate",
+        "York",
+        "Selby",
+        "Wakefield",
+        "West Yorkshire"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Event Toilets",
+        "Construction Site Toilets",
+        "Waste Tanks",
+        "Welfare Servicing"
+      ],
+      "description": "Family-run Leeds supplier providing serviced toilets for building sites and outdoor events."
+    },
+    {
+      "slug": "convenience-hire",
+      "areasCovered": [
+        "Leeds",
+        "Keighley",
+        "Bingley",
+        "Skipton",
+        "Ilkley",
+        "Otley",
+        "Shipley",
+        "Bradford",
+        "Harrogate",
+        "Halifax",
+        "Huddersfield"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Event Toilets",
+        "Construction Site Toilets",
+        "Luxury Toilet Trailers",
+        "Disabled Access Toilets"
+      ],
+      "description": "Family-owned Yorkshire operator serving events, weddings and construction sites across Leeds and neighbouring areas."
+    },
+    {
+      "slug": "addplant",
+      "website": "https://www.addplant.co.uk/locations/leeds/portable-toilet-hire-leeds",
+      "headOffice": "Beverley, East Yorkshire; Leeds service location at Thorpe on the Hill, Wakefield WF3 3BX",
+      "areasCovered": [
+        "Leeds",
+        "Yorkshire"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Luxury Toilets",
+        "Toilet Blocks",
+        "Hot Wash Toilets",
+        "Welfare Units",
+        "Waste Tanks"
+      ],
+      "description": "Yorkshire hire company supplying serviced portable toilets, luxury units and site welfare facilities in Leeds."
+    },
+    "get-loos",
+    {
+      "slug": "local-toilet-hire",
+      "website": "https://www.localtoilethire.co.uk/portable-toilet-hire-leeds/",
+      "headOffice": "Sussex Chambers, 5 Liverpool Terrace, Worthing, West Sussex BN11 1TA",
+      "areasCovered": [
+        "Leeds",
+        "United Kingdom"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Event Toilets",
+        "Construction Site Toilets",
+        "Luxury Toilet Trailers",
+        "Disabled Access Toilets"
+      ],
+      "description": "Nationwide booking service supplying site, event, accessible and luxury toilet hire in Leeds."
+    },
+    {
+      "slug": "challenger-site-services",
+      "website": "https://challengernw.co.uk/product-category/toilet-hire-leeds/",
+      "areasCovered": [
+        "Leeds and nearby areas"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Event Toilets",
+        "Construction Site Toilets",
+        "Hot Wash Toilets",
+        "Wheelchair Accessible Toilets"
+      ],
+      "description": "Regional sanitation company supplying serviced portable toilets for Leeds sites, refurbishments and events."
+    },
+    "waste-king",
+    "cobb-toilet-hire",
+    {
+      "slug": "nomadic-washrooms",
+      "website": "https://nomadicwashrooms.co.uk/leeds-yard/",
+      "areasCovered": [
+        "Yorkshire",
+        "North of England"
+      ],
+      "services": [
+        "Luxury Toilet Trailers",
+        "Luxury Shower Trailers",
+        "Wedding Toilets",
+        "Event Toilets"
+      ],
+      "description": "Leeds-based luxury washroom yard supplying shepherd-hut toilet and shower trailers for premium events."
+    },
+    "dr-loo",
+    "welfare-hire-direct",
+    {
+      "slug": "euroloo",
+      "website": "https://www.euroloo.com/",
+      "phone": "0808 291 1507",
+      "areasCovered": [
+        "Leeds",
+        "England"
+      ],
+      "services": [
+        "Portable Toilets",
+        "Event Toilets",
+        "Construction Site Toilets",
+        "Welfare Units",
+        "Toilet Servicing"
+      ],
+      "description": "National portable toilet and welfare provider routing Leeds enquiries through its depot network."
+    },
+    "smiths-hire",
+    "portable-toilets-ltd"
+  ]
+}
