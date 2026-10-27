@@ -1,6 +1,8 @@
 ---
 import "../styles/global.css";
+import { getCities } from "../data/cities";
 
+const cities = getCities();
 const {
   title = "Portaloo Online",
   description = "Find portable toilet hire companies across Yorkshire."
@@ -26,12 +28,11 @@ const {
         </a>
 
         <nav class="site-nav" aria-label="Main navigation">
-          <a href="/">Home</a>
-          <a href="/bradford/">Bradford</a>
-          <a href="/leeds/">Leeds</a>
-          <a href="/sheffield/">Sheffield</a>
-          <a href="/york/">York</a>
-          <a href="/hull/">Hull</a>
+  		<a href="/">Home</a>
+  		{cities.map((city) => (
+    	<a href={`/${city.slug}/`}>{city.name}</a>
+ 		 ))}
+		
         </nav>
       </div>
     </header>

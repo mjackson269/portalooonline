@@ -1,24 +1,32 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import suppliers from "../data/leeds.json";
+import { getCities } from "../data/cities.ts";
 
-const pageTitle = "Portaloo Hire Leeds | Portaloo Online";
+export function getStaticPaths() {
+  return getCities().map((city) => ({
+    params: { city: city.slug },
+    props: { city },
+  }));
+}
 
-const description =
-  "Compare portable toilet hire companies serving Leeds and the surrounding West Yorkshire area.";
+const { city } = Astro.props;
+const suppliers = city.suppliers;
+
+const pageTitle = `Portaloo Hire ${city.name} | Portaloo Online`;
+const description = `Compare portable toilet hire companies serving ${city.name} and the surrounding ${city.region} area.`;
 ---
 
 <Layout title={pageTitle} description={description}>
 
   <section class="page-hero">
     <div class="container">
-      <span class="eyebrow">West Yorkshire suppliers</span>
+      <span class="eyebrow">{city.region} suppliers</span>
 
-      <h1>Portaloo Hire Leeds</h1>
+      <h1>Portaloo Hire {city.name}</h1>
 
       <p>
-        Compare portable toilet suppliers serving Leeds and the
-        surrounding West Yorkshire area.
+        Compare portable toilet suppliers serving {city.name} and the
+        surrounding {city.region} area.
       </p>
 
       <div class="summary">
@@ -33,7 +41,7 @@ const description =
 
       <div class="section-heading">
         <div>
-          <h2>Portable toilet hire companies in Leeds</h2>
+          <h2>Portable toilet hire companies in {city.name}</h2>
 
           <p>
             Compare services and contact suppliers directly for prices
@@ -48,9 +56,9 @@ const description =
 
             <div class="supplier-header">
               <div>
-                <p class="supplier-location">
-                  {supplier.location}
-                </p>
+                {supplier.location && (
+                  <p class="supplier-location">{supplier.location}</p>
+                )}
 
                 <h3>{supplier.company}</h3>
               </div>
@@ -67,12 +75,13 @@ const description =
             </p>
 
             <ul class="service-list">
-              {supplier.services.map((service) => (
+              {(supplier.services ?? []).map((service) => (
                 <li>{service}</li>
               ))}
             </ul>
 
             <div class="supplier-contact">
+              {supplier.phone && (
               <a
                 class="phone-button"
                 href={`tel:${supplier.phone.replace(/\s/g, "")}`}
@@ -88,6 +97,7 @@ const description =
               >
                 Visit website
               </a>
+              )}
             </div>
 
           </article>
