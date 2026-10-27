@@ -1,213 +1,327 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import suppliers from "../data/leeds.json";
+
+const pageTitle = "Portaloo Hire Leeds | Portaloo Online";
+
+const description =
+  "Compare portable toilet hire companies serving Leeds and the surrounding West Yorkshire area.";
 ---
 
-<Layout title="Portaloo Hire Leeds | Portaloo Online">
-  <section class="page-header">
-    <h1>Portaloo Hire in Leeds</h1>
+<Layout title={pageTitle} description={description}>
 
-    <p>
-      Compare portable toilet hire companies serving Leeds and the
-      surrounding areas.
-    </p>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">West Yorkshire suppliers</span>
+
+      <h1>Portaloo Hire Leeds</h1>
+
+      <p>
+        Compare portable toilet suppliers serving Leeds and the
+        surrounding West Yorkshire area.
+      </p>
+
+      <div class="summary">
+        <strong>{suppliers.length}</strong>
+        <span>suppliers currently listed</span>
+      </div>
+    </div>
   </section>
 
-  <section class="supplier-list">
-    {suppliers.map((supplier) => (
-      <article class:list={["supplier-card", { featured: supplier.featured }]}>
-        <div class="supplier-heading">
-          <h2>{supplier.company}</h2>
+  <section class="directory">
+    <div class="container">
 
-          {supplier.featured && (
-            <span class="featured-badge">Featured supplier</span>
-          )}
-        </div>
+      <div class="section-heading">
+        <div>
+          <h2>Portable toilet hire companies in Leeds</h2>
 
-        {supplier.description && (
-          <p class="description">{supplier.description}</p>
-        )}
-
-        {supplier.headOffice && (
           <p>
-            <strong>Head office:</strong> {supplier.headOffice}
+            Compare services and contact suppliers directly for prices
+            and availability.
           </p>
-        )}
+        </div>
+      </div>
 
-        {supplier.areasCovered?.length > 0 && (
-          <div class="details">
-            <strong>Areas covered</strong>
+      <div class="supplier-grid">
+        {suppliers.map((supplier) => (
+          <article class="supplier-card">
 
-            <ul class="tags">
-              {supplier.areasCovered.map((area) => (
-                <li>{area}</li>
-              ))}
-            </ul>
-          </div>
-        )}
+            <div class="supplier-header">
+              <div>
+                <p class="supplier-location">
+                  {supplier.location}
+                </p>
 
-        {supplier.services?.length > 0 && (
-          <div class="details">
-            <strong>Services offered</strong>
+                <h3>{supplier.company}</h3>
+              </div>
 
-            <ul class="tags">
+              {supplier.featured && (
+                <span class="featured-badge">
+                  Featured
+                </span>
+              )}
+            </div>
+
+            <p class="supplier-description">
+              {supplier.description}
+            </p>
+
+            <ul class="service-list">
               {supplier.services.map((service) => (
                 <li>{service}</li>
               ))}
             </ul>
-          </div>
-        )}
 
-        <div class="actions">
-          {supplier.phone && (
-            <a class="button phone" href={`tel:${supplier.phone}`}>
-              Call {supplier.phone}
-            </a>
-          )}
+            <div class="supplier-contact">
+              <a
+                class="phone-button"
+                href={`tel:${supplier.phone.replace(/\s/g, "")}`}
+              >
+                Call {supplier.phone}
+              </a>
 
-          {supplier.website && (
-            <a
-              class="button website"
-              href={supplier.website}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit website
-            </a>
-          )}
-        </div>
-      </article>
-    ))}
+              <a
+                class="website-button"
+                href={supplier.website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit website
+              </a>
+            </div>
+
+          </article>
+        ))}
+      </div>
+
+    </div>
   </section>
+
 </Layout>
 
 <style>
-  .page-header {
-    max-width: 1100px;
-    margin: 3rem auto 2rem;
-    padding: 0 1.5rem;
+  .page-hero {
+    padding: 90px 0 70px;
+    background:
+      linear-gradient(
+        135deg,
+        #eff6ff 0%,
+        #f8fafc 55%,
+        #ecfeff 100%
+      );
+    border-bottom: 1px solid #e2e8f0;
   }
 
-  .page-header h1 {
-    margin-bottom: 0.75rem;
-    font-size: clamp(2rem, 5vw, 3rem);
+  .page-hero .container {
+    max-width: 1180px;
   }
 
-  .page-header p {
-    max-width: 700px;
-    color: #64748b;
-    font-size: 1.1rem;
-    line-height: 1.7;
-  }
-
-  .supplier-list {
-    display: grid;
-    gap: 1.5rem;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-  }
-
-  .supplier-card {
-    padding: 1.75rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 14px;
-  }
-
-  .supplier-card.featured {
-    border: 2px solid #2563eb;
-  }
-
-  .supplier-heading {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .supplier-heading h2 {
-    margin: 0;
-    color: #0f172a;
-    font-size: 1.5rem;
-  }
-
-  .featured-badge {
-    padding: 0.4rem 0.75rem;
+  .eyebrow {
+    display: inline-block;
+    margin-bottom: 14px;
+    padding: 7px 13px;
     color: #1d4ed8;
     background: #dbeafe;
     border-radius: 999px;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 700;
   }
 
-  .description {
+  .page-hero h1 {
+    max-width: 760px;
+    margin: 0;
+    font-size: clamp(2.7rem, 6vw, 4.4rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+  }
+
+  .page-hero p {
+    max-width: 750px;
+    margin: 22px 0 0;
     color: #475569;
-    line-height: 1.7;
+    font-size: 1.2rem;
   }
 
-  .details {
-    margin-top: 1.25rem;
+  .summary {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-top: 28px;
+    color: #475569;
   }
 
-  .tags {
+  .summary strong {
+    color: #2563eb;
+    font-size: 1.5rem;
+  }
+
+  .directory {
+    padding: 72px 0;
+  }
+
+  .section-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    letter-spacing: -0.025em;
+  }
+
+  .section-heading p {
+    margin: 8px 0 0;
+    color: #64748b;
+  }
+
+  .supplier-grid {
+    display: grid;
+    grid-template-columns:
+      repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+  }
+
+  .supplier-card {
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+    transition:
+      transform 180ms ease,
+      box-shadow 180ms ease,
+      border-color 180ms ease;
+  }
+
+  .supplier-card:hover {
+    transform: translateY(-4px);
+    border-color: #bfdbfe;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.09);
+  }
+
+  .supplier-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .supplier-location {
+    margin: 0 0 5px;
+    color: #2563eb;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .supplier-card h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+
+  .featured-badge {
+    height: fit-content;
+    padding: 6px 10px;
+    color: #92400e;
+    background: #fef3c7;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  .supplier-description {
+    margin: 18px 0;
+    color: #64748b;
+  }
+
+  .service-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 0.75rem 0 0;
+    gap: 8px;
+    margin: 0 0 24px;
     padding: 0;
     list-style: none;
   }
 
-  .tags li {
-    padding: 0.45rem 0.75rem;
+  .service-list li {
+    padding: 6px 10px;
     color: #334155;
     background: #f1f5f9;
-    border-radius: 999px;
-    font-size: 0.9rem;
-  }
-
-  .actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    margin-top: 1.5rem;
-  }
-
-  .button {
-    display: inline-block;
-    padding: 0.8rem 1rem;
     border-radius: 8px;
-    text-decoration: none;
-    font-weight: 700;
+    font-size: 0.82rem;
+    font-weight: 600;
   }
 
-  .phone {
+  .supplier-contact {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .supplier-contact a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .phone-button {
     color: #ffffff;
     background: #2563eb;
   }
 
-  .website {
+  .phone-button:hover {
+    background: #1d4ed8;
+  }
+
+  .website-button {
     color: #1e293b;
-    background: #e2e8f0;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+  }
+
+  .website-button:hover {
+    border-color: #2563eb;
+    color: #2563eb;
   }
 
   @media (max-width: 600px) {
-    .supplier-heading {
-      display: block;
+    .page-hero {
+      padding: 60px 0 50px;
     }
 
-    .featured-badge {
-      display: inline-block;
-      margin-top: 0.75rem;
+    .directory {
+      padding: 50px 0;
     }
 
-    .actions {
-      display: grid;
+    .supplier-grid {
+      grid-template-columns: 1fr;
     }
 
-    .button {
-      text-align: center;
+    .supplier-card {
+      padding: 22px;
+    }
+
+    .supplier-contact {
+      flex-direction: column;
+    }
+
+    .supplier-contact a {
+      width: 100%;
     }
   }
 </style>
