@@ -4,261 +4,1014 @@ import Layout from "../layouts/Layout.astro";
 const cities = [
   {
     name: "Bradford",
-    suppliers: 12
+    slug: "bradford",
+    suppliers: 20,
+    region: "West Yorkshire",
+    description:
+      "Compare portable toilet suppliers serving Bradford and the surrounding West Yorkshire area."
   },
   {
     name: "Leeds",
-    suppliers: 15
+    slug: "leeds",
+    suppliers: 15,
+    region: "West Yorkshire",
+    description:
+      "Find portable toilet, event toilet and welfare unit suppliers serving Leeds."
   },
   {
     name: "Sheffield",
-    suppliers: 14
+    slug: "sheffield",
+    suppliers: 20,
+    region: "South Yorkshire",
+    description:
+      "Browse portable toilet hire companies covering Sheffield and South Yorkshire."
   },
   {
     name: "York",
-    suppliers: 17
+    slug: "york",
+    suppliers: 17,
+    region: "North Yorkshire",
+    description:
+      "Compare site, event and luxury toilet hire companies serving York."
   },
   {
     name: "Hull",
-    suppliers: 16
+    slug: "hull",
+    suppliers: 16,
+    region: "East Yorkshire",
+    description:
+      "Find portable toilet and welfare facility suppliers covering Hull and the East Riding."
+  }
+];
+
+const services = [
+  {
+    title: "Event toilet hire",
+    description:
+      "Portable toilets and urinals for festivals, parties, shows and community events.",
+    icon: "calendar"
+  },
+  {
+    title: "Construction toilets",
+    description:
+      "Serviced site toilets and compliant welfare facilities for building projects.",
+    icon: "building"
+  },
+  {
+    title: "Luxury toilet trailers",
+    description:
+      "Premium toilet facilities for weddings, corporate functions and private events.",
+    icon: "sparkle"
+  },
+  {
+    title: "Accessible facilities",
+    description:
+      "Accessible portable toilets and facilities for events and temporary sites.",
+    icon: "access"
   }
 ];
 ---
 
-<Layout title="Portaloo Online | Find Portable Toilet Hire Across Yorkshire">
-
+<Layout
+  title="Portaloo Online | Find Portable Toilet Hire Companies"
+  description="Compare portable toilet hire companies serving Yorkshire. Find suppliers for events, weddings, festivals, building sites and temporary welfare facilities."
+>
   <section class="hero">
+    <div class="hero-background hero-background-one"></div>
+    <div class="hero-background hero-background-two"></div>
 
-    <span class="tag">
-      Yorkshire Portaloo Directory
-    </span>
+    <div class="hero-content">
+      <span class="eyebrow">
+        Portable toilet hire directory
+      </span>
 
-    <h1>
-      Find Trusted Portable Toilet Hire Companies Near You
-    </h1>
+      <h1>
+        Find trusted portable toilet hire
+        <span>near you</span>
+      </h1>
 
-    <p>
-      Compare suppliers for events, weddings,
-      festivals, construction sites and welfare units
-      across Yorkshire.
-    </p>
+      <p class="hero-introduction">
+        Compare suppliers for events, weddings, festivals,
+        construction sites and welfare facilities across Yorkshire.
+      </p>
 
-    <div class="search-mockup">
-      📍 Serving Leeds, Bradford, Sheffield, York & Hull
+      <form
+        class="location-search"
+        id="location-search"
+        aria-label="Find suppliers by location"
+      >
+        <div class="search-field">
+          <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="search-icon"
+          >
+            <path
+              d="M12 21s7-5.4 7-12A7 7 0 0 0 5 9c0 6.6 7 12 7 12Z"
+            ></path>
+            <circle cx="12" cy="9" r="2.5"></circle>
+          </svg>
+
+          <label for="city-select" class="visually-hidden">
+            Choose a city
+          </label>
+
+          <select id="city-select" name="city" required>
+            <option value="">Choose your location</option>
+
+            {cities.map((city) => (
+              <option value={`/${city.slug}/`}>
+                {city.name}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <button type="submit">
+          Find suppliers
+
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m9 18 6-6-6-6"></path>
+          </svg>
+        </button>
+      </form>
+
+      <p class="search-help">
+        Select a city to view companies serving that area.
+      </p>
+    </div>
+  </section>
+
+  <section class="trust-section" aria-label="Directory benefits">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <span class="trust-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 6 9 17l-5-5"></path>
+          </svg>
+        </span>
+
+        <div>
+          <strong>Established suppliers</strong>
+          <span>Genuine operating businesses</span>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <span class="trust-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 10c0 5-8 10-8 10S4 15 4 10a8 8 0 1 1 16 0Z"></path>
+            <circle cx="12" cy="10" r="2"></circle>
+          </svg>
+        </span>
+
+        <div>
+          <strong>Local coverage</strong>
+          <span>Search suppliers by location</span>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <span class="trust-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3 3 7.5 12 12l9-4.5L12 3Z"></path>
+            <path d="m3 12 9 4.5 9-4.5"></path>
+            <path d="m3 16.5 9 4.5 9-4.5"></path>
+          </svg>
+        </span>
+
+        <div>
+          <strong>Several hire types</strong>
+          <span>Site, event and luxury facilities</span>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <span class="trust-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M12 7v5l3 2"></path>
+          </svg>
+        </span>
+
+        <div>
+          <strong>Free to browse</strong>
+          <span>Contact suppliers directly</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="locations-section" id="locations">
+    <div class="section-heading">
+      <div>
+        <span class="section-label">Yorkshire locations</span>
+
+        <h2>Browse portable toilet hire by city</h2>
+      </div>
+
+      <p>
+        Choose a location to compare companies providing portable
+        toilets, luxury trailers and temporary welfare facilities.
+      </p>
     </div>
 
-  </section>
+    <div class="city-grid">
+      {cities.map((city) => (
+        <a href={`/${city.slug}/`} class="city-card">
+          <div class="city-card-heading">
+            <span class="city-pin">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M20 10c0 5-8 10-8 10S4 15 4 10a8 8 0 1 1 16 0Z"
+                ></path>
+                <circle cx="12" cy="10" r="2"></circle>
+              </svg>
+            </span>
 
-  <section class="trust">
-
-    <div>✅ Verified Suppliers</div>
-    <div>✅ Event Toilet Hire</div>
-    <div>✅ Construction Site Toilets</div>
-    <div>✅ Yorkshire Coverage</div>
-
-  </section>
-
-  <section class="cities">
-
-    <h2>Browse by Location</h2>
-
-    <div class="grid">
-
-      {cities.map(city => (
-
-        <a
-          href={`/${city.name.toLowerCase()}/`}
-          class="card"
-        >
-
-          <div class="city-icon">
-            📍
+            <span class="supplier-count">
+              {city.suppliers} suppliers
+            </span>
           </div>
 
-          <h3>{city.name}</h3>
+          <div class="city-card-content">
+            <span class="region">{city.region}</span>
 
-          <p class="supplier-count">
-            {city.suppliers} suppliers available
-          </p>
+            <h3>{city.name}</h3>
 
-          <p>
-            Compare portable toilet hire companies
-            serving {city.name}.
-          </p>
+            <p>{city.description}</p>
+          </div>
 
+          <span class="city-link">
+            View suppliers
+
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 18 6-6-6-6"></path>
+            </svg>
+          </span>
         </a>
-
       ))}
+    </div>
+  </section>
 
+  <section class="services-section">
+    <div class="section-heading centred-heading">
+      <div>
+        <span class="section-label">What you can find</span>
+
+        <h2>Facilities for sites and events</h2>
+      </div>
+
+      <p>
+        Portaloo Online lists companies offering facilities for
+        everything from home renovations to large outdoor events.
+      </p>
     </div>
 
+    <div class="services-grid">
+      {services.map((service) => (
+        <article class="service-card">
+          <span class="service-icon">
+            {service.icon === "calendar" && (
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="16" rx="2"></rect>
+                <path d="M16 3v4M8 3v4M3 10h18"></path>
+              </svg>
+            )}
+
+            {service.icon === "building" && (
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 21V5l8-3v19"></path>
+                <path d="M12 8h8v13"></path>
+                <path d="M8 9v1M8 14v1M16 12v1M16 17v1M2 21h20"></path>
+              </svg>
+            )}
+
+            {service.icon === "sparkle" && (
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m12 3 1.4 4.1L17.5 8.5l-4.1 1.4L12 14l-1.4-4.1-4.1-1.4 4.1-1.4L12 3Z"></path>
+                <path d="m19 14 .8 2.2L22 17l-2.2.8L19 20l-.8-2.2L16 17l2.2-.8L19 14Z"></path>
+              </svg>
+            )}
+
+            {service.icon === "access" && (
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="4" r="2"></circle>
+                <path d="M8 8h8M12 6v7M8 21l4-8 4 8M6 13h12"></path>
+              </svg>
+            )}
+          </span>
+
+          <h3>{service.title}</h3>
+          <p>{service.description}</p>
+        </article>
+      ))}
+    </div>
   </section>
 
-  <section class="about">
+  <section class="about-section" id="about">
+    <div class="about-panel">
+      <div class="about-content">
+        <span class="section-label light-label">
+          About Portaloo Online
+        </span>
 
-    <h2>About Portaloo Online</h2>
+        <h2>A simpler way to find temporary toilet facilities</h2>
 
-    <p>
-      Portaloo Online helps customers find portable toilet
-      hire companies throughout Yorkshire.
-    </p>
+        <p>
+          Portaloo Online helps customers discover companies providing
+          temporary toilets and welfare facilities throughout
+          Yorkshire.
+        </p>
 
-    <p>
-      Whether you need a single site toilet,
-      luxury toilet trailer, welfare unit,
-      accessible facilities or event sanitation,
-      our directory helps you compare local suppliers
-      quickly and easily.
-    </p>
+        <p>
+          Browse by location, compare the services available and
+          contact suitable suppliers directly for availability and
+          pricing.
+        </p>
 
+        <a href="#locations" class="light-button">
+          Browse locations
+
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m9 18 6-6-6-6"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="about-statistics">
+        <div>
+          <strong>{cities.length}</strong>
+          <span>Yorkshire locations</span>
+        </div>
+
+        <div>
+          <strong>
+            {cities.reduce(
+              (total, city) => total + city.suppliers,
+              0
+            )}+
+          </strong>
+          <span>Supplier listings</span>
+        </div>
+
+        <div>
+          <strong>4</strong>
+          <span>Main facility types</span>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <script>
+    const searchForm = document.querySelector("#location-search");
+    const citySelect = document.querySelector("#city-select");
+
+    searchForm?.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      if (!(citySelect instanceof HTMLSelectElement)) {
+        return;
+      }
+
+      const destination = citySelect.value;
+
+      if (destination) {
+        window.location.href = destination;
+      }
+    });
+  </script>
 </Layout>
 
 <style>
-
-.hero {
-  text-align: center;
-  max-width: 850px;
-  margin: 5rem auto;
-}
-
-.tag {
-  display: inline-block;
-  background: #dbeafe;
-  color: #2563eb;
-  padding: 8px 18px;
-  border-radius: 999px;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.hero h1 {
-  font-size: 4rem;
-  line-height: 1.1;
-  margin: 1rem 0;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #64748b;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.search-mockup {
-  margin-top: 2rem;
-  background: white;
-  border-radius: 16px;
-  padding: 20px;
-  font-weight: 600;
-
-  box-shadow:
-    0 10px 30px rgba(0,0,0,.08);
-}
-
-.trust {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-
-  margin: 3rem auto;
-
-  color: #475569;
-  font-weight: 600;
-}
-
-.cities {
-  max-width: 1200px;
-  margin: 4rem auto;
-}
-
-.cities h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.grid {
-  display: grid;
-
-  grid-template-columns:
-    repeat(auto-fit, minmax(250px, 1fr));
-
-  gap: 1.2rem;
-}
-
-.card {
-
-  background: white;
-
-  border-radius: 16px;
-
-  padding: 24px;
-
-  text-decoration: none;
-
-  color: inherit;
-
-  box-shadow:
-    0 2px 8px rgba(0,0,0,.05);
-
-  transition: all .2s ease;
-}
-
-.card:hover {
-
-  transform: translateY(-4px);
-
-  box-shadow:
-    0 12px 30px rgba(0,0,0,.08);
-}
-
-.city-icon {
-  font-size: 2rem;
-  margin-bottom: .5rem;
-}
-
-.card h3 {
-  margin: 0;
-  font-size: 1.3rem;
-}
-
-.supplier-count {
-  font-weight: 700;
-  color: #2563eb;
-  margin: .5rem 0;
-}
-
-.card p {
-  color: #64748b;
-}
-
-.about {
-  max-width: 800px;
-  margin: 5rem auto;
-}
-
-.about h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.about p {
-  line-height: 1.8;
-  color: #475569;
-}
-
-@media (max-width: 768px) {
-
-  .hero h1 {
-    font-size: 2.5rem;
+  .hero {
+    position: relative;
+    display: grid;
+    min-height: 640px;
+    padding: 100px 20px 112px;
+    place-items: center;
+    overflow: hidden;
+    background:
+      linear-gradient(
+        145deg,
+        #eff6ff 0%,
+        #f8fafc 52%,
+        #eef2ff 100%
+      );
+    border-bottom: 1px solid #e2e8f0;
   }
 
-  .hero p {
+  .hero-background {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(2px);
+    pointer-events: none;
+  }
+
+  .hero-background-one {
+    top: -190px;
+    left: -130px;
+    width: 480px;
+    height: 480px;
+    background: rgb(191 219 254 / 38%);
+  }
+
+  .hero-background-two {
+    right: -130px;
+    bottom: -230px;
+    width: 540px;
+    height: 540px;
+    background: rgb(199 210 254 / 38%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    width: min(860px, 100%);
+    text-align: center;
+  }
+
+  .eyebrow,
+  .section-label {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 13px;
+    background: #dbeafe;
+    border-radius: 999px;
+    color: #1d4ed8;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .hero h1 {
+    max-width: 820px;
+    margin: 26px auto 22px;
+    color: #0f172a;
+    font-size: clamp(2.6rem, 7vw, 4.9rem);
+    font-weight: 850;
+    letter-spacing: -0.055em;
+    line-height: 1.03;
+  }
+
+  .hero h1 span {
+    color: #2563eb;
+  }
+
+  .hero-introduction {
+    max-width: 690px;
+    margin: 0 auto;
+    color: #475569;
+    font-size: clamp(1.05rem, 2vw, 1.23rem);
+    line-height: 1.75;
+  }
+
+  .location-search {
+    display: flex;
+    width: min(680px, 100%);
+    margin: 40px auto 0;
+    padding: 8px;
+    background: white;
+    border: 1px solid #dbe4f0;
+    border-radius: 16px;
+    box-shadow: 0 22px 42px rgb(15 23 42 / 12%);
+  }
+
+  .search-field {
+    display: flex;
+    min-width: 0;
+    flex: 1;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  .search-icon {
+    width: 22px;
+    height: 22px;
+    flex: 0 0 auto;
+    fill: none;
+    stroke: #64748b;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+  }
+
+  .location-search select {
+    width: 100%;
+    min-width: 0;
+    padding: 14px 12px;
+    background: transparent;
+    border: 0;
+    color: #334155;
+    cursor: pointer;
+    outline: 0;
+  }
+
+  .location-search button,
+  .light-button {
+    display: inline-flex;
+    min-height: 52px;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 12px 22px;
+    background: #2563eb;
+    border: 0;
+    border-radius: 11px;
+    color: white;
+    cursor: pointer;
+    font-weight: 750;
+    text-decoration: none;
+    transition:
+      background 160ms ease,
+      transform 160ms ease;
+  }
+
+  .location-search button:hover {
+    background: #1d4ed8;
+  }
+
+  .location-search button svg,
+  .city-link svg,
+  .light-button svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+  }
+
+  .search-help {
+    margin: 18px 0 0;
+    color: #64748b;
+    font-size: 0.86rem;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+    white-space: nowrap;
+  }
+
+  .trust-section {
+    position: relative;
+    z-index: 2;
+    width: min(1120px, calc(100% - 40px));
+    margin: -42px auto 0;
+  }
+
+  .trust-grid {
+    display: grid;
+    padding: 25px 28px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 14px 34px rgb(15 23 42 / 9%);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  .trust-icon {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    flex: 0 0 auto;
+    background: #ecfdf5;
+    border-radius: 12px;
+    color: #059669;
+  }
+
+  .trust-icon svg {
+    width: 21px;
+    height: 21px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+  }
+
+  .trust-item div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trust-item strong {
+    color: #0f172a;
+    font-size: 0.91rem;
+  }
+
+  .trust-item span:last-child {
+    color: #64748b;
+    font-size: 0.78rem;
+  }
+
+  .locations-section,
+  .services-section,
+  .about-section {
+    width: min(1120px, calc(100% - 40px));
+    margin: 108px auto 0;
+  }
+
+  .section-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 34px;
+  }
+
+  .section-heading h2,
+  .about-content h2 {
+    margin: 16px 0 0;
+    color: #0f172a;
+    font-size: clamp(2rem, 4vw, 3rem);
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+  }
+
+  .section-heading > p {
+    max-width: 500px;
+    margin: 0;
+    color: #64748b;
+  }
+
+  .city-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+
+  .city-card {
+    display: flex;
+    min-height: 310px;
+    padding: 24px;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 3px 12px rgb(15 23 42 / 4%);
+    color: inherit;
+    text-decoration: none;
+    transition:
+      border-color 180ms ease,
+      box-shadow 180ms ease,
+      transform 180ms ease;
+  }
+
+  .city-card:nth-child(-n + 3) {
+    grid-column: span 2;
+  }
+
+  .city-card:nth-child(n + 4) {
+    grid-column: span 3;
+  }
+
+  .city-card:hover {
+    border-color: #bfdbfe;
+    box-shadow: 0 18px 36px rgb(15 23 42 / 9%);
+    transform: translateY(-5px);
+  }
+
+  .city-card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .city-pin {
+    display: grid;
+    width: 45px;
+    height: 45px;
+    place-items: center;
+    background: #eff6ff;
+    border-radius: 12px;
+    color: #2563eb;
+  }
+
+  .city-pin svg {
+    width: 23px;
+    height: 23px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+  }
+
+  .supplier-count {
+    padding: 6px 10px;
+    background: #f1f5f9;
+    border-radius: 999px;
+    color: #475569;
+    font-size: 0.76rem;
+    font-weight: 750;
+  }
+
+  .city-card-content {
+    margin-top: 28px;
+  }
+
+  .region {
+    color: #2563eb;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+  }
+
+  .city-card h3 {
+    margin: 5px 0 10px;
+    font-size: 1.65rem;
+    letter-spacing: -0.035em;
+  }
+
+  .city-card p {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.91rem;
+  }
+
+  .city-link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: auto;
+    padding-top: 24px;
+    color: #2563eb;
+    font-size: 0.89rem;
+    font-weight: 750;
+  }
+
+  .city-card:hover .city-link svg {
+    transform: translateX(3px);
+  }
+
+  .city-link svg {
+    transition: transform 160ms ease;
+  }
+
+  .services-section {
+    padding-top: 108px;
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .centred-heading {
+    max-width: 760px;
+    margin-right: auto;
+    margin-bottom: 44px;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .centred-heading > p {
+    max-width: 650px;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .service-card {
+    padding: 28px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+  }
+
+  .service-icon {
+    display: grid;
+    width: 50px;
+    height: 50px;
+    place-items: center;
+    background: #eff6ff;
+    border-radius: 14px;
+    color: #2563eb;
+  }
+
+  .service-icon svg {
+    width: 25px;
+    height: 25px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.7;
+  }
+
+  .service-card h3 {
+    margin: 23px 0 9px;
+    font-size: 1.08rem;
+  }
+
+  .service-card p {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.89rem;
+  }
+
+  .about-panel {
+    display: grid;
+    padding: 62px;
+    overflow: hidden;
+    background:
+      radial-gradient(
+        circle at top right,
+        rgb(59 130 246 / 25%),
+        transparent 40%
+      ),
+      linear-gradient(140deg, #0f172a, #172554);
+    border-radius: 28px;
+    box-shadow: 0 24px 50px rgb(15 23 42 / 18%);
+    color: white;
+    grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+    gap: 80px;
+  }
+
+  .light-label {
+    background: rgb(255 255 255 / 10%);
+    color: #bfdbfe;
+  }
+
+  .about-content h2 {
+    color: white;
+  }
+
+  .about-content p {
+    max-width: 630px;
+    color: #cbd5e1;
     font-size: 1rem;
   }
 
-}
+  .light-button {
+    margin-top: 16px;
+    background: white;
+    color: #1d4ed8;
+  }
 
+  .light-button:hover {
+    background: #eff6ff;
+    transform: translateY(-1px);
+  }
+
+  .about-statistics {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .about-statistics div {
+    display: flex;
+    align-items: center;
+    padding: 19px 22px;
+    background: rgb(255 255 255 / 8%);
+    border: 1px solid rgb(255 255 255 / 12%);
+    border-radius: 15px;
+    justify-content: space-between;
+    gap: 18px;
+  }
+
+  .about-statistics strong {
+    color: white;
+    font-size: 1.7rem;
+  }
+
+  .about-statistics span {
+    color: #cbd5e1;
+    font-size: 0.86rem;
+    text-align: right;
+  }
+
+  @media (max-width: 960px) {
+    .trust-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .city-card:nth-child(n) {
+      grid-column: span 3;
+    }
+
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-panel {
+      grid-template-columns: 1fr;
+      gap: 44px;
+    }
+
+    .about-statistics {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-statistics div {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .about-statistics span {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .hero {
+      min-height: auto;
+      padding: 76px 20px 96px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.55rem, 13vw, 3.6rem);
+    }
+
+    .location-search {
+      padding: 7px;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .search-field {
+      width: 100%;
+      min-height: 52px;
+      padding-right: 8px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    .location-search button {
+      width: 100%;
+    }
+
+    .trust-section,
+    .locations-section,
+    .services-section,
+    .about-section {
+      width: min(100% - 28px, 1120px);
+    }
+
+    .trust-grid {
+      padding: 22px;
+      grid-template-columns: 1fr;
+    }
+
+    .section-heading {
+      align-items: start;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .city-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .city-card:nth-child(n) {
+      min-height: 290px;
+      grid-column: auto;
+    }
+
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .about-panel {
+      padding: 36px 24px;
+      border-radius: 20px;
+    }
+
+    .about-statistics {
+      grid-template-columns: 1fr;
+    }
+
+    .about-statistics div {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .about-statistics span {
+      text-align: right;
+    }
+  }
 </style>
