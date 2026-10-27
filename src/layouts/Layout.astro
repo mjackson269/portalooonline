@@ -4,180 +4,172 @@ const { title } = Astro.props;
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>{title}</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
 
-  <meta
-    name="description"
-    content="Find portable toilet hire companies across Yorkshire and the UK."
-  />
+<link
+rel="preconnect"
+href="https://fonts.googleapis.com"
+/>
 
-  <link rel="icon" href="/favicon.svg" />
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+rel="stylesheet"
+/>
+
 </head>
 
 <body>
 
 <header>
-  <div class="container">
 
-    <a href="/" class="logo">
-      Portaloo Online
-    </a>
+<div class="container">
 
-    <nav>
-      <a href="/">Home</a>
-      <a href="/leeds/">Leeds</a>
-      <a href="/bradford/">Bradford</a>
-      <a href="/sheffield/">Sheffield</a>
-      <a href="/york/">York</a>
-      <a href="/hull/">Hull</a>
-    </nav>
+<a href="/" class="logo">
+🚽 Portaloo Online
+</a>
 
-  </div>
+<nav>
+
+<a href="/">Home</a>
+<a href="/leeds/">Leeds</a>
+<a href="/bradford/">Bradford</a>
+<a href="/sheffield/">Sheffield</a>
+<a href="/york/">York</a>
+<a href="/hull/">Hull</a>
+
+</nav>
+
+</div>
+
 </header>
 
 <main>
-  <slot />
+
+<slot />
+
 </main>
 
 <footer>
-  <div class="container">
 
-    <p>
-      © 2026 Portaloo Online
-    </p>
+<div class="container">
 
-    <p>
-      Find portable toilet hire companies across Yorkshire.
-    </p>
+© 2026 Portaloo Online
 
-  </div>
+</div>
+
 </footer>
 
 </body>
+
 </html>
 
 <style is:global>
 
 :root {
-  --primary: #0066cc;
-  --dark: #222;
-  --light: #f5f7fa;
+
+--blue:#2563eb;
+--dark:#0f172a;
+--grey:#64748b;
+--background:#f8fafc;
+
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+box-sizing:border-box;
 }
 
 body {
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
 
-  background: white;
-  color: var(--dark);
-  line-height: 1.6;
+margin:0;
+font-family:'Inter',sans-serif;
+background:var(--background);
+color:var(--dark);
+
 }
 
 .container {
-  width: min(1100px, 92%);
-  margin: auto;
+
+max-width:1200px;
+margin:auto;
+padding:0 24px;
+
 }
 
 header {
-  background: white;
-  border-bottom: 1px solid #ddd;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+
+background:white;
+border-bottom:1px solid #e5e7eb;
+
 }
 
 header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 70px;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 24px;
+
 }
 
 .logo {
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-decoration: none;
-  color: var(--primary);
+
+font-size:1.2rem;
+font-weight:800;
+text-decoration:none;
+color:var(--dark);
+
 }
 
 nav {
-  display: flex;
-  gap: 1rem;
+
+display:flex;
+gap:20px;
+
 }
 
 nav a {
-  text-decoration: none;
-  color: var(--dark);
-  font-weight: 500;
+
+text-decoration:none;
+color:var(--grey);
+
 }
 
 nav a:hover {
-  color: var(--primary);
-}
 
-main {
-  min-height: 75vh;
-  padding: 2rem 0;
+color:var(--blue);
+
 }
 
 footer {
-  background: var(--light);
-  padding: 2rem 0;
-  margin-top: 4rem;
-  text-align: center;
-}
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-h2 {
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 1.25rem;
-}
-
-@media (max-width: 768px) {
-
-  header .container {
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem 0;
-  }
-
-  nav {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
+text-align:center;
+padding:50px 0;
+margin-top:80px;
+color:var(--grey);
 
 }
+
+@media(max-width:768px){
+
+header .container{
+
+flex-direction:column;
+gap:20px;
+
+}
+
+nav{
+
+flex-wrap:wrap;
+justify-content:center;
+
+}
+
+}
+
 </style>
