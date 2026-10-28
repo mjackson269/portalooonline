@@ -1,3 +1,5 @@
+import masterList from "./suppliers.json";
+
 export interface Supplier {
   slug: string;
   company: string;
@@ -12,66 +14,114 @@ export interface Supplier {
   location?: string;
 }
 
-export interface City {
+type SupplierRef = Partial<Supplier> & { slug: string };
+
+interface CityFile {
   name: string;
-  slug: string;
+  nation: string;
   region: string;
   description: string;
+  intro?: string;
+  published?: boolean;
+  suppliers: (string | SupplierRef)[];
 }
 
-const cityList: City[] = [
-  {
-    name: "Bradford",
-    slug: "bradford",
-    region: "West Yorkshire",
-    description:
-      "Compare portable toilet suppliers serving Bradford and the surrounding West Yorkshire area.",
-  },
-  {
-    name: "Leeds",
-    slug: "leeds",
-    region: "West Yorkshire",
-    description:
-      "Find portable toilet, event toilet and welfare unit suppliers serving Leeds.",
-  },
-  {
-    name: "Sheffield",
-    slug: "sheffield",
-    region: "South Yorkshire",
-    description:
-      "Browse portable toilet hire companies covering Sheffield and South Yorkshire.",
-  },
-  {
-    name: "York",
-    slug: "york",
-    region: "North Yorkshire",
-    description:
-      "Compare site, event and luxury toilet hire companies serving York.",
-  },
-  {
-    name: "Hull",
-    slug: "hull",
-    region: "East Yorkshire",
-    description:
-      "Find portable toilet and welfare facility suppliers covering Hull and the East Riding.",
-  },
-];
+export interface City {
+  slug: string;
+  name: string;
+  nation: string;
+  region: string;
+  description: string;
+  intro: string;
+  suppliers: Supplier[];
+}
 
-const files = import.meta.glob<{ default: Supplier[] }>(
-  "./suppliers/*.json",
-  { eager: true }
-);
+const master = masterList as Supplier[];
 
-export function getCities() {
-  return cityList.map((city) => {
-    const file = files[`./suppliers/${city.slug}.json`];
+const cityFiles = import.meta.glob<CityFile>("./cities/*.json", {
+  eager: true,
+  import: "default",
+});
 
-    if (!file) {
-      throw new Error(
-        `Missing data file: src/data/suppliers/${city.slug}.json`
-      );
-    }
+function validate(city: string, s: Supplier) {
+  const missing: string[] = [];
+  if (!s.company) missing.push("company");
+  if (!s.description) missing.push("description");
+  if (!Array.isArray(s.services)) missing.push("services");
+  if (!s.phone && !s.website) missing.push("phone or website");
+  if (missing.length) {
+    throw new Error(
+      `[${city}] supplier "${s.slug}" is missing: ${missing.join(", ")}`
+    );
+  }
+}
 
-    return { ...city, suppliers: file.default };
-  });
+export function getCities(): City[] {
+  const bySlug = new Map(master.map((s) => [s.slug, s]));
+
+  return Object.entries(cityFiles)
+    .map(([filePath, file]) => {
+      const slug = filePath.replace("./cities/", "").replace(".json", "");
+
+      for (const field of ["name", "nation", "region", "description"] as const) {
+        if (!file[field]) {
+          throw new Error(`[${slug}] city file is missing "${field}"`);
+        }
+      }
+
+      const suppliers = file.suppliers.map((ref) => {
+        const override: SupplierRef = typeof ref === "string" ? { slug: ref } : ref;
+        const base = bySlug.get(override.slug);
+
+        if (!base) {
+          throw new Error(
+            `[${slug}] unknown supplier "${override.slug}". Add it to src/data/suppliers.json`
+          );
+        }
+
+        const merged = { ...base, ...override } as Supplier;
+        validate(slug, merged);
+        return merged;
+      });
+
+      return {
+        slug,
+        name: file.name,
+        nation: file.nation,
+        region: file.region,
+        description: file.description,
+        intro: file.intro ?? "",
+        suppliers,
+        published: file.published !== false,
+      };
+    })
+    .filter((city) => city.published)
+    .map(({ published, ...city }) => city)
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+const NATION_ORDER = ["England", "Scotland", "Wales", "Northern Ireland"];
+const rank = (n: string) => {
+  const i = NATION_ORDER.indexOf(n);
+  return i === -1 ? 99 : i;
+};
+
+export function groupCities(cities: City[]) {
+  const nations = new Map<string, Map<string, City[]>>();
+
+  for (const city of cities) {
+    if (!nations.has(city.nation)) nations.set(city.nation, new Map());
+    const regions = nations.get(city.nation)!;
+    if (!regions.has(city.region)) regions.set(city.region, []);
+    regions.get(city.region)!.push(city);
+  }
+
+  return [...nations.entries()]
+    .sort(([a], [b]) => rank(a) - rank(b))
+    .map(([nation, regions]) => ({
+      nation,
+      regions: [...regions.entries()]
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([region, list]) => ({ region, cities: list })),
+    }));
 }

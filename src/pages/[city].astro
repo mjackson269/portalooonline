@@ -25,8 +25,8 @@ const description = `Compare portable toilet hire companies serving ${city.name}
       <h1>Portaloo Hire {city.name}</h1>
 
       <p>
-        Compare portable toilet suppliers serving {city.name} and the
-        surrounding {city.region} area.
+        {city.intro ||
+          `Compare portable toilet suppliers serving ${city.name} and the surrounding ${city.region} area.`}
       </p>
 
       <div class="summary">
@@ -64,9 +64,7 @@ const description = `Compare portable toilet hire companies serving ${city.name}
               </div>
 
               {supplier.featured && (
-                <span class="featured-badge">
-                  Featured
-                </span>
+                <span class="featured-badge">Featured</span>
               )}
             </div>
 
@@ -82,21 +80,23 @@ const description = `Compare portable toilet hire companies serving ${city.name}
 
             <div class="supplier-contact">
               {supplier.phone && (
-              <a
-                class="phone-button"
-                href={`tel:${supplier.phone.replace(/\s/g, "")}`}
-              >
-                Call {supplier.phone}
-              </a>
+                <a
+                  class="phone-button"
+                  href={`tel:${supplier.phone.replace(/\s/g, "")}`}
+                >
+                  Call {supplier.phone}
+                </a>
+              )}
 
-              <a
-                class="website-button"
-                href={supplier.website}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit website
-              </a>
+              {supplier.website && (
+                <a
+                  class="website-button"
+                  href={supplier.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit website
+                </a>
               )}
             </div>
 

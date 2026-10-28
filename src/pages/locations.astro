@@ -1,0 +1,146 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCities, groupCities } from "../data/cities.ts";
+
+const cities = getCities();
+const groups = groupCities(cities);
+---
+
+<Layout
+  title="Portable Toilet Hire Locations | Portaloo Online"
+  description="Browse portable toilet hire companies by location."
+>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">All locations</span>
+      <h1>Portable toilet hire by location</h1>
+      <p>
+        Choose a city to compare suppliers. {cities.length} locations
+        currently listed.
+      </p>
+    </div>
+  </section>
+
+  <section class="locations">
+    <div class="container">
+      {groups.map((group) => (
+        <div class="nation">
+          <h2>{group.nation}</h2>
+
+          {group.regions.map((region) => (
+            <div class="region-block">
+              <h3>{region.region}</h3>
+
+              <ul class="city-links">
+                {region.cities.map((city) => (
+                  <li>
+                    <a href={`/${city.slug}/`}>
+                      {city.name}
+                      <span>{city.suppliers.length}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .page-hero {
+    padding: 80px 0 60px;
+    background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 55%, #ecfeff 100%);
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    margin-bottom: 14px;
+    padding: 7px 13px;
+    color: #1d4ed8;
+    background: #dbeafe;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  .page-hero h1 {
+    margin: 0;
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+  }
+
+  .page-hero p {
+    max-width: 650px;
+    margin: 20px 0 0;
+    color: #475569;
+    font-size: 1.15rem;
+  }
+
+  .locations {
+    padding: 64px 0 90px;
+  }
+
+  .nation + .nation {
+    margin-top: 56px;
+  }
+
+  .nation h2 {
+    margin: 0 0 24px;
+    font-size: 1.9rem;
+    letter-spacing: -0.03em;
+  }
+
+  .region-block {
+    margin-bottom: 28px;
+  }
+
+  .region-block h3 {
+    margin: 0 0 12px;
+    color: #2563eb;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .city-links {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+  }
+
+  .city-links a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 16px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    color: #0f172a;
+    font-weight: 700;
+    text-decoration: none;
+    transition: border-color 160ms ease, transform 160ms ease;
+  }
+
+  .city-links a:hover {
+    border-color: #bfdbfe;
+    transform: translateY(-2px);
+  }
+
+  .city-links span {
+    padding: 3px 9px;
+    background: #f1f5f9;
+    border-radius: 999px;
+    color: #475569;
+    font-size: 0.75rem;
+  }
+</style>

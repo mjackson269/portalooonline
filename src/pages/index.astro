@@ -1,48 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { getCities, groupCities } from "../data/cities.ts";
 
-const cities = [
-  {
-    name: "Bradford",
-    slug: "bradford",
-    suppliers: 20,
-    region: "West Yorkshire",
-    description:
-      "Compare portable toilet suppliers serving Bradford and the surrounding West Yorkshire area."
-  },
-  {
-    name: "Leeds",
-    slug: "leeds",
-    suppliers: 15,
-    region: "West Yorkshire",
-    description:
-      "Find portable toilet, event toilet and welfare unit suppliers serving Leeds."
-  },
-  {
-    name: "Sheffield",
-    slug: "sheffield",
-    suppliers: 20,
-    region: "South Yorkshire",
-    description:
-      "Browse portable toilet hire companies covering Sheffield and South Yorkshire."
-  },
-  {
-    name: "York",
-    slug: "york",
-    suppliers: 17,
-    region: "North Yorkshire",
-    description:
-      "Compare site, event and luxury toilet hire companies serving York."
-  },
-  {
-    name: "Hull",
-    slug: "hull",
-    suppliers: 16,
-    region: "East Yorkshire",
-    description:
-      "Find portable toilet and welfare facility suppliers covering Hull and the East Riding."
-  }
-];
+const cities = getCities();
+const groups = groupCities(cities);
+
+const featuredCities = [...cities]
+  .sort((a, b) => b.suppliers.length - a.suppliers.length)
+  .slice(0, 6);
+
+const listingCount = new Set(
+  cities.flatMap((city) => city.suppliers.map((s) => s.slug))
+).size;
 
 const services = [
   {
@@ -119,11 +88,15 @@ const services = [
           <select id="city-select" name="city" required>
             <option value="">Choose your location</option>
 
-            {cities.map((city) => (
-              <option value={`/${city.slug}/`}>
-                {city.name}
-              </option>
-            ))}
+            {groups.flatMap((group) =>
+              group.regions.map((region) => (
+                <optgroup label={region.region}>
+                  {region.cities.map((city) => (
+                    <option value={`/${city.slug}/`}>{city.name}</option>
+                  ))}
+                </optgroup>
+              ))
+            )}
           </select>
         </div>
 
@@ -205,7 +178,7 @@ const services = [
   <section class="locations-section" id="locations">
     <div class="section-heading">
       <div>
-        <span class="section-label">Yorkshire locations</span>
+        <span class="section-label">Popular locations</span>
 
         <h2>Browse portable toilet hire by city</h2>
       </div>
@@ -217,7 +190,7 @@ const services = [
     </div>
 
     <div class="city-grid">
-      {cities.map((city) => (
+      {featuredCities.map((city) => (
         <a href={`/${city.slug}/`} class="city-card">
           <div class="city-card-heading">
             <span class="city-pin">
@@ -230,7 +203,7 @@ const services = [
             </span>
 
             <span class="supplier-count">
-              {city.suppliers} suppliers
+              {city.suppliers.length} suppliers
             </span>
           </div>
 
@@ -252,6 +225,10 @@ const services = [
         </a>
       ))}
     </div>
+
+    <p class="all-locations">
+      <a href="/locations/">View all {cities.length} locations</a>
+    </p>
   </section>
 
   <section class="services-section">
@@ -342,16 +319,11 @@ const services = [
       <div class="about-statistics">
         <div>
           <strong>{cities.length}</strong>
-          <span>Yorkshire locations</span>
+          <span>Locations</span>
         </div>
 
         <div>
-          <strong>
-            {cities.reduce(
-              (total, city) => total + city.suppliers,
-              0
-            )}+
-          </strong>
+          <strong>{listingCount}</strong>
           <span>Supplier listings</span>
         </div>
 
@@ -654,7 +626,7 @@ const services = [
 
   .city-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
   }
 
@@ -673,14 +645,6 @@ const services = [
       border-color 180ms ease,
       box-shadow 180ms ease,
       transform 180ms ease;
-  }
-
-  .city-card:nth-child(-n + 3) {
-    grid-column: span 2;
-  }
-
-  .city-card:nth-child(n + 4) {
-    grid-column: span 3;
   }
 
   .city-card:hover {
@@ -766,6 +730,21 @@ const services = [
 
   .city-link svg {
     transition: transform 160ms ease;
+  }
+
+  .all-locations {
+    margin: 28px 0 0;
+    text-align: center;
+  }
+
+  .all-locations a {
+    color: #2563eb;
+    font-weight: 750;
+    text-decoration: none;
+  }
+
+  .all-locations a:hover {
+    text-decoration: underline;
   }
 
   .services-section {
@@ -910,10 +889,6 @@ const services = [
       grid-template-columns: repeat(2, 1fr);
     }
 
-    .city-card:nth-child(n) {
-      grid-column: span 3;
-    }
-
     .services-grid {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -987,9 +962,8 @@ const services = [
       grid-template-columns: 1fr;
     }
 
-    .city-card:nth-child(n) {
+    .city-card {
       min-height: 290px;
-      grid-column: auto;
     }
 
     .services-grid {
