@@ -1,0 +1,30 @@
+{
+  "name": "Manchester",
+  "nation": "England",
+  "region": "Greater Manchester",
+  "description": "Compare portable toilet hire companies serving Manchester and the surrounding Greater Manchester area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Manchester.",
+  "published": true,
+  "suppliers": [
+    "swift-loos",
+    "toilets-on-the-go",
+    "challenger-site-services",
+    "local-toilet-hire",
+    "sitetoilets-com",
+    "toilets2go-manchester",
+    "portable-toilet-company",
+    "lancashire-portable-toilets",
+    "north-west-portables",
+    "pal-hire",
+    "smiths-hire",
+    "manchester-cabins",
+    "kensite-services",
+    "nortons-cabins",
+    "euroloo",
+    "toilet-hire-247",
+    "dr-loo",
+    "waste-king-portable-toilet-hire",
+    "118-toilets",
+    "portable-toilets-ltd"
+  ]
+}

@@ -974,5 +974,516 @@
     ],
     "description": "North Yorkshire provider offering standard, luxury and long-term sanitation hire for events and construction sites.",
     "featured": false
+  },
+  {
+    "company": "Swift Loos",
+    "slug": "swift-loos",
+    "website": "https://www.swiftloos.com/",
+    "phone": "0161 884 9641",
+    "email": "sales@swiftloos.com",
+    "headOffice": "150 Walkden Road, Worsley, Manchester M28 7DP",
+    "areasCovered": [
+      "Manchester",
+      "Greater Manchester",
+      "Merseyside",
+      "Cheshire",
+      "Lancashire",
+      "North West England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Warm Wash Units",
+      "Wash Stations",
+      "Tank Emptying"
+    ],
+    "description": "Family-run Manchester supplier providing serviced portable toilets for construction sites, weddings, festivals and events across the North West.",
+    "featured": false
+  },
+  {
+    "company": "Toilets On The Go",
+    "slug": "toilets-on-the-go",
+    "website": "https://www.toiletsonthego.co.uk/portable-toilet-hire-greater-manchester",
+    "phone": "0333 772 1515",
+    "email": "admin@toiletsonthego.co.uk",
+    "headOffice": "Unit 10, Albert Street Industrial Estate, Horwich, Bolton BL6 7AP",
+    "areasCovered": [
+      "Manchester",
+      "Bolton",
+      "Bury",
+      "Oldham",
+      "Rochdale",
+      "Salford",
+      "Stockport",
+      "Tameside",
+      "Trafford",
+      "Wigan",
+      "Greater Manchester"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilet Trailers",
+      "Showers",
+      "Welfare Units",
+      "Urinals",
+      "Handwash Stations"
+    ],
+    "description": "Greater Manchester operator supplying portable toilets, trailers, showers and welfare units for construction sites and events of all sizes.",
+    "featured": false
+  },
+  {
+    "company": "Challenger Site Services",
+    "slug": "challenger-site-services",
+    "website": "https://challengernw.co.uk/product-category/toilet-hire-manchester/",
+    "phone": "0161 414 0037",
+    "email": "hiredesk@challengernw.co.uk",
+    "headOffice": "50 Winton Street, Ashton-under-Lyne, Greater Manchester OL6 8NL",
+    "areasCovered": [
+      "Manchester",
+      "Greater Manchester",
+      "North West England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Hot Wash Toilets",
+      "Wheelchair Accessible Toilets",
+      "Welfare Servicing",
+      "Effluent Tanks"
+    ],
+    "description": "Greater Manchester sanitation company providing serviced portable toilets for building sites, renovations, fairs, parties and concerts.",
+    "featured": false
+  },
+  {
+    "company": "Local Toilet Hire Ltd",
+    "slug": "local-toilet-hire",
+    "website": "https://www.manchestertoilethire.co.uk/",
+    "phone": "0161 327 2819",
+    "email": "info@localtoilethire.co.uk",
+    "headOffice": "Sussex Chambers, 5 Liverpool Terrace, Worthing, West Sussex BN11 1TA",
+    "areasCovered": [
+      "Manchester",
+      "Bolton",
+      "Sale",
+      "Rochdale",
+      "Stockport",
+      "Salford",
+      "Wigan",
+      "Oldham",
+      "Bury",
+      "Trafford",
+      "Greater Manchester"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Baby-Changing Toilets",
+      "Showers"
+    ],
+    "description": "Nationwide supplier operating a Manchester service for site, event, accessible and luxury portable toilet hire across Greater Manchester.",
+    "featured": false
+  },
+  {
+    "company": "SiteToilets.com",
+    "slug": "sitetoilets-com",
+    "website": "https://www.sitetoilets.com/portable-toilet-hire-manchester.html",
+    "phone": "0333 121 1056",
+    "email": "info@sitetoilets.com",
+    "headOffice": "Waste Cloud Ltd, 30/2 Eskbank Office Complex, Dalkeith EH22 3NX",
+    "areasCovered": [
+      "Manchester",
+      "Cheetham Hill",
+      "Didsbury",
+      "Rusholme",
+      "Chorlton-cum-Hardy",
+      "Fallowfield",
+      "Levenshulme",
+      "Withington",
+      "Prestwich",
+      "Salford",
+      "Trafford",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Luxury Toilet Trailers",
+      "Welfare Units",
+      "Handwash Stations"
+    ],
+    "description": "Nationwide booking provider supplying serviced portable toilets and event facilities throughout Manchester and surrounding districts.",
+    "featured": false
+  },
+  {
+    "company": "Toilets2Go Manchester",
+    "slug": "toilets2go-manchester",
+    "website": "https://www.toilets2gomanchester.com/portable-toilet-hire/",
+    "phone": "0800 028 1783",
+    "email": "",
+    "headOffice": "North West England",
+    "areasCovered": [
+      "Manchester",
+      "Wigan",
+      "Leigh",
+      "St Helens",
+      "Warrington",
+      "Liverpool",
+      "Southport",
+      "Lancashire",
+      "Lake District"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Accessible Toilets",
+      "Weekly Servicing"
+    ],
+    "description": "North West supplier providing self-contained portable and accessible toilets with weekly servicing across Manchester, Lancashire and neighbouring areas.",
+    "featured": false
+  },
+  {
+    "company": "The Portable Toilet Company",
+    "slug": "portable-toilet-company",
+    "website": "https://www.portabletoiletcompany.co.uk/toilet-hire-manchester/",
+    "phone": "01254 200181",
+    "email": "info@portabletoiletcompany.co.uk",
+    "headOffice": "Bilsborrow Lane, Preston, Lancashire PR3 0RN",
+    "areasCovered": [
+      "Manchester",
+      "Lancashire",
+      "North West England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilet Trailers",
+      "Portable Showers",
+      "Septic Tank Services"
+    ],
+    "description": "Lancashire family business supplying portable toilets, luxury trailers and showers for Manchester events and construction projects.",
+    "featured": false
+  },
+  {
+    "company": "Lancashire Portable Toilets",
+    "slug": "lancashire-portable-toilets",
+    "website": "https://lancashireportabletoilets.co.uk/",
+    "phone": "01706 321214",
+    "email": "info@lpt100.com",
+    "headOffice": "Cunliffe House Farm, Longsight Road, Blackburn BB6 8AD",
+    "areasCovered": [
+      "Manchester",
+      "Lancashire",
+      "North West England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Wedding Toilets",
+      "Festival Toilets"
+    ],
+    "description": "Lancashire supplier providing portable toilet hire for festivals, weddings, events, construction projects and other temporary requirements across the North West.",
+    "featured": false
+  },
+  {
+    "company": "North West Portables",
+    "slug": "north-west-portables",
+    "website": "https://northwestportables.co.uk/",
+    "phone": "01254 249433",
+    "email": "info@northwestportables.co.uk",
+    "headOffice": "7 Walden Road, Blackburn, Lancashire BB1 9PQ",
+    "areasCovered": [
+      "Manchester",
+      "Lancashire",
+      "North West England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Showers",
+      "Handwash Stations",
+      "Luxury Toilets",
+      "Welfare Units"
+    ],
+    "description": "North West supplier offering portable sanitation, luxury toilets, showers and welfare units for construction workers and event guests.",
+    "featured": false
+  },
+  {
+    "company": "PAL Hire",
+    "slug": "pal-hire",
+    "website": "https://www.palhire.co.uk/portable-site-toilet-free-delivery-map-uk/",
+    "phone": "0161 482 6200",
+    "email": "",
+    "headOffice": "Unit 7, Rhino Court, Station View, Stockport SK7 5ER",
+    "areasCovered": [
+      "Manchester",
+      "Stockport",
+      "Greater Manchester",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Weekly Servicing",
+      "Welfare Equipment"
+    ],
+    "description": "Stockport-based national hire network supplying portable site toilets with scheduled weekly servicing to Manchester and locations across the United Kingdom.",
+    "featured": false
+  },
+  {
+    "company": "Smiths Hire",
+    "slug": "smiths-hire",
+    "website": "https://smithshire.com/find-your-nearest-hire-it-centre/manchester/portable-toilet-hire-manchester/",
+    "phone": "0161 333 2000",
+    "email": "manchester@smithshire.com",
+    "headOffice": "Manchester Openshaw Hire Centre, 5 Wood Street, Openshaw, Manchester M11 2FB",
+    "areasCovered": [
+      "Manchester",
+      "Openshaw",
+      "Trafford",
+      "Greater Manchester"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Hot Wash Toilets",
+      "Toilet Blocks",
+      "Welfare Units",
+      "Site Accommodation"
+    ],
+    "description": "Manchester hire centres supplying portable toilets, hot-wash units, toilet blocks and welfare facilities for sites and events.",
+    "featured": false
+  },
+  {
+    "company": "Manchester Cabins Ltd",
+    "slug": "manchester-cabins",
+    "website": "https://www.manchestercabins.co.uk/welfare-cabins",
+    "phone": "0161 394 1490",
+    "email": "",
+    "headOffice": "Tweedale Way, Oldham OL9 7LD",
+    "areasCovered": [
+      "Manchester",
+      "Oldham",
+      "Greater Manchester",
+      "North West England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Welfare Units",
+      "Toilet Blocks",
+      "Portable Washrooms",
+      "Showers",
+      "Canteen Units",
+      "Site Accommodation"
+    ],
+    "description": "Oldham manufacturer and hirer supplying toilet blocks, washrooms and welfare cabins for sites, festivals and temporary workplaces.",
+    "featured": false
+  },
+  {
+    "company": "Kensite Services Ltd",
+    "slug": "kensite-services",
+    "website": "https://www.kensite.co.uk/",
+    "phone": "01942 878747",
+    "email": "enquiries@kensite.co.uk",
+    "headOffice": "Trenchers Close, Chanters Industrial Estate, Atherton, Greater Manchester M46 9BE",
+    "areasCovered": [
+      "Manchester",
+      "Greater Manchester",
+      "Cheshire",
+      "Lancashire",
+      "North West England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Toilet Blocks",
+      "Welfare Units",
+      "Site Cabins",
+      "Showers",
+      "Event Welfare Facilities"
+    ],
+    "description": "Greater Manchester site-welfare specialist supplying toilet blocks, cabins and compliant temporary facilities for construction projects and events.",
+    "featured": false
+  },
+  {
+    "company": "Nortons Cabins",
+    "slug": "nortons-cabins",
+    "website": "https://www.nortonscabins.co.uk/",
+    "phone": "0161 277 8492",
+    "email": "info@nortonscabins.co.uk",
+    "headOffice": "Norton Street, Miles Platting, Manchester M40 8HD",
+    "areasCovered": [
+      "Manchester",
+      "Bolton",
+      "Bury",
+      "Wigan",
+      "Stockport",
+      "Oldham",
+      "Rochdale",
+      "Warrington",
+      "Liverpool",
+      "Preston",
+      "North West England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Toilet Blocks",
+      "Welfare Units",
+      "Portable Cabins",
+      "Anti-Vandal Cabins",
+      "Site Accommodation"
+    ],
+    "description": "Manchester supplier of refurbished toilet blocks, welfare units and portable site accommodation with regional and nationwide delivery.",
+    "featured": false
+  },
+  {
+    "company": "Euroloo",
+    "slug": "euroloo",
+    "website": "https://www.euroloo.com/portable-toilet-hire/greater-manchester/",
+    "phone": "0161 820 3578",
+    "email": "hello@euroloo.com",
+    "headOffice": "Great Mascalls Farm, West Hanningfield Road, Chelmsford CM2 7TA",
+    "areasCovered": [
+      "Manchester",
+      "Greater Manchester",
+      "England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Welfare Units",
+      "Toilet Servicing",
+      "Tank Emptying"
+    ],
+    "description": "National toilet and welfare provider offering next-day portable toilet delivery and scheduled weekly servicing across Greater Manchester.",
+    "featured": false
+  },
+  {
+    "company": "Toilet Hire 24/7",
+    "slug": "toilet-hire-247",
+    "website": "https://www.toilethire247.com/pages/toilet-hire-manchester",
+    "phone": "0800 009 6520",
+    "email": "info@toilethire247.com",
+    "headOffice": "Unit 4, Coventry Road, Lutterworth",
+    "areasCovered": [
+      "Manchester",
+      "Greater Manchester",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Portable Showers"
+    ],
+    "description": "Nationwide supplier providing portable, luxury, accessible and construction toilet facilities for Manchester events, workplaces and temporary sites.",
+    "featured": false
+  },
+  {
+    "company": "Dr Loo",
+    "slug": "dr-loo",
+    "website": "https://drloo.co.uk/luxury-portable-toilets-in-manchester/",
+    "phone": "07889 030389",
+    "email": "",
+    "headOffice": "Yorkshire",
+    "areasCovered": [
+      "Manchester",
+      "United Kingdom"
+    ],
+    "services": [
+      "Luxury Toilets",
+      "VIP Toilet Trailers",
+      "Event Toilets",
+      "Wedding Toilets",
+      "Festival Toilets",
+      "Portable Showers"
+    ],
+    "description": "Portable sanitation specialist supplying luxury toilets and VIP trailers for Manchester weddings, corporate functions, festivals and outdoor events.",
+    "featured": false
+  },
+  {
+    "company": "Waste King Portable Toilet Hire",
+    "slug": "waste-king-portable-toilet-hire",
+    "website": "https://wastekinghire.co.uk/",
+    "phone": "03300 558308",
+    "email": "info@wasteking.co.uk",
+    "headOffice": "Unit 25 Airfield Industrial Estate, Long Marston, Cheddington HP23 4QR",
+    "areasCovered": [
+      "Manchester",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Showers",
+      "Changing Rooms",
+      "Welfare Units",
+      "Waste Management"
+    ],
+    "description": "Nationwide supplier offering portable toilets, showers, changing rooms and welfare facilities for Manchester projects and events.",
+    "featured": false
+  },
+  {
+    "company": "118 Toilets",
+    "slug": "118-toilets",
+    "website": "https://www.118toilets.com/",
+    "phone": "0800 118 1931",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Manchester",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Wheelchair Accessible Toilets"
+    ],
+    "description": "National provider offering short and long-term portable toilet hire for Manchester construction sites, events and temporary requirements.",
+    "featured": false
+  },
+  {
+    "company": "Portable Toilets Ltd",
+    "slug": "portable-toilets-ltd",
+    "website": "https://ptl.co.uk/",
+    "phone": "01656 721721",
+    "email": "",
+    "headOffice": "Bridgend, Wales",
+    "areasCovered": [
+      "Manchester",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets",
+      "Waste Management"
+    ],
+    "description": "UK sanitation company supplying portable and luxury facilities for Manchester construction projects, festivals, weddings and sporting events.",
+    "featured": false
   }
 ]
