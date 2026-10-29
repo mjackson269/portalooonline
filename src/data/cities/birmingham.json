@@ -1,0 +1,30 @@
+{
+  "name": "Birmingham",
+  "nation": "England",
+  "region": "West Midlands",
+  "description": "Compare portable toilet hire companies serving Birmingham and the surrounding West Midlands area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Birmingham.",
+  "published": true,
+  "suppliers": [
+    "central-toilet-hire",
+    "d-tox-group",
+    "365-toilet-hire",
+    "asles-toilet-shower-hire",
+    "a-star-all-solutions",
+    "jb-event-facilities",
+    "enviro24-toilets-birmingham",
+    "midland-toilet-hire",
+    "castlegate-uk",
+    "srp-hire-solutions",
+    "sitetoilets-com",
+    "local-toilet-hire",
+    "toilet-hire-247",
+    "best-at-hire",
+    "4m-portable-buildings",
+    "andyloos",
+    "euroloo",
+    "sanihire",
+    "mammoth-hire",
+    "waste-king-portable-toilet-hire"
+  ]
+}

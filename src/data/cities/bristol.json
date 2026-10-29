@@ -1,0 +1,30 @@
+{
+  "name": "Bristol",
+  "nation": "England",
+  "region": "South West England",
+  "description": "Compare portable toilet hire companies serving Bristol and the surrounding South West area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Bristol.",
+  "published": true,
+  "suppliers": [
+    "mendip-toilet-hire",
+    "alide-hire-services",
+    "chew-valley-hire",
+    "andyloos",
+    "tardis-environmental",
+    "abbey-loos",
+    "toilets-4-hire",
+    "wight-event-toilets",
+    "kington-events",
+    "burnham-portable-toilet-hire",
+    "alan-coward-and-son",
+    "bath-luxury-toilet-hire",
+    "just-loos",
+    "118-toilets",
+    "toilet-hire-247",
+    "euroloo",
+    "local-toilet-hire",
+    "waste-king-portable-toilet-hire",
+    "sanihire",
+    "mammoth-hire"
+  ]
+}

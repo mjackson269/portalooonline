@@ -1,0 +1,30 @@
+{
+  "name": "Blackpool",
+  "nation": "England",
+  "region": "Lancashire",
+  "description": "Compare portable toilet hire companies serving Blackpool and the surrounding Fylde Coast and Lancashire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Blackpool.",
+  "published": true,
+  "suppliers": [
+    "portable-toilet-company",
+    "lancashire-portable-toilets",
+    "toilets-on-the-go",
+    "valley-toilets",
+    "dr-loo",
+    "greens-environmental",
+    "portable-conveniences",
+    "toilets2go",
+    "local-toilet-hire",
+    "waste-king-portable-toilet-hire",
+    "euroloo",
+    "waterloo-hire",
+    "sanihire",
+    "mammoth-hire",
+    "national-toilet-hire",
+    "portable-toilets-ltd",
+    "willbox",
+    "welfare-hire-direct",
+    "118-toilets",
+    "toilet-hire-247"
+  ]
+}
