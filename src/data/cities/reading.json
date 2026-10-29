@@ -1,0 +1,30 @@
+{
+  "name": "Reading",
+  "nation": "England",
+  "region": "Berkshire",
+  "description": "Compare portable toilet hire companies serving Reading and the surrounding Berkshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Reading.",
+  "published": true,
+  "suppliers": [
+    "asp-loo-hire",
+    "site-and-event-toilets",
+    "premierplus-toilet-hire",
+    "pph-hire-sales",
+    "1-and-2s-loo-hire",
+    "deluxe-loos",
+    "qdos-event-hire",
+    "a1-loo-hire",
+    "ab-fab-loos",
+    "fortis-hire",
+    "just-loos",
+    "mjl-toilet-welfare-hire",
+    "berkshire-toilets",
+    "euroloo",
+    "mammoth-site-storage",
+    "rustic-restrooms",
+    "d-and-p-luxury-toilets",
+    "alder-hire",
+    "sanihire",
+    "sitetoilets-com"
+  ]
+}

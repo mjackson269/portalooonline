@@ -1,0 +1,30 @@
+{
+  "name": "Cardiff",
+  "nation": "Wales",
+  "region": "South Glamorgan",
+  "description": "Compare portable toilet hire companies serving Cardiff and the surrounding South Wales area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Cardiff.",
+  "published": true,
+  "suppliers": [
+    "city-loo-hire",
+    "pph-hire-sales",
+    "tardis-environmental",
+    "wight-event-toilets",
+    "alide-hire-services",
+    "portable-toilets-ltd",
+    "euroloo",
+    "sitetoilets-com",
+    "local-toilet-hire",
+    "waste-king-portable-toilet-hire",
+    "toilet-hire-near-me",
+    "tewkesbury-toilet-hire",
+    "118-toilets",
+    "toilet-hire-247",
+    "sanihire",
+    "mammoth-hire",
+    "national-toilet-hire",
+    "willbox",
+    "welfare-hire-direct",
+    "hireforce-welfare"
+  ]
+}

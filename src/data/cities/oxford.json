@@ -1,0 +1,30 @@
+{
+  "name": "Oxford",
+  "nation": "England",
+  "region": "Oxfordshire",
+  "description": "Compare portable toilet hire companies serving Oxford and the surrounding Oxfordshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Oxford.",
+  "published": true,
+  "suppliers": [
+    "portable-toilets-ltd",
+    "tulu-toilet-hire",
+    "laughtons-luxury-toilet-hire",
+    "taplins-loo-hire",
+    "premierplus-toilet-hire",
+    "site-equip",
+    "witney-plant-hire",
+    "wight-event-toilets",
+    "deluxe-loos",
+    "jb-event-facilities",
+    "just-loos",
+    "mjl-toilet-welfare-hire",
+    "pph-hire-sales",
+    "mammoth-site-storage",
+    "sitetoilets-com",
+    "local-toilet-hire",
+    "toilet-hire-247",
+    "sanihire",
+    "waste-king-portable-toilet-hire",
+    "national-tool-hire"
+  ]
+}
