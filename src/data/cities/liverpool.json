@@ -1,0 +1,30 @@
+{
+  "name": "Liverpool",
+  "nation": "England",
+  "region": "Merseyside",
+  "description": "Compare portable toilet hire companies serving Liverpool and the surrounding Merseyside area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Liverpool.",
+  "published": true,
+  "suppliers": [
+    "aries-leisure",
+    "a-davies-services",
+    "smiths-hire",
+    "toilets-on-the-go",
+    "pal-hire",
+    "sitetoilets-com",
+    "euroloo",
+    "toilet-hire-247",
+    "dr-loo",
+    "local-toilet-hire",
+    "tardis-environmental",
+    "toilets2go",
+    "north-west-portables",
+    "portable-toilet-company",
+    "lancashire-portable-toilets",
+    "sanihire",
+    "national-tool-hire",
+    "waste-king-portable-toilet-hire",
+    "118-toilets",
+    "portable-toilets-ltd"
+  ]
+}

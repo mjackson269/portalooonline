@@ -1485,5 +1485,500 @@
     ],
     "description": "UK sanitation company supplying portable and luxury facilities for Manchester construction projects, festivals, weddings and sporting events.",
     "featured": false
+  },
+  {
+      "company": "Aries Leisure",
+    "slug": "aries-leisure",
+    "website": "https://ariesleisure.co.uk/marquee-hire-services/portable-toilet-hire",
+    "phone": "0151 545 0599",
+    "email": "events@ariesleisure.co.uk",
+    "headOffice": "166 Linacre Road, Litherland, Liverpool L21 8JU",
+    "areasCovered": [
+      "Liverpool",
+      "Merseyside",
+      "Wirral",
+      "Manchester",
+      "Cheshire",
+      "Lancashire",
+      "North West England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Accessible Toilets",
+      "Luxury Toilets",
+      "Long-Term Hire"
+    ],
+    "description": "Liverpool operator supplying standard, accessible and luxury toilets for parties, weddings, festivals and construction sites across the North West.",
+    "featured": false
+  },
+  {
+    "company": "A Davies Services",
+    "slug": "a-davies-services",
+    "website": "https://adavies-services.co.uk/",
+    "phone": "0151 345 1600",
+    "email": "alan@adavies-services.co.uk",
+    "headOffice": "57 Withens Lane, Wallasey CH45 7NE",
+    "areasCovered": [
+      "Liverpool",
+      "Wallasey",
+      "Wirral",
+      "Locations within approximately 25 miles of Wallasey"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Wedding Toilets",
+      "Toilet Servicing"
+    ],
+    "description": "Wirral company hiring serviced portable toilets for building projects, garden parties, weddings, christenings and public events.",
+    "featured": false
+  },
+  {
+    "company": "Smiths Hire",
+    "slug": "smiths-hire",
+    "website": "https://smithshire.com/find-your-nearest-hire-it-centre/liverpool/portable-toilet-hire-liverpool/",
+    "phone": "0151 294 4499",
+    "email": "liverpool@smithshire.com",
+    "headOffice": "120 Derby Road, Bootle, Liverpool L20 1BP",
+    "areasCovered": [
+      "Liverpool",
+      "Bootle",
+      "Merseyside"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Hot Wash Toilets",
+      "Toilet Blocks",
+      "Welfare Units",
+      "Site Accommodation"
+    ],
+    "description": "Liverpool depot supplying portable toilets, hot-wash units, toilet blocks and welfare facilities for construction sites and events.",
+    "featured": false
+  },
+  {
+    "company": "Toilets On The Go",
+    "slug": "toilets-on-the-go",
+    "website": "https://www.toiletsonthego.co.uk/portable-toilet-hire-merseyside",
+    "phone": "0333 772 1515",
+    "email": "admin@toiletsonthego.co.uk",
+    "headOffice": "Unit 10, Albert Street Industrial Estate, Horwich, Bolton BL6 7AP",
+    "areasCovered": [
+      "Liverpool",
+      "Knowsley",
+      "St Helens",
+      "Sefton",
+      "Southport",
+      "Wirral",
+      "Merseyside"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilet Trailers",
+      "Showers",
+      "Welfare Units",
+      "Urinals",
+      "Handwash Stations"
+    ],
+    "description": "North West operator supplying portable toilets, trailers, showers and welfare units throughout Liverpool and Merseyside.",
+    "featured": false
+  },
+  {
+    "company": "PAL Hire",
+    "slug": "pal-hire",
+    "website": "https://www.palhire.co.uk/portable-site-toilet-free-delivery-map-uk/",
+    "phone": "0161 482 6200",
+    "email": "",
+    "headOffice": "Unit 7, Rhino Court, Station View, Stockport SK7 5ER",
+    "areasCovered": [
+      "Liverpool",
+      "Manchester",
+      "Warrington",
+      "North West England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Weekly Servicing",
+      "Welfare Equipment"
+    ],
+    "description": "Stockport-based national hire network supplying portable site toilets with weekly servicing to Liverpool and locations across the United Kingdom.",
+    "featured": false
+  },
+  {
+    "company": "SiteToilets.com",
+    "slug": "sitetoilets-com",
+    "website": "https://www.sitetoilets.com/portable-toilet-hire-liverpool.html",
+    "phone": "0333 121 1056",
+    "email": "info@sitetoilets.com",
+    "headOffice": "Waste Cloud Ltd, 30/2 Eskbank Office Complex, Dalkeith EH22 3NX",
+    "areasCovered": [
+      "Liverpool",
+      "Anfield",
+      "Bootle",
+      "Crosby",
+      "Formby",
+      "Southport",
+      "St Helens",
+      "Wirral"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Luxury Toilet Trailers",
+      "Welfare Units",
+      "Handwash Stations"
+    ],
+    "description": "Nationwide booking provider supplying serviced portable toilets and event facilities throughout Liverpool and surrounding Merseyside locations.",
+    "featured": false
+  },
+  {
+    "company": "Euroloo",
+    "slug": "euroloo",
+    "website": "https://www.euroloo.com/portable-toilet-hire/merseyside/liverpool/",
+    "phone": "0151 909 2503",
+    "email": "hello@euroloo.com",
+    "headOffice": "Great Mascalls Farm, West Hanningfield Road, Chelmsford CM2 7TA",
+    "areasCovered": [
+      "Liverpool",
+      "Merseyside",
+      "England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Welfare Units",
+      "Toilet Servicing",
+      "Tank Emptying"
+    ],
+    "description": "National provider offering next-day portable toilet delivery and scheduled weekly servicing from its local Liverpool coverage network.",
+    "featured": false
+  },
+  {
+    "company": "Toilet Hire 24/7",
+    "slug": "toilet-hire-247",
+    "website": "https://www.toilethire247.com/pages/toilet-hire-merseyside",
+    "phone": "0800 009 6520",
+    "email": "info@toilethire247.com",
+    "headOffice": "Unit 4, Coventry Road, Lutterworth",
+    "areasCovered": [
+      "Liverpool",
+      "Birkenhead",
+      "Bootle",
+      "Formby",
+      "Wallasey",
+      "Wirral",
+      "Merseyside",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Portable Showers"
+    ],
+    "description": "Nationwide supplier providing portable, luxury and accessible sanitation facilities for Liverpool events, construction projects and temporary sites.",
+    "featured": false
+  },
+  {
+    "company": "Dr Loo",
+    "slug": "dr-loo",
+    "website": "https://drloo.co.uk/luxury-portable-toilets-in-liverpool/",
+    "phone": "07889 030389",
+    "email": "",
+    "headOffice": "Yorkshire",
+    "areasCovered": [
+      "Liverpool",
+      "United Kingdom"
+    ],
+    "services": [
+      "Luxury Toilets",
+      "VIP Toilet Trailers",
+      "Event Toilets",
+      "Wedding Toilets",
+      "Festival Toilets",
+      "Portable Showers"
+    ],
+    "description": "Portable sanitation specialist supplying luxury toilets and VIP trailers for Liverpool weddings, corporate functions, festivals and outdoor events.",
+    "featured": false
+  },
+  {
+    "company": "Local Toilet Hire Ltd",
+    "slug": "local-toilet-hire",
+    "website": "https://www.localtoilethire.co.uk/portable-toilet-hire-liverpool/",
+    "phone": "0800 907 0086",
+    "email": "info@localtoilethire.co.uk",
+    "headOffice": "Sussex Chambers, 5 Liverpool Terrace, Worthing BN11 1TA",
+    "areasCovered": [
+      "Liverpool City Centre",
+      "Anfield",
+      "Everton",
+      "Kirkdale",
+      "Toxteth",
+      "Wavertree",
+      "Aigburth",
+      "Garston",
+      "Speke",
+      "Allerton",
+      "Bootle",
+      "Walton",
+      "Fazakerley",
+      "Merseyside"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Handwash Stations"
+    ],
+    "description": "Nationwide supplier providing site, event, accessible and luxury portable toilet hire throughout Liverpool and surrounding Merseyside areas.",
+    "featured": false
+  },
+  {
+    "company": "Tardis Environmental",
+    "slug": "tardis-environmental",
+    "website": "https://tardishire.co.uk/portable-toilet-hire-liverpool/",
+    "phone": "0800 731 0589",
+    "email": "sales@tardishire.co.uk",
+    "headOffice": "Site 4, Halesfield 21, Telford TF7 4PA",
+    "areasCovered": [
+      "Liverpool",
+      "Merseyside",
+      "Wirral",
+      "Cheshire",
+      "North West England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Showers",
+      "Toilet Servicing"
+    ],
+    "description": "National environmental operator serving Liverpool from its Warrington depot with toilets, showers, urinals and servicing for sites and events.",
+    "featured": false
+  },
+  {
+    "company": "Toilets2Go",
+    "slug": "toilets2go",
+    "website": "https://www.toilets2go.co.uk/",
+    "phone": "0800 028 1783",
+    "email": "info@toilets2go.co.uk",
+    "headOffice": "North West England",
+    "areasCovered": [
+      "Liverpool",
+      "North West England",
+      "Yorkshire",
+      "North Wales"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Welfare Servicing"
+    ],
+    "description": "Regional provider offering site and event toilets with weekly servicing across Liverpool, the North West, Yorkshire and North Wales.",
+    "featured": false
+  },
+  {
+    "company": "North West Portables",
+    "slug": "north-west-portables",
+    "website": "https://northwestportables.co.uk/",
+    "phone": "01254 249433",
+    "email": "info@northwestportables.co.uk",
+    "headOffice": "7 Walden Road, Blackburn, Lancashire BB1 9PQ",
+    "areasCovered": [
+      "Liverpool",
+      "Lancashire",
+      "North West England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Showers",
+      "Handwash Stations",
+      "Luxury Toilets",
+      "Welfare Units"
+    ],
+    "description": "North West supplier offering portable sanitation, luxury toilets, showers and welfare facilities for construction workers and event guests.",
+    "featured": false
+  },
+  {
+    "company": "The Portable Toilet Company",
+    "slug": "portable-toilet-company",
+    "website": "https://www.portabletoiletcompany.co.uk/",
+    "phone": "01254 200181",
+    "email": "info@portabletoiletcompany.co.uk",
+    "headOffice": "Bilsborrow Lane, Preston, Lancashire PR3 0RN",
+    "areasCovered": [
+      "Liverpool",
+      "Lancashire",
+      "North West England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilet Trailers",
+      "Portable Showers",
+      "Septic Tank Services"
+    ],
+    "description": "Lancashire family business supplying portable toilets, luxury trailers and showers for Liverpool events and construction projects.",
+    "featured": false
+  },
+  {
+    "company": "Lancashire Portable Toilets",
+    "slug": "lancashire-portable-toilets",
+    "website": "https://lancashireportabletoilets.co.uk/",
+    "phone": "01706 321214",
+    "email": "info@lpt100.com",
+    "headOffice": "Cunliffe House Farm, Longsight Road, Blackburn BB6 8AD",
+    "areasCovered": [
+      "Liverpool",
+      "Lancashire",
+      "North West England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Construction Site Toilets",
+      "Wedding Toilets",
+      "Festival Toilets"
+    ],
+    "description": "Lancashire supplier providing portable toilets for festivals, weddings, temporary sites and construction projects across the North West.",
+    "featured": false
+  },
+  {
+    "company": "SaniHire",
+    "slug": "sanihire",
+    "website": "https://sanihire.co.uk/",
+    "phone": "0330 043 7072",
+    "email": "enquiries@sanihire.co.uk",
+    "headOffice": "Newlands Farm, 24 Stroud Green Lane, Stubbington, Fareham PO14 2HT",
+    "areasCovered": [
+      "Liverpool",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Welfare Units",
+      "Toilet Blocks",
+      "Handwash Stations",
+      "Toilet Trailers"
+    ],
+    "description": "Nationwide specialist supplying portable toilets, welfare units, toilet blocks and servicing for construction sites, commercial projects and events.",
+    "featured": false
+  },
+  {
+    "company": "National Tool Hire",
+    "slug": "national-tool-hire",
+    "website": "https://nationaltoolhire.co.uk/portable-toilet-hire/liverpool",
+    "phone": "0330 058 0106",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Liverpool",
+      "Liverpool surrounding towns",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Toilet Servicing"
+    ],
+    "description": "National hire network arranging locally delivered and serviced portable toilets for Liverpool building sites, events and outdoor venues.",
+    "featured": false
+  },
+  {
+    "company": "Waste King Portable Toilet Hire",
+    "slug": "waste-king-portable-toilet-hire",
+    "website": "https://wastekinghire.co.uk/",
+    "phone": "03300 558308",
+    "email": "info@wasteking.co.uk",
+    "headOffice": "Unit 25 Airfield Industrial Estate, Long Marston, Cheddington HP23 4QR",
+    "areasCovered": [
+      "Liverpool",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Showers",
+      "Changing Rooms",
+      "Welfare Units",
+      "Waste Management"
+    ],
+    "description": "Nationwide supplier offering portable toilets, showers, changing rooms and welfare facilities for Liverpool projects and events.",
+    "featured": false
+  },
+  {
+    "company": "118 Toilets",
+    "slug": "118-toilets",
+    "website": "https://www.118toilets.com/",
+    "phone": "0800 118 1931",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Liverpool",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Wheelchair Accessible Toilets"
+    ],
+    "description": "National provider offering short and long-term portable toilet hire for Liverpool construction sites, events and temporary requirements.",
+    "featured": false
+  },
+  {
+    "company": "Portable Toilets Ltd",
+    "slug": "portable-toilets-ltd",
+    "website": "https://ptl.co.uk/",
+    "phone": "01656 721721",
+    "email": "",
+    "headOffice": "Bridgend, Wales",
+    "areasCovered": [
+      "Liverpool",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets",
+      "Waste Management"
+    ],
+    "description": "UK sanitation company supplying portable and luxury facilities for Liverpool construction projects, festivals, weddings and sporting events.",
+    "featured": false
   }
 ]
