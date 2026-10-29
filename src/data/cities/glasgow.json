@@ -1,0 +1,30 @@
+{
+  "name": "Glasgow",
+  "nation": "Scotland",
+  "region": "Glasgow City",
+  "description": "Compare portable toilet hire companies serving Glasgow and the surrounding Central Scotland area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Glasgow.",
+  "published": true,
+  "suppliers": [
+    "loo-king",
+    "envirosan",
+    "up4-loo-hire",
+    "honeywagon-co",
+    "loc-hire",
+    "scotloo",
+    "event-a-loo",
+    "glasgow-gazebo-hire",
+    "stepps-loo-hire",
+    "classical-loo-company",
+    "thistle-thrones",
+    "bordaloo",
+    "border-group",
+    "nixon-hire",
+    "sitetoilets-com",
+    "local-toilet-hire",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "sanihire",
+    "container-hire-services"
+  ]
+}

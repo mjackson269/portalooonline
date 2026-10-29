@@ -6380,5 +6380,479 @@
     ],
     "description": "National welfare specialist supplying towable site units containing toilets, washrooms, canteens, drying areas and office space.",
     "featured": false
+  },
+  {
+    "company": "Loo King",
+    "slug": "loo-king",
+    "website": "http://www.loo-king.co.uk/",
+    "phone": "0141 876 4111",
+    "email": "enquiries@loo-king.co.uk",
+    "headOffice": "Kirktonfield Industrial Estate, Kirktonfield Road, Neilston, Glasgow G78 3NY",
+    "areasCovered": [
+      "Glasgow",
+      "Paisley",
+      "Lanarkshire",
+      "Edinburgh",
+      "Scottish Mainland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Toilet Blocks",
+      "Waste Tank Servicing"
+    ],
+    "description": "Glasgow-area specialist supplying portable toilets for construction sites, festivals, weddings, sports events and public functions across mainland Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Envirosan Ltd",
+    "slug": "envirosan",
+    "website": "https://envirosan.co.uk/glasgow-portable-toilet-hire/",
+    "phone": "01555 759511",
+    "email": "enquiries@envirosan.co.uk",
+    "headOffice": "Castlehill Industrial Estate, 10 Craignethan Road, Carluke ML8 5WB",
+    "areasCovered": [
+      "Glasgow",
+      "Edinburgh",
+      "Stirling",
+      "Perth",
+      "Central Scotland",
+      "Scottish Mainland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Welfare Units",
+      "Toilet Servicing"
+    ],
+    "description": "Central Scotland sanitation specialist supplying serviced toilets, luxury trailers and welfare facilities for construction, industrial and event customers.",
+    "featured": false
+  },
+  {
+    "company": "UP4 Loo Hire",
+    "slug": "up4-loo-hire",
+    "website": "https://www.up4loohire.co.uk/",
+    "phone": "01560 600484",
+    "email": "contact@up4loohire.co.uk",
+    "headOffice": "3 Kilbride Road, Stewarton, Kilmarnock KA3 3AB",
+    "areasCovered": [
+      "Glasgow",
+      "Ayrshire",
+      "Scotland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Sanitation Services"
+    ],
+    "description": "Ayrshire supplier providing short and long-term portable and luxury toilet hire for private, commercial and event customers across Glasgow and Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Honeywagon Co.",
+    "slug": "honeywagon-co",
+    "website": "https://honeywagonco.com/",
+    "phone": "01360 828824",
+    "email": "hello@honeywagonco.com",
+    "headOffice": "90-96 North Street, Alexandria, Loch Lomond G83 0EB",
+    "areasCovered": [
+      "Glasgow",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Showers",
+      "Urinals",
+      "Welfare Units",
+      "Tanker Services"
+    ],
+    "description": "Scottish facilities specialist supplying luxury and portable toilets, showers and welfare units for events, festivals, film and television productions.",
+    "featured": false
+  },
+  {
+    "company": "LOC Hire Ltd",
+    "slug": "loc-hire",
+    "website": "https://lochire.co.uk/",
+    "phone": "0843 855 0105",
+    "email": "info@lochire.co.uk",
+    "headOffice": "155-175 Glasgow Road, Longcroft, Bonnybridge FK4 1QY",
+    "areasCovered": [
+      "Glasgow",
+      "Central Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Hot-Wash Toilets",
+      "Mains Toilets",
+      "Welfare Units",
+      "Site Accommodation"
+    ],
+    "description": "Central Scotland hire specialist providing portable toilets, hot-wash options and welfare facilities for construction sites and events.",
+    "featured": false
+  },
+  {
+    "company": "Scotloo",
+    "slug": "scotloo",
+    "website": "https://www.scotloo.co.uk/",
+    "phone": "01738 472002",
+    "email": "sales@scotloo.com",
+    "headOffice": "Kinnoull House, Riverview Business Park, Friarton Road, Perth PH2 8DF",
+    "areasCovered": [
+      "Glasgow",
+      "Central Belt",
+      "Perthshire",
+      "Tayside",
+      "Angus",
+      "Fife",
+      "Aberdeenshire"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Showers",
+      "Welfare Units",
+      "Toilet Blocks",
+      "Waste Management"
+    ],
+    "description": "Scottish supplier offering chemical toilets, showers, welfare facilities and site accommodation for construction, agriculture and events across the Central Belt.",
+    "featured": false
+  },
+  {
+    "company": "Event-A-Loo Ltd",
+    "slug": "event-a-loo",
+    "website": "https://www.event-a-loo.co.uk/",
+    "phone": "01698 791426",
+    "email": "",
+    "headOffice": "Lanarkshire, Scotland",
+    "areasCovered": [
+      "Glasgow",
+      "Edinburgh",
+      "Lanarkshire",
+      "Scotland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Toilet Blocks",
+      "Showers",
+      "Urinals",
+      "Attendant Service"
+    ],
+    "description": "Lanarkshire family business supplying portable, luxury and accessible toilets, shower blocks and attendant services for events throughout Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Glasgow Gazebo Hire",
+    "slug": "glasgow-gazebo-hire",
+    "website": "https://www.glasgowgazebohire.com/post/luxury-toilet-hire-glasgow",
+    "phone": "0141 370 9893",
+    "email": "info@glasgowgazebohire.com",
+    "headOffice": "10 Cameron Street, Coatbridge ML5 2EJ",
+    "areasCovered": [
+      "Glasgow",
+      "Central Scotland",
+      "Edinburgh",
+      "Stirling",
+      "Falkirk",
+      "Lanarkshire"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Event Toilets",
+      "Wedding Toilets"
+    ],
+    "description": "Glasgow event-hire company offering self-contained luxury toilet trailers for weddings, corporate events, festivals and film productions across Central Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Stepps Loo Hire",
+    "slug": "stepps-loo-hire",
+    "website": "https://steppsloohire.com/",
+    "phone": "07811 247316",
+    "email": "info@steppsservices.com",
+    "headOffice": "Scotland",
+    "areasCovered": [
+      "Glasgow",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Luxury Toilet Trailers",
+      "Event Toilets",
+      "Accessible Toilets",
+      "On-Site Servicing"
+    ],
+    "description": "Scottish supplier providing luxury and off-grid toilet trailers for weddings, festivals, events and film productions across Scotland and the UK.",
+    "featured": false
+  },
+  {
+    "company": "Classical Loo Company",
+    "slug": "classical-loo-company",
+    "website": "https://clc-events.com/",
+    "phone": "01307 818190",
+    "email": "info@clc-events.com",
+    "headOffice": "Auld Barn House, Fonah, Forfar DD8 2SB",
+    "areasCovered": [
+      "Glasgow",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Wedding Toilets",
+      "Accessible Toilets",
+      "Event Toilets"
+    ],
+    "description": "Luxury toilet specialist delivering self-contained heated trailers and accessible facilities to weddings, estates, corporate functions and events throughout Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Thistle Thrones Ltd",
+    "slug": "thistle-thrones",
+    "website": "https://www.thistlethrones.co.uk/",
+    "phone": "07745 372774",
+    "email": "info@thistlethrones.co.uk",
+    "headOffice": "Hillhead Farm, Glen of Newmill, Keith AB55 6XE",
+    "areasCovered": [
+      "Glasgow",
+      "Scotland"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Baby-Changing Toilets",
+      "Event Toilets"
+    ],
+    "description": "Scottish luxury toilet company supplying premium trailer units and accessible baby-changing facilities for weddings, corporate events and garden parties.",
+    "featured": false
+  },
+  {
+    "company": "Bordaloo Ltd",
+    "slug": "bordaloo",
+    "website": "https://www.bordaloo.co.uk/",
+    "phone": "07876 543506",
+    "email": "debbie@bordaloo.co.uk",
+    "headOffice": "The Mill, Edenmouth Farm, Kelso TD5 7QB",
+    "areasCovered": [
+      "Glasgow",
+      "Central Belt",
+      "Scottish Borders",
+      "Edinburgh",
+      "Northern England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Luxury Toilet Trailers",
+      "Urinals",
+      "Showers",
+      "Event Toilets"
+    ],
+    "description": "Kelso supplier hiring portable toilets, luxury trailers, urinals and showers for festivals, weddings and film locations across Scotland\u2019s Central Belt.",
+    "featured": false
+  },
+  {
+    "company": "Border Group Ltd",
+    "slug": "border-group",
+    "website": "https://www.bordergroupltd.com/",
+    "phone": "01573 401577",
+    "email": "sales@bordergroupltd.com",
+    "headOffice": "Woodlands, Brampton Road, Longtown, Carlisle CA6 5TR",
+    "areasCovered": [
+      "Glasgow",
+      "Scotland",
+      "Northern England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Urinals",
+      "Showers",
+      "Welfare Units"
+    ],
+    "description": "Regional and nationwide supplier offering portable toilets, luxury trailers, showers and welfare units for sites and events throughout Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Nixon Hire",
+    "slug": "nixon-hire",
+    "website": "https://www.nixonhire.co.uk/depots/glasgow",
+    "phone": "0141 6478399",
+    "email": "glasgow@nixonhire.com",
+    "headOffice": "37 Downiebrae Road, Rutherglen, Glasgow G73 1PW",
+    "areasCovered": [
+      "Glasgow",
+      "Central Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Mains Toilet Units",
+      "Showers",
+      "Welfare Units",
+      "Toilet Servicing"
+    ],
+    "description": "Glasgow depot supplying chemical and accessible toilets, mains blocks, showers and welfare facilities for construction sites and events.",
+    "featured": false
+  },
+  {
+    "company": "SiteToilets.com",
+    "slug": "sitetoilets-com",
+    "website": "https://www.sitetoilets.com/portable-toilet-hire-glasgow.html",
+    "phone": "0333 121 1056",
+    "email": "info@sitetoilets.com",
+    "headOffice": "Waste Cloud Ltd, 30/2 Eskbank Office Complex, Dalkeith EH22 3NX",
+    "areasCovered": [
+      "Glasgow",
+      "Clydebank",
+      "Partick",
+      "Pollokshields",
+      "Bearsden",
+      "Greater Glasgow"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Urinals",
+      "Welfare Units"
+    ],
+    "description": "Nationwide booking provider supplying serviced construction, event, luxury and accessible toilets throughout Glasgow and nearby communities.",
+    "featured": false
+  },
+  {
+    "company": "Local Toilet Hire Ltd",
+    "slug": "local-toilet-hire",
+    "website": "https://www.localtoilethire.co.uk/portable-toilet-hire-glasgow/",
+    "phone": "0800 907 0086",
+    "email": "info@localtoilethire.co.uk",
+    "headOffice": "Sussex Chambers, 5 Liverpool Terrace, Worthing BN11 1TA",
+    "areasCovered": [
+      "Central Glasgow",
+      "Blackhill",
+      "Park District",
+      "Glasgow"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets"
+    ],
+    "description": "Nationwide supplier providing portable, event, site, accessible and luxury toilet hire throughout Glasgow.",
+    "featured": false
+  },
+  {
+    "company": "Toilet Hire 24/7",
+    "slug": "toilet-hire-247",
+    "website": "https://www.toilethire247.com/pages/toilet-hire-glasgow",
+    "phone": "0800 009 6520",
+    "email": "info@toilethire247.com",
+    "headOffice": "Unit 4, Coventry Road, Lutterworth",
+    "areasCovered": [
+      "Glasgow",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Showers"
+    ],
+    "description": "Nationwide supplier offering portable, construction, luxury and accessible toilet hire for Glasgow events, building projects and temporary workplaces.",
+    "featured": false
+  },
+  {
+    "company": "Waste King Portable Toilet Hire",
+    "slug": "waste-king-portable-toilet-hire",
+    "website": "https://wastekinghire.co.uk/areas-we-cover/1534-portable-toilet-hire-glasgow",
+    "phone": "03300 558308",
+    "email": "info@wasteking.co.uk",
+    "headOffice": "Unit 25 Airfield Industrial Estate, Long Marston, Cheddington HP23 4QR",
+    "areasCovered": [
+      "Glasgow",
+      "Surrounding areas",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Showers",
+      "Changing Rooms",
+      "Welfare Units",
+      "Waste Management"
+    ],
+    "description": "Nationwide supplier offering portable toilets, showers, changing rooms and regular servicing for Glasgow projects and events.",
+    "featured": false
+  },
+  {
+    "company": "SaniHire",
+    "slug": "sanihire",
+    "website": "https://sanihire.co.uk/",
+    "phone": "0330 043 7072",
+    "email": "enquiries@sanihire.co.uk",
+    "headOffice": "Newlands Farm, 24 Stroud Green Lane, Stubbington, Fareham PO14 2HT",
+    "areasCovered": [
+      "Glasgow",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Welfare Units",
+      "Toilet Blocks",
+      "Handwash Stations"
+    ],
+    "description": "Nationwide specialist supplying portable toilets, welfare units, toilet blocks and servicing for construction sites, commercial projects and events.",
+    "featured": false
+  },
+  {
+    "company": "Container Hire Services Ltd",
+    "slug": "container-hire-services",
+    "website": "https://chscontainer.co.uk/",
+    "phone": "0141 7740400",
+    "email": "",
+    "headOffice": "East Yard, 130 Blochairn Road, Glasgow G21 2DU",
+    "areasCovered": [
+      "Glasgow",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Toilet Blocks",
+      "Welfare Units",
+      "Portable Accommodation"
+    ],
+    "description": "Glasgow-based company specifically supplying portable toilets, toilet facilities and welfare accommodation alongside its container hire services.",
+    "featured": false
   }
 ]
