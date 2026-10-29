@@ -1,0 +1,30 @@
+{
+  "name": "Newcastle upon Tyne",
+  "nation": "England",
+  "region": "Tyne and Wear",
+  "description": "Compare portable toilet hire companies serving Newcastle upon Tyne and the surrounding Tyne and Wear area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Newcastle upon Tyne.",
+  "published": true,
+  "suppliers": [
+    "nixon-hire",
+    "castlewood-loo-hire",
+    "i-pee-loo-hire",
+    "deliverloo4u",
+    "cart-a-loo",
+    "border-facilities",
+    "border-group",
+    "maximus-hire-group",
+    "mobaloo",
+    "euroloo",
+    "sitetoilets-com",
+    "local-toilet-hire",
+    "waste-king-portable-toilet-hire",
+    "118-toilets",
+    "sanihire",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "portable-toilets-ltd",
+    "willbox",
+    "chippindale-plant-hire"
+  ]
+}
