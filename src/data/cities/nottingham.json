@@ -1,0 +1,30 @@
+{
+  "name": "Nottingham",
+  "nation": "England",
+  "region": "Nottinghamshire",
+  "description": "Compare portable toilet hire companies serving Nottingham and the surrounding Nottinghamshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Nottingham.",
+  "published": true,
+  "suppliers": [
+    "get-loos",
+    "thistle-loos",
+    "a1-mobile",
+    "midland-toilet-hire",
+    "srp-hire-solutions",
+    "sherwood-hire",
+    "nottinghamshire-loo-hire",
+    "dove-loos",
+    "loos-for-hire",
+    "jaloos",
+    "advance-tool-hire",
+    "emc-hire-group",
+    "sitetoilets-com",
+    "local-toilet-hire",
+    "waste-king-portable-toilet-hire",
+    "toilet-hire-247",
+    "euroloo",
+    "mammoth-hire",
+    "sanihire",
+    "national-toilet-hire"
+  ]
+}
