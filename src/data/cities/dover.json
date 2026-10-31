@@ -1,0 +1,30 @@
+{
+  "name": "Dover",
+  "nation": "England",
+  "region": "Kent",
+  "description": "Compare portable toilet hire companies serving Dover and the surrounding Kent area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Dover.",
+  "published": true,
+  "suppliers": [
+    "toilets-plus",
+    "express-toilet-hire",
+    "kent-toilet-hire",
+    "local-toilet-hire-kent",
+    "four-jays-group",
+    "elegance-toilet-hire",
+    "sitech-loos-london",
+    "mobile-thrones",
+    "toploo-event-hire",
+    "gigloo",
+    "letloos",
+    "crown-hire",
+    "toilet-provider-pros",
+    "sitetoilets-com",
+    "sanihire",
+    "waste-king-portable-toilet-hire",
+    "toilet-hire-247",
+    "118-toilets",
+    "brandon-hire-station",
+    "karmod-uk"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Grimsby",
+  "nation": "England",
+  "region": "Lincolnshire",
+  "description": "Compare portable toilet hire companies serving Grimsby and the surrounding Lincolnshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Grimsby.",
+  "published": true,
+  "suppliers": [
+    "bukaloo",
+    "lincs-county-loos",
+    "lincs-loos",
+    "ml-plant-toilet-hire",
+    "loos4u",
+    "shire-toilet-hire",
+    "grey-monkey",
+    "nicholls-loo-hire",
+    "euroloo",
+    "118-toilets",
+    "waste-king-portable-toilet-hire",
+    "welfare-hire-direct",
+    "toilet-provider-pros",
+    "portable-toilet-hire-uk",
+    "pro-portable-toilet-hire",
+    "local-toilet-hire",
+    "toilet-hire-247",
+    "sanihire",
+    "mammoth-hire",
+    "national-toilet-hire"
+  ]
+}
