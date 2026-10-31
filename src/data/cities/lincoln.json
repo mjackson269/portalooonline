@@ -1,0 +1,30 @@
+{
+  "name": "Lincoln",
+  "nation": "England",
+  "region": "Lincolnshire",
+  "description": "Compare portable toilet hire companies serving Lincoln and the surrounding Lincolnshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Lincoln.",
+  "published": true,
+  "suppliers": [
+    "grey-monkey",
+    "euroloo",
+    "bukaloo",
+    "jaloos",
+    "bates-environmental-enviro-loo",
+    "aqualoos",
+    "addplant",
+    "lincs-loos",
+    "get-loos",
+    "anglian-plant",
+    "hallmark-event-hire",
+    "5-star-loos",
+    "local-toilet-hire",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co"
+  ]
+}

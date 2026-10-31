@@ -1,0 +1,30 @@
+{
+  "name": "Norwich",
+  "nation": "England",
+  "region": "Norfolk",
+  "description": "Compare portable toilet hire companies serving Norwich and the surrounding Norfolk area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Norwich.",
+  "published": true,
+  "suppliers": [
+    "toilets-plus",
+    "elite-hire-company",
+    "morton-events",
+    "hallmark-event-hire",
+    "anglian-plant",
+    "classical-toilet-hire",
+    "colne-valley-luxury-toilets",
+    "cambridge-luxury-toilets",
+    "toilet-hire-247",
+    "local-toilet-hire",
+    "bates-environmental-enviro-loo",
+    "aqualoos",
+    "sanihire",
+    "sitetoilets-com",
+    "waste-king-portable-toilet-hire",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "118-toilets",
+    "andyloos"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Belfast",
+  "nation": "Northern Ireland",
+  "region": "County Antrim / County Down",
+  "description": "Compare portable toilet hire companies serving Belfast and the surrounding Northern Ireland area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Belfast.",
+  "published": true,
+  "suppliers": [
+    "david-johnston-environmental-services",
+    "kdm-hire",
+    "balloo-hire",
+    "cp-hire",
+    "cromore-events",
+    "cullear",
+    "cullen-hire",
+    "toilet-hire-247",
+    "local-toilet-hire",
+    "mammoth-hire",
+    "andyloos",
+    "dove-loos",
+    "sanihire",
+    "sitetoilets-com",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "118-toilets",
+    "waste-king-portable-toilet-hire",
+    "portable-space",
+    "hss-hire"
+  ]
+}
