@@ -1,0 +1,30 @@
+{
+  "name": "Great Yarmouth",
+  "nation": "England",
+  "region": "Norfolk",
+  "description": "Compare portable toilet hire companies serving Great Yarmouth and the surrounding Norfolk area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Great Yarmouth.",
+  "published": true,
+  "suppliers": [
+    "toilets-to-go",
+    "toilets-plus",
+    "pro-toilet-company",
+    "hallmark-event-hire",
+    "karzees",
+    "loopee-loo",
+    "capel-plant-holdings",
+    "posh-penny",
+    "morton-events",
+    "classical-toilet-hire",
+    "elite-hire-company",
+    "fine-loo-company",
+    "local-toilet-hire",
+    "euroloo",
+    "toilet-hire-247",
+    "welfare-hire-direct",
+    "eco-welfare",
+    "mammoth-hire",
+    "toilet-provider-pros",
+    "jw-munnings"
+  ]
+}
