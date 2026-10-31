@@ -1,0 +1,30 @@
+{
+  "name": "Northampton",
+  "nation": "England",
+  "region": "Northamptonshire",
+  "description": "Compare portable toilet hire companies serving Northampton and the surrounding Northamptonshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Northampton.",
+  "published": true,
+  "suppliers": [
+    "5-star-loos",
+    "alpha-toilets",
+    "thistle-loos",
+    "fortis-hire",
+    "toilets-plus",
+    "118-toilets",
+    "aqualoos",
+    "d-and-d-marquee-hire",
+    "hallmark-event-hire",
+    "local-toilet-hire",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "site-equip",
+    "andyloos",
+    "classical-toilet-hire"
+  ]
+}

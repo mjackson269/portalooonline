@@ -1,0 +1,30 @@
+{
+  "name": "Peterborough",
+  "nation": "England",
+  "region": "Cambridgeshire",
+  "description": "Compare portable toilet hire companies serving Peterborough and the surrounding Cambridgeshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Peterborough.",
+  "published": true,
+  "suppliers": [
+    "bates-environmental-enviro-loo",
+    "euroloo",
+    "toilets-plus",
+    "cambridge-luxury-toilets",
+    "aqualoos",
+    "classical-toilet-hire",
+    "hallmark-event-hire",
+    "5-star-loos",
+    "anglian-plant",
+    "d-and-d-marquee-hire",
+    "local-toilet-hire",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "site-equip",
+    "thistle-loos"
+  ]
+}
