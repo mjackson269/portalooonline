@@ -1,0 +1,30 @@
+{
+  "name": "Edinburgh",
+  "nation": "Scotland",
+  "region": "City of Edinburgh",
+  "description": "Compare portable toilet hire companies serving Edinburgh and the surrounding Lothians area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Edinburgh.",
+  "published": true,
+  "suppliers": [
+    "hireline",
+    "envirosan",
+    "loo-king",
+    "best-at-hire",
+    "bordaloo",
+    "border-group",
+    "classical-loo-company",
+    "craigievar-toilet-hire",
+    "andyloos",
+    "euroloo",
+    "sitetoilets-com",
+    "local-toilet-hire",
+    "toilet-hire-247",
+    "sanihire",
+    "waste-king-portable-toilet-hire",
+    "portable-toilets-ltd",
+    "callahead-portable-toilets",
+    "scotloo",
+    "honeywagon-co",
+    "nixon-hire"
+  ]
+}

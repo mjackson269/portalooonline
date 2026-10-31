@@ -1,0 +1,29 @@
+{
+  "name": "Aberdeen",
+  "nation": "Scotland",
+  "region": "Aberdeen City",
+  "description": "Compare portable toilet hire companies serving Aberdeen and the surrounding Aberdeenshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Aberdeen.",
+  "published": true,
+  "suppliers": [
+    "nixon-hire",
+    "scotloo",
+    "palmaris-plant-hire",
+    "craigievar-marquee-toilet-hire",
+    "deveron-loos",
+    "gph-builders-merchants",
+    "border-group",
+    "classical-loo-company",
+    "envirosan",
+    "event-a-loo",
+    "waste-king-portable-toilet-hire",
+    "local-toilet-hire",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "honeywagon-co",
+    "thistle-thrones",
+    "sanihire",
+    "sitetoilets-com"
+  ]
+}

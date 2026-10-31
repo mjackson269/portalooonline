@@ -6854,5 +6854,581 @@
     ],
     "description": "Glasgow-based company specifically supplying portable toilets, toilet facilities and welfare accommodation alongside its container hire services.",
     "featured": false
+  },
+  {
+    "company": "Hireline Ltd",
+    "slug": "hireline",
+    "website": "https://www.edinburghplanthire.com",
+    "phone": "0131 669 7660",
+    "email": "",
+    "headOffice": "Tranent, East Lothian",
+    "areasCovered": [
+      "Edinburgh",
+      "East Lothian",
+      "Midlothian",
+      "West Lothian",
+      "Fife",
+      "Scottish Borders"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Welfare Units",
+      "Toilet Servicing"
+    ],
+    "description": "Portable toilet and welfare hire across Edinburgh and central Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Best at Hire",
+    "slug": "best-at-hire",
+    "website": "https://www.bestathire.co.uk",
+    "phone": "0131 510 9292",
+    "email": "",
+    "headOffice": "Edinburgh",
+    "areasCovered": [
+      "Edinburgh",
+      "East Lothian",
+      "Midlothian",
+      "West Lothian"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Accessible Toilets",
+      "Hand Wash Stations"
+    ],
+    "description": "Edinburgh supplier providing portable toilets and site welfare facilities.",
+    "featured": false
+  },
+  {
+    "company": "Craigievar Toilet Hire",
+    "slug": "craigievar-toilet-hire",
+    "website": "https://www.craigievar.co.uk",
+    "phone": "019755 62222",
+    "email": "",
+    "headOffice": "Alford, Aberdeenshire",
+    "areasCovered": [
+      "Edinburgh",
+      "Aberdeenshire",
+      "Scotland"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Event Toilets",
+      "Accessible Toilets"
+    ],
+    "description": "Luxury toilet trailer hire for weddings, festivals and corporate events.",
+    "featured": false
+  },
+  {
+    "company": "AndyLoos",
+    "slug": "andyloos",
+    "website": "https://www.andyloos.co.uk",
+    "phone": "0800 612 9688",
+    "email": "",
+    "headOffice": "Kidderminster",
+    "areasCovered": [
+      "Edinburgh",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Showers"
+    ],
+    "description": "National sanitation supplier serving Edinburgh events and construction projects.",
+    "featured": false
+  },
+  {
+    "company": "Euroloo",
+    "slug": "euroloo",
+    "website": "https://www.euroloo.com",
+    "phone": "0800 611 6000",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Edinburgh",
+      "Scotland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Welfare Units",
+      "Toilet Servicing"
+    ],
+    "description": "National portable toilet and welfare unit provider serving Edinburgh.",
+    "featured": false
+  },
+  {
+    "company": "Portable Toilets Ltd",
+    "slug": "portable-toilets-ltd",
+    "website": "https://ptl.co.uk",
+    "phone": "01656 721721",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Edinburgh",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets"
+    ],
+    "description": "Portable toilet supplier serving construction and event customers throughout Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Callahead Portable Toilets",
+    "slug": "callahead-portable-toilets",
+    "website": "https://www.callahead.co.uk",
+    "phone": "0800 328 9963",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Edinburgh",
+      "Scotland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Welfare Units"
+    ],
+    "description": "Portable sanitation and welfare facilities supplier serving Edinburgh.",
+    "featured": false
+  },
+  {
+    "company": "Nixon Hire",
+    "slug": "nixon-hire",
+    "website": "https://www.nixonhire.co.uk/depots/aberdeen",
+    "phone": "01467 631 054",
+    "email": "aberdeen@nixonhire.com",
+    "headOffice": "Gauchhill, Kintore, Aberdeenshire AB51 0XQ",
+    "areasCovered": [
+      "Aberdeen City",
+      "Aberdeenshire",
+      "Moray",
+      "The Highlands"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Mains Toilet Units",
+      "Showers",
+      "Welfare Units",
+      "Toilet Servicing"
+    ],
+    "description": "Aberdeen depot supplying chemical and accessible toilets, mains units, showers and welfare facilities for construction projects and events.",
+    "featured": false
+  },
+  {
+    "company": "Scotloo",
+    "slug": "scotloo",
+    "website": "https://www.scotloo.co.uk/",
+    "phone": "01738 472002",
+    "email": "sales@scotloo.com",
+    "headOffice": "Riverview House, Friarton Road, Perth PH2 8DF",
+    "areasCovered": [
+      "Aberdeen",
+      "Aberdeenshire",
+      "Perthshire",
+      "Tayside",
+      "Angus",
+      "Fife",
+      "Central Belt"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Showers",
+      "Welfare Units",
+      "Toilet Blocks",
+      "Waste Management"
+    ],
+    "description": "Scottish supplier providing portable toilets, showers, welfare facilities and liquid-waste services across Aberdeenshire and other regions.",
+    "featured": false
+  },
+  {
+    "company": "Palmaris Plant Hire Ltd",
+    "slug": "palmaris-plant-hire",
+    "website": "https://www.palmarisplant.co.uk/",
+    "phone": "01224 782448",
+    "email": "",
+    "headOffice": "Portlethen, Aberdeenshire",
+    "areasCovered": [
+      "Aberdeen",
+      "Aberdeenshire"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Welfare Units",
+      "Mains Toilet Blocks"
+    ],
+    "description": "Portlethen plant-hire company specifically supplying portable toilets, self-contained welfare units and mains toilet blocks around Aberdeen.",
+    "featured": false
+  },
+  {
+    "company": "Craigievar Marquee & Toilet Hire",
+    "slug": "craigievar-marquee-toilet-hire",
+    "website": "https://www.craigievar.co.uk/",
+    "phone": "01975 562222",
+    "email": "",
+    "headOffice": "Alford, Aberdeenshire",
+    "areasCovered": [
+      "Aberdeen",
+      "Aberdeenshire",
+      "Edinburgh area"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Event Toilets",
+      "Wedding Toilets"
+    ],
+    "description": "Family-run Aberdeenshire business supplying decorated toilet units with running water and lighting for weddings and country shows.",
+    "featured": false
+  },
+  {
+    "company": "Deveron Loos",
+    "slug": "deveron-loos",
+    "website": "https://www.deveronloos.co.uk/",
+    "phone": "01888 563267",
+    "email": "",
+    "headOffice": "Turriff, Aberdeenshire",
+    "areasCovered": [
+      "Turriff",
+      "Aberdeen",
+      "Aberdeenshire"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Chemical Toilets"
+    ],
+    "description": "Turriff operator providing chemical toilets and smarter event units for shows, Highland gatherings and private functions across Aberdeenshire.",
+    "featured": false
+  },
+  {
+    "company": "GPH Builders Merchants",
+    "slug": "gph-builders-merchants",
+    "website": "https://www.gph.uk.com/",
+    "phone": "01467 620506",
+    "email": "",
+    "headOffice": "Inverurie, Aberdeenshire",
+    "areasCovered": [
+      "Inverurie",
+      "Aberdeen",
+      "Aberdeenshire"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Welfare Units"
+    ],
+    "description": "Builders merchant and plant-hire company specifically offering cold-wash portable toilets and welfare units for Aberdeenshire sites.",
+    "featured": false
+  },
+  {
+    "company": "Border Group Ltd",
+    "slug": "border-group",
+    "website": "https://www.bordergroupltd.com/",
+    "phone": "01573 401577",
+    "email": "sales@bordergroupltd.com",
+    "headOffice": "Woodlands, Brampton Road, Longtown, Carlisle CA6 5TR",
+    "areasCovered": [
+      "Aberdeen",
+      "Scotland",
+      "Northern England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Urinals",
+      "Showers",
+      "Welfare Units"
+    ],
+    "description": "Regional and nationwide supplier offering toilets, luxury trailers, showers and welfare units for sites and events throughout Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Classical Loo Company",
+    "slug": "classical-loo-company",
+    "website": "https://clc-events.com/",
+    "phone": "01307 818190",
+    "email": "info@clc-events.com",
+    "headOffice": "Auld Barn House, Fonah, Forfar DD8 2SB",
+    "areasCovered": [
+      "Aberdeen",
+      "Aberdeenshire",
+      "Scotland"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Wedding Toilets",
+      "Accessible Toilets",
+      "Event Toilets"
+    ],
+    "description": "Luxury toilet specialist delivering heated self-contained trailers and accessible facilities to weddings, estates and events across Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Envirosan Ltd",
+    "slug": "envirosan",
+    "website": "https://envirosan.co.uk/",
+    "phone": "01555 759511",
+    "email": "enquiries@envirosan.co.uk",
+    "headOffice": "Castlehill Industrial Estate, 10 Craignethan Road, Carluke ML8 5WB",
+    "areasCovered": [
+      "Aberdeen",
+      "Scottish Mainland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Welfare Units",
+      "Toilet Servicing",
+      "Septic Tank Emptying"
+    ],
+    "description": "Scottish sanitation specialist supplying portable toilets and welfare units, with servicing and septic-tank emptying across the mainland.",
+    "featured": false
+  },
+  {
+    "company": "Event-a-Loo Ltd",
+    "slug": "event-a-loo",
+    "website": "https://www.event-a-loo.co.uk/",
+    "phone": "01698 791426",
+    "email": "",
+    "headOffice": "Lanarkshire, Scotland",
+    "areasCovered": [
+      "Aberdeen",
+      "Aberdeenshire",
+      "Scotland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Toilet Blocks",
+      "Showers",
+      "Urinals",
+      "Attendant Service"
+    ],
+    "description": "Family business supplying portable and luxury toilets, showers and attendant services for events throughout Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Waste King Portable Toilet Hire",
+    "slug": "waste-king-portable-toilet-hire",
+    "website": "https://wastekinghire.co.uk/areas-we-cover/1330-portable-toilet-hire-aberdeen",
+    "phone": "03300 558308",
+    "email": "info@wasteking.co.uk",
+    "headOffice": "Unit 25 Airfield Industrial Estate, Long Marston, Cheddington HP23 4QR",
+    "areasCovered": [
+      "Aberdeen",
+      "Surrounding areas",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Showers",
+      "Changing Rooms",
+      "Welfare Units",
+      "Toilet Servicing"
+    ],
+    "description": "Nationwide supplier providing portable toilets, showers, changing rooms and regular servicing for Aberdeen projects and events.",
+    "featured": false
+  },
+  {
+    "company": "Local Toilet Hire Ltd",
+    "slug": "local-toilet-hire",
+    "website": "https://www.localtoilethire.co.uk/portable-toilet-hire-aberdeen/",
+    "phone": "0800 907 0086",
+    "email": "info@localtoilethire.co.uk",
+    "headOffice": "Sussex Chambers, 5 Liverpool Terrace, Worthing BN11 1TA",
+    "areasCovered": [
+      "Central Aberdeen",
+      "West End",
+      "Braeside",
+      "Aberdeen"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets"
+    ],
+    "description": "Nationwide supplier providing site, event, accessible and luxury portable toilet hire throughout Aberdeen.",
+    "featured": false
+  },
+  {
+    "company": "Mammoth Hire",
+    "slug": "mammoth-hire",
+    "website": "https://www.mammoth-hire.co.uk/portable-toilet-hire/aberdeen/",
+    "phone": "0800 808 9600",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Aberdeen",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets"
+    ],
+    "description": "Nationwide hire platform delivering standard and accessible portable toilets to construction sites and public events in Aberdeen.",
+    "featured": false
+  },
+  {
+    "company": "Welfare Hire Direct",
+    "slug": "welfare-hire-direct",
+    "website": "https://www.welfarehiredirect.co.uk/welfare-units/welfare-unit-hire-aberdeen/",
+    "phone": "0800 061 4202",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Aberdeen",
+      "Surrounding areas",
+      "United Kingdom"
+    ],
+    "services": [
+      "Welfare Units",
+      "Flushing Toilets",
+      "Canteens",
+      "Drying Rooms",
+      "Site Offices"
+    ],
+    "description": "Nationwide provider of solar-powered mobile welfare units with flushing toilets, kitchens, drying rooms and office space for Aberdeen sites.",
+    "featured": false
+  },
+  {
+    "company": "The Welfare Hire Co",
+    "slug": "the-welfare-hire-co",
+    "website": "https://www.thewelfarehireco.co.uk/eco-solar-welfare-units/welfare-unit-hire-aberdeen/",
+    "phone": "0800 047 1747",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Aberdeen",
+      "United Kingdom"
+    ],
+    "services": [
+      "Welfare Units",
+      "Flushing Toilets",
+      "Showers",
+      "Kitchens",
+      "Rest Areas"
+    ],
+    "description": "Eco-focused supplier hiring solar welfare cabins with toilets, kitchens and rest facilities for Aberdeen construction and temporary workplaces.",
+    "featured": false
+  },
+  {
+    "company": "Honeywagon Co.",
+    "slug": "honeywagon-co",
+    "website": "https://honeywagonco.com/",
+    "phone": "01360 828824",
+    "email": "hello@honeywagonco.com",
+    "headOffice": "90-96 North Street, Alexandria, Loch Lomond G83 0EB",
+    "areasCovered": [
+      "Aberdeen",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Showers",
+      "Urinals",
+      "Welfare Units",
+      "Tanker Services"
+    ],
+    "description": "Scottish facilities specialist supplying toilets, showers and welfare units for events, festivals, film and television productions.",
+    "featured": false
+  },
+  {
+    "company": "Thistle Thrones Ltd",
+    "slug": "thistle-thrones",
+    "website": "https://www.thistlethrones.co.uk/",
+    "phone": "07745 372774",
+    "email": "info@thistlethrones.co.uk",
+    "headOffice": "Hillhead Farm, Glen of Newmill, Keith AB55 6XE",
+    "areasCovered": [
+      "Aberdeen",
+      "Aberdeenshire",
+      "Scotland"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Baby-Changing Toilets",
+      "Event Toilets"
+    ],
+    "description": "North-east Scotland luxury toilet company supplying premium trailers and accessible baby-changing facilities for weddings and events.",
+    "featured": false
+  },
+  {
+    "company": "SaniHire",
+    "slug": "sanihire",
+    "website": "https://sanihire.co.uk/",
+    "phone": "0330 043 7072",
+    "email": "enquiries@sanihire.co.uk",
+    "headOffice": "Newlands Farm, 24 Stroud Green Lane, Stubbington, Fareham PO14 2HT",
+    "areasCovered": [
+      "Aberdeen",
+      "Scotland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Welfare Units",
+      "Toilet Blocks",
+      "Handwash Stations"
+    ],
+    "description": "Nationwide specialist supplying portable toilets, welfare units, toilet blocks and servicing for construction sites, commercial projects and events.",
+    "featured": false
+  },
+  {
+    "company": "SiteToilets.com",
+    "slug": "sitetoilets-com",
+    "website": "https://www.sitetoilets.com/",
+    "phone": "0333 121 1056",
+    "email": "info@sitetoilets.com",
+    "headOffice": "Waste Cloud Ltd, 30/2 Eskbank Office Complex, Dalkeith EH22 3NX",
+    "areasCovered": [
+      "Aberdeen",
+      "Aberdeenshire",
+      "Scotland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Urinals",
+      "Welfare Units"
+    ],
+    "description": "Booking provider arranging serviced portable, event, luxury and accessible toilets plus welfare facilities for Aberdeen customers.",
+    "featured": false
   }
 ]
