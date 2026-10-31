@@ -1,0 +1,30 @@
+{
+  "name": "Derry/Londonderry",
+  "nation": "Northern Ireland",
+  "region": "County Londonderry",
+  "description": "Compare portable toilet hire companies serving Derry/Londonderry and the surrounding North West.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Derry/Londonderry.",
+  "published": true,
+  "suppliers": [
+    "borderloo-toilet-hire",
+    "cp-hire",
+    "cromore-events",
+    "cullear",
+    "cullen-hire",
+    "david-johnston-environmental",
+    "balloo-hire-centres",
+    "kdm-hire",
+    "u-hire-ni",
+    "drain-jetters-ni",
+    "sloan-environmental",
+    "norspace-hire",
+    "rj-welfare",
+    "local-toilet-hire",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "mammoth-hire",
+    "national-tool-hire-shops",
+    "sanihire",
+    "speedy-hire"
+  ]
+}

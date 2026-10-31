@@ -1,0 +1,30 @@
+{
+  "name": "Portsmouth",
+  "nation": "England",
+  "region": "Hampshire",
+  "description": "Compare portable toilet hire companies serving Portsmouth and the surrounding Hampshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Portsmouth.",
+  "published": true,
+  "suppliers": [
+    "hampshire-toilet-hire",
+    "convenient-hire",
+    "beaver-tool-hire",
+    "site-equip",
+    "premierplus-toilet-hire",
+    "ace-loos",
+    "deliverlooz",
+    "l-and-s-waste-management",
+    "sussex-toilets",
+    "gigloo",
+    "just-loos",
+    "toilets-plus",
+    "sitetoilets-com",
+    "local-toilet-hire",
+    "euroloo",
+    "welfare-hire-direct",
+    "waste-king-portable-toilet-hire",
+    "sanihire",
+    "portable-toilet-hire-uk",
+    "toilet-provider-pros"
+  ]
+}
