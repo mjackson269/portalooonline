@@ -1,0 +1,28 @@
+{
+  "name": "Sunderland",
+  "nation": "England",
+  "region": "Tyne and Wear",
+  "description": "Compare portable toilet hire companies serving Sunderland and the surrounding North East area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Sunderland.",
+  "published": true,
+  "suppliers": [
+    "castlewood-loo-hire",
+    "deliverloo4u",
+    "dac-toilet-hire",
+    "local-toilet-hire",
+    "118-toilets",
+    "border-group-borderloos",
+    "cart-a-loo",
+    "border-facilities",
+    "classic-chambers",
+    "chippindale-plant",
+    "mammoth-hire",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "andyloos"
+  ]
+}

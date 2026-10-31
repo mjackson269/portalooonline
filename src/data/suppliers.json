@@ -13485,5 +13485,415 @@
     ],
     "description": "National hire company specifically offering serviced portable toilets and site welfare facilities through its Belfast service network.",
     "featured": false
+  },
+  {
+    "company": "Castlewood Loo Hire",
+    "slug": "castlewood-loo-hire",
+    "website": "https://north-east-loo-hire.co.uk/portable-toilet-hire-sunderland.html",
+    "phone": "01388 731999",
+    "email": "",
+    "headOffice": "Tow Law, County Durham",
+    "areasCovered": [
+      "Sunderland",
+      "Seaburn",
+      "Whitburn",
+      "South Shields",
+      "Boldon",
+      "Herrington",
+      "Houghton-le-Spring",
+      "Ryhope",
+      "Doxford Park",
+      "Penshaw",
+      "Washington"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Handwash Facilities"
+    ],
+    "description": "North East event specialist supplying fully serviced portable toilets, accessible units and urinals across Sunderland and surrounding communities.",
+    "featured": false
+  },
+  {
+    "company": "DeliverLoo4U",
+    "slug": "deliverloo4u",
+    "website": "https://deliverloo4u.co.uk/portaloo-hire-sunderland/",
+    "phone": "07834 196148",
+    "email": "deliverloo4u@gmail.com",
+    "headOffice": "Prudhoe, Northumberland",
+    "areasCovered": [
+      "Sunderland",
+      "North East England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets",
+      "Baby-Changing Units",
+      "Toilet Servicing",
+      "Septic Tank Emptying"
+    ],
+    "description": "North East supplier providing standard, luxury and accessible toilets for Sunderland sites and events, including servicing and tank emptying.",
+    "featured": false
+  },
+  {
+    "company": "DAC Toilet Hire",
+    "slug": "dac-toilet-hire",
+    "website": "https://www.dactoilethire.co.uk/",
+    "phone": "03333 355307",
+    "email": "orders@dactoilethire.co.uk",
+    "headOffice": "Durham Road, Birtley DH3 2TB",
+    "areasCovered": [
+      "Sunderland",
+      "Tyne and Wear",
+      "County Durham",
+      "North of England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Welfare Units",
+      "Toilet Servicing",
+      "Tank Emptying"
+    ],
+    "description": "Birtley specialist supplying portable toilets and welfare units with scheduled servicing across Sunderland and Northern England.",
+    "featured": false
+  },
+  {
+    "company": "Local Toilet Hire Ltd",
+    "slug": "local-toilet-hire",
+    "website": "https://www.localtoilethire.co.uk/portable-toilet-hire-sunderland/",
+    "phone": "0800 9070086",
+    "email": "info@localtoilethire.co.uk",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Central Sunderland",
+      "Roker",
+      "Castletown",
+      "Sunderland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets"
+    ],
+    "description": "Supplier providing construction, event, accessible and luxury portable toilet hire throughout Sunderland.",
+    "featured": false
+  },
+  {
+    "company": "118 Toilets",
+    "slug": "118-toilets",
+    "website": "https://www.118toilets.com/portable-toilet-hire/portable-toilet-hire-sunderland/",
+    "phone": "0800 1181931",
+    "email": "",
+    "headOffice": "Sunderland depot",
+    "areasCovered": [
+      "Sunderland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Weekly Servicing"
+    ],
+    "description": "Sunderland service supplying short and long-term portable toilets with next-day delivery and weekly servicing.",
+    "featured": false
+  },
+  {
+    "company": "Border Group Ltd (Borderloos)",
+    "slug": "border-group-borderloos",
+    "website": "https://www.borderloos.co.uk/",
+    "phone": "01228 792449",
+    "email": "",
+    "headOffice": "Carlisle, Cumbria",
+    "areasCovered": [
+      "Sunderland",
+      "Northern England",
+      "Cumbria",
+      "Scotland"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Urinals",
+      "Showers",
+      "Welfare Units"
+    ],
+    "description": "Carlisle operator supplying portable sanitation, luxury trailers, showers and welfare units across Northern England and Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Cart-a-Loo",
+    "slug": "cart-a-loo",
+    "website": "https://www.cartaloo.co.uk/",
+    "phone": "01434 606606",
+    "email": "",
+    "headOffice": "Hexham, Northumberland",
+    "areasCovered": [
+      "Sunderland",
+      "Northumberland",
+      "North of England"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Event Toilets",
+      "Mobile Showers",
+      "Refrigerated Trailers"
+    ],
+    "description": "Family-run Hexham company hiring luxury toilets and shower units for weddings, festivals and corporate events across Northern England.",
+    "featured": false
+  },
+  {
+    "company": "Border Facilities",
+    "slug": "border-facilities",
+    "website": "https://www.borderfacilities.co.uk/",
+    "phone": "01665 579222",
+    "email": "",
+    "headOffice": "Alnwick, Northumberland",
+    "areasCovered": [
+      "Sunderland",
+      "Northumberland",
+      "Scottish Borders"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Event Toilets",
+      "Wedding Toilets"
+    ],
+    "description": "Alnwick-area supplier hiring self-contained luxury toilet trailers for weddings, festivals, sporting events and productions.",
+    "featured": false
+  },
+  {
+    "company": "Classic Chambers",
+    "slug": "classic-chambers",
+    "website": "https://www.classicchambers.co.uk/",
+    "phone": "01228 711962",
+    "email": "",
+    "headOffice": "Southwaite, Carlisle",
+    "areasCovered": [
+      "Sunderland",
+      "Northern England",
+      "Cumbria",
+      "Southern Scotland"
+    ],
+    "services": [
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Event Toilets",
+      "Wedding Toilets"
+    ],
+    "description": "Northern events specialist hiring luxury and accessible toilet trailers across Cumbria, Northern England and Southern Scotland.",
+    "featured": false
+  },
+  {
+    "company": "Chippindale Plant",
+    "slug": "chippindale-plant",
+    "website": "https://www.chippindale-plant.co.uk/",
+    "phone": "0113 2632344",
+    "email": "",
+    "headOffice": "Leeds, West Yorkshire",
+    "areasCovered": [
+      "Sunderland",
+      "North of England"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Welfare Units",
+      "Mobile Welfare Units"
+    ],
+    "description": "Plant-hire company specifically supplying portable toilets and mobile welfare facilities across the North of England.",
+    "featured": false
+  },
+  {
+    "company": "Mammoth Hire",
+    "slug": "mammoth-hire",
+    "website": "https://www.mammoth-hire.co.uk/portable-toilet-hire/sunderland/",
+    "phone": "0800 8089600",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Sunderland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets"
+    ],
+    "description": "Hire platform delivering standard and accessible portable toilets to construction sites and public events in Sunderland.",
+    "featured": false
+  },
+  {
+    "company": "SaniHire",
+    "slug": "sanihire",
+    "website": "https://sanihire.co.uk/",
+    "phone": "0330 0437072",
+    "email": "enquiries@sanihire.co.uk",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Sunderland",
+      "Tyne and Wear",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Accessible Toilets",
+      "Welfare Units",
+      "Toilet Blocks",
+      "Handwash Stations"
+    ],
+    "description": "Nationwide specialist supplying toilets, welfare units, toilet blocks and servicing for construction sites, commercial projects and events.",
+    "featured": false
+  },
+  {
+    "company": "SiteToilets.com",
+    "slug": "sitetoilets-com",
+    "website": "https://www.sitetoilets.com/",
+    "phone": "0333 1211056",
+    "email": "info@sitetoilets.com",
+    "headOffice": "Waste Cloud Ltd, Dalkeith EH22 3NX",
+    "areasCovered": [
+      "Sunderland",
+      "Tyne and Wear",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Urinals",
+      "Welfare Units"
+    ],
+    "description": "Booking provider arranging serviced portable, luxury and accessible toilets plus welfare facilities for Sunderland customers.",
+    "featured": false
+  },
+  {
+    "company": "Toilet Hire 24/7",
+    "slug": "toilet-hire-247",
+    "website": "https://www.toilethire247.com/",
+    "phone": "0800 0096520",
+    "email": "info@toilethire247.com",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Sunderland",
+      "Tyne and Wear",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilets",
+      "Accessible Toilets",
+      "Urinals",
+      "Showers"
+    ],
+    "description": "Supplier offering standard, luxury and accessible toilets, urinals and showers for Sunderland sites and events.",
+    "featured": false
+  },
+  {
+    "company": "Waste King Portable Toilet Hire",
+    "slug": "waste-king-portable-toilet-hire",
+    "website": "https://wastekinghire.co.uk/",
+    "phone": "03300 558308",
+    "email": "info@wasteking.co.uk",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Sunderland",
+      "Tyne and Wear",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Showers",
+      "Changing Rooms",
+      "Welfare Units",
+      "Waste Management"
+    ],
+    "description": "Provider supplying portable toilets, showers, changing rooms and sanitation servicing for Sunderland projects and events.",
+    "featured": false
+  },
+  {
+    "company": "Welfare Hire Direct",
+    "slug": "welfare-hire-direct",
+    "website": "https://www.welfarehiredirect.co.uk/welfare-units/welfare-unit-hire-sunderland/",
+    "phone": "0800 0614202",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Sunderland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Welfare Units",
+      "Flushing Toilets",
+      "Canteens",
+      "Drying Rooms",
+      "Site Offices"
+    ],
+    "description": "Provider of mobile welfare units with flushing toilets, kitchens, drying rooms and office space for Sunderland sites.",
+    "featured": false
+  },
+  {
+    "company": "The Welfare Hire Co",
+    "slug": "the-welfare-hire-co",
+    "website": "https://www.thewelfarehireco.co.uk/eco-solar-welfare-units/welfare-unit-hire-sunderland/",
+    "phone": "0800 0471747",
+    "email": "",
+    "headOffice": "United Kingdom",
+    "areasCovered": [
+      "Sunderland",
+      "United Kingdom"
+    ],
+    "services": [
+      "Welfare Units",
+      "Flushing Toilets",
+      "Showers",
+      "Kitchens",
+      "Rest Areas"
+    ],
+    "description": "Supplier hiring solar welfare cabins with toilets, kitchens and rest facilities for Sunderland construction and temporary workplaces.",
+    "featured": false
+  },
+  {
+    "company": "AndyLoos",
+    "slug": "andyloos",
+    "website": "https://www.andyloos.co.uk/",
+    "phone": "0800 6129688",
+    "email": "",
+    "headOffice": "Kidderminster, Worcestershire",
+    "areasCovered": [
+      "Sunderland",
+      "North East England",
+      "United Kingdom"
+    ],
+    "services": [
+      "Portable Toilets",
+      "Construction Site Toilets",
+      "Event Toilets",
+      "Luxury Toilet Trailers",
+      "Accessible Toilets",
+      "Showers"
+    ],
+    "description": "National operator supplying portable toilets, luxury trailers, accessible units and showers for construction and events.",
+    "featured": false
   }
 ]
