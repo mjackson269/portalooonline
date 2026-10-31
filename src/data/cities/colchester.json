@@ -1,0 +1,30 @@
+{
+  "name": "Colchester",
+  "nation": "England",
+  "region": "Essex",
+  "description": "Compare portable toilet hire companies serving Colchester and the surrounding Essex area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Colchester.",
+  "published": true,
+  "suppliers": [
+    "capel-plant-holdings",
+    "j-and-s-toilet-hire",
+    "toilets-plus",
+    "colne-valley-luxury-toilets",
+    "crown-hire",
+    "bees-knees-karsees",
+    "cambridge-luxury-toilets",
+    "classical-toilet-hire",
+    "hallmark-event-hire",
+    "wc-portables",
+    "elegance-services",
+    "local-toilet-hire",
+    "site-equip",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co"
+  ]
+}

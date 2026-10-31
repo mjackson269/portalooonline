@@ -1,0 +1,30 @@
+{
+  "name": "Brighton",
+  "nation": "England",
+  "region": "East Sussex",
+  "description": "Compare portable toilet hire companies serving Brighton and the surrounding Sussex area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Brighton.",
+  "published": true,
+  "suppliers": [
+    "sussex-toilets",
+    "sussex-loos",
+    "a-royal-flush",
+    "toilets-plus",
+    "festival-toilets-sussex",
+    "loos-for-dos",
+    "local-toilet-hire",
+    "site-equip",
+    "premierplus-toilet-hire",
+    "ace-loos",
+    "just-loos",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "118-toilets",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "andyloos"
+  ]
+}

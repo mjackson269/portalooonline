@@ -1,0 +1,30 @@
+{
+  "name": "Cambridge",
+  "nation": "England",
+  "region": "Cambridgeshire",
+  "description": "Compare portable toilet hire companies serving Cambridge and the surrounding Cambridgeshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Cambridge.",
+  "published": true,
+  "suppliers": [
+    "cambridge-luxury-toilets",
+    "toilets-plus",
+    "site-equip",
+    "aqualoos",
+    "hallmark-event-hire",
+    "classical-toilet-hire",
+    "colne-valley-luxury-toilets",
+    "wc-portables",
+    "ideal-event-hire",
+    "owens-luxury-loos",
+    "latta-hire",
+    "anglian-plant",
+    "local-toilet-hire",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co"
+  ]
+}
