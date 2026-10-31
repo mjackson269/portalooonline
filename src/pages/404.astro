@@ -1,0 +1,54 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Page not found | Portaloo Online"
+  description="That page could not be found."
+  noindex
+>
+  <section class="not-found">
+    <div class="container">
+      <p class="code">404</p>
+      <h1>We couldn't find that page</h1>
+      <p>The page may have moved, or that location isn't listed yet.</p>
+      <a href="/locations/">Browse all locations</a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .not-found {
+    padding: 120px 0;
+    text-align: center;
+  }
+
+  .code {
+    margin: 0;
+    color: #2563eb;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+  }
+
+  .not-found h1 {
+    margin: 12px 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    letter-spacing: -0.03em;
+  }
+
+  .not-found p {
+    color: #64748b;
+  }
+
+  .not-found a {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 20px;
+    background: #2563eb;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+</style>

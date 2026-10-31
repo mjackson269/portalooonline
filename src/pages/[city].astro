@@ -11,15 +11,59 @@ export function getStaticPaths() {
 
 const { city } = Astro.props;
 const suppliers = city.suppliers;
+const count = suppliers.length;
 
-const pageTitle = `Portaloo Hire ${city.name} | Portaloo Online`;
-const description = `Compare portable toilet hire companies serving ${city.name} and the surrounding ${city.region} area.`;
+const callNumber = (phone: string) => phone.split(/[;,]/)[0].trim();
+
+const nearby = getCities()
+  .filter((c) => c.slug !== city.slug && c.region === city.region)
+  .slice(0, 8);
+
+const pageTitle = `Portaloo Hire ${city.name}: ${count} ${
+  count === 1 ? "Supplier" : "Suppliers"
+} Compared | Portaloo Online`;
+
+const description = `Compare portable toilet hire companies serving ${city.name} and ${city.region}, for events, building sites and weddings. Contact suppliers direct for prices.`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site).href },
+        { "@type": "ListItem", position: 2, name: "Locations", item: new URL("/locations/", Astro.site).href },
+        { "@type": "ListItem", position: 3, name: city.name, item: new URL(`/${city.slug}/`, Astro.site).href },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      name: `Portable toilet hire companies in ${city.name}`,
+      numberOfItems: count,
+      itemListElement: suppliers.map((s, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: s.company,
+        ...(s.website ? { url: s.website } : {}),
+      })),
+    },
+  ],
+};
 ---
 
 <Layout title={pageTitle} description={description}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
   <section class="page-hero">
     <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span>/</span>
+        <a href="/locations/">Locations</a>
+        <span>/</span>
+        <span aria-current="page">{city.name}</span>
+      </nav>
+
       <span class="eyebrow">{city.region} suppliers</span>
 
       <h1>Portaloo Hire {city.name}</h1>
@@ -30,7 +74,7 @@ const description = `Compare portable toilet hire companies serving ${city.name}
       </p>
 
       <div class="summary">
-        <strong>{suppliers.length}</strong>
+        <strong>{count}</strong>
         <span>suppliers currently listed</span>
       </div>
     </div>
@@ -82,9 +126,9 @@ const description = `Compare portable toilet hire companies serving ${city.name}
               {supplier.phone && (
                 <a
                   class="phone-button"
-                  href={`tel:${supplier.phone.replace(/\s/g, "")}`}
+                  href={`tel:${callNumber(supplier.phone).replace(/\s/g, "")}`}
                 >
-                  Call {supplier.phone}
+                  Call {callNumber(supplier.phone)}
                 </a>
               )}
 
@@ -106,6 +150,22 @@ const description = `Compare portable toilet hire companies serving ${city.name}
 
     </div>
   </section>
+
+  {nearby.length > 0 && (
+    <section class="nearby">
+      <div class="container">
+        <h2>Portable toilet hire nearby</h2>
+
+        <ul class="nearby-links">
+          {nearby.map((n) => (
+            <li>
+              <a href={`/${n.slug}/`}>{n.name}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
 
 </Layout>
 
@@ -333,5 +393,58 @@ const description = `Compare portable toilet hire companies serving ${city.name}
     .supplier-contact a {
       width: 100%;
     }
+  }
+    .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+    color: #64748b;
+    font-size: 0.85rem;
+  }
+
+  .breadcrumb a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+
+  .nearby {
+    padding: 0 0 80px;
+  }
+
+  .nearby h2 {
+    margin: 0 0 18px;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+
+  .nearby-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nearby-links a {
+    display: inline-block;
+    padding: 9px 16px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    color: #1e293b;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .nearby-links a:hover {
+    border-color: #2563eb;
+    color: #2563eb;
   }
 </style>
