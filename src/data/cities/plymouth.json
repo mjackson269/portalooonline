@@ -1,0 +1,30 @@
+{
+  "name": "Plymouth",
+  "nation": "England",
+  "region": "Devon",
+  "description": "Compare portable toilet hire companies serving Plymouth and the surrounding Devon area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Plymouth.",
+  "published": true,
+  "suppliers": [
+    "euroloo",
+    "tardis-environmental",
+    "south-west-loos",
+    "devonshire-luxury-loos",
+    "premier-luxury-loos",
+    "portable-toilets-ltd",
+    "local-toilet-hire",
+    "waste-king-portable-toilet-hire",
+    "toilet-hire-247",
+    "mammoth-hire",
+    "sanihire",
+    "sitetoilets-com",
+    "andyloos",
+    "118-toilets",
+    "site-equip",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "dainton-portable-buildings",
+    "devon-toilet-hire",
+    "wight-event-toilets"
+  ]
+}

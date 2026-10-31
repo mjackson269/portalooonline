@@ -1,0 +1,30 @@
+{
+  "name": "Southampton",
+  "nation": "England",
+  "region": "Hampshire",
+  "description": "Compare portable toilet hire companies serving Southampton and the surrounding Hampshire area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Southampton.",
+  "published": true,
+  "suppliers": [
+    "hampshire-toilet-hire",
+    "hampshire-toilets",
+    "premierplus-toilet-hire",
+    "toilets-plus",
+    "a-star-loo-hire",
+    "ace-loos",
+    "just-loos",
+    "loos-for-dos",
+    "kt-loos",
+    "rob-beale",
+    "local-toilet-hire",
+    "site-equip",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "waste-king-portable-toilet-hire",
+    "118-toilets",
+    "mammoth-hire",
+    "welfare-hire-direct",
+    "the-welfare-hire-co"
+  ]
+}

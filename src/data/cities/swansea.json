@@ -1,0 +1,30 @@
+{
+  "name": "Swansea",
+  "nation": "Wales",
+  "region": "West Glamorgan",
+  "description": "Compare portable toilet hire companies serving Swansea and the surrounding South Wales area.",
+  "intro": "Find portable toilets for construction sites, festivals, weddings, private events and temporary workplaces across Swansea.",
+  "published": true,
+  "suppliers": [
+    "city-loo-hire",
+    "portable-toilets-ltd",
+    "euroloo",
+    "a1-loo-hire",
+    "br-toilet-hire",
+    "local-toilet-hire",
+    "a-star-all-solutions",
+    "andyloos",
+    "dainton-portable-buildings",
+    "dove-loos",
+    "waste-king-portable-toilet-hire",
+    "sanihire",
+    "sitetoilets-com",
+    "toilet-hire-247",
+    "mammoth-hire",
+    "118-toilets",
+    "site-equip",
+    "welfare-hire-direct",
+    "the-welfare-hire-co",
+    "pro-portable-toilet-hire"
+  ]
+}
