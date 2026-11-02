@@ -16,12 +16,27 @@ export interface Supplier {
 
 type SupplierRef = Partial<Supplier> & { slug: string };
 
+export interface UseCase {
+  title: string;
+  body: string;
+}
+
+export interface Faq {
+  q: string;
+  a: string;
+}
+
 interface CityFile {
   name: string;
   nation: string;
   region: string;
   description: string;
   intro?: string;
+  areasIntro?: string;
+  areas?: string[];
+  useCases?: UseCase[];
+  pricing?: string;
+  faqs?: Faq[];
   published?: boolean;
   suppliers: (string | SupplierRef)[];
 }
@@ -33,6 +48,11 @@ export interface City {
   region: string;
   description: string;
   intro: string;
+  areasIntro: string;
+  areas: string[];
+  useCases: UseCase[];
+  pricing: string;
+  faqs: Faq[];
   suppliers: Supplier[];
 }
 
@@ -91,6 +111,11 @@ export function getCities(): City[] {
         region: file.region,
         description: file.description,
         intro: file.intro ?? "",
+        areasIntro: file.areasIntro ?? "",
+        areas: file.areas ?? [],
+        useCases: file.useCases ?? [],
+        pricing: file.pricing ?? "",
+        faqs: file.faqs ?? [],
         suppliers,
         published: file.published !== false,
       };

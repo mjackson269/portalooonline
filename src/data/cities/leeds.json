@@ -4,6 +4,53 @@
   "region": "West Yorkshire",
   "description": "Find portable toilet, event toilet and welfare unit suppliers serving Leeds.",
   "intro": "",
+  "areasIntro": "Suppliers listed here deliver across Leeds and much of West Yorkshire, including Bradford, Wakefield, Huddersfield and Halifax. Several also cover Harrogate, Otley, Ilkley, Keighley, Skipton and Selby. Coverage varies between companies, so contact them directly to confirm they can reach your exact postcode.",
+  "areas": [
+    "Bradford",
+    "Wakefield",
+    "Huddersfield",
+    "Halifax",
+    "Harrogate",
+    "Otley",
+    "Ilkley",
+    "Keighley",
+    "Skipton",
+    "Selby",
+    "Shipley",
+    "Bingley"
+  ],
+  "useCases": [
+    {
+      "title": "Wedding toilet hire",
+      "body": "Couples marrying at a marquee, barn or farm venue in and around Leeds often need toilets brought in. Luxury toilet trailers are the usual choice for weddings, and several suppliers on this page offer them alongside standard event units. Book early for summer weekends, and ask what is included, such as delivery, servicing, lighting and handwash facilities."
+    },
+    {
+      "title": "Construction site toilets",
+      "body": "Building sites in Leeds need toilets and welfare facilities that are serviced on a regular schedule. Many suppliers here offer site toilets, hot wash units and waste tank servicing on weekly contracts. When you ask for a quote, say how many people will be on site and how long the job will run."
+    },
+    {
+      "title": "Event toilet hire",
+      "body": "For festivals, fairs, sports days and community events, the number of toilets depends on how many people are coming, how long the event lasts and whether alcohol is being served. Suppliers can advise on numbers, and some also provide accessible units. Tell them about the site access and ground conditions so the right equipment is sent."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many portable toilets do I need for my event?",
+      "a": "It depends on the number of guests, how long the event runs and whether alcohol is served. Longer events and events with drinking need more toilets per guest. Give your supplier these details and they will recommend a number."
+    },
+    {
+      "q": "How far ahead should I book portable toilet hire?",
+      "a": "As early as you can, especially for summer weekends, weddings and bank holidays when demand is highest. For building sites and quieter dates, shorter notice is sometimes possible, so ask the supplier."
+    },
+    {
+      "q": "Does the hire price include delivery and servicing?",
+      "a": "Not always. Some suppliers include delivery, collection and servicing in the quote and others charge for them separately. Ask for a full breakdown so you can compare like with like."
+    },
+    {
+      "q": "Can I hire accessible portable toilets in Leeds?",
+      "a": "Yes. Several suppliers listed on this page offer disabled access or wheelchair accessible units. Check the services shown on each supplier's card and confirm availability when you enquire."
+    }
+  ],
   "published": true,
   "suppliers": [
     {

@@ -23,7 +23,14 @@ const pageTitle = `Portaloo Hire ${city.name}: ${count} ${
   count === 1 ? "Supplier" : "Suppliers"
 } Compared | Portaloo Online`;
 
-const description = `Compare portable toilet hire companies serving ${city.name} and ${city.region}, for events, building sites and weddings. Contact suppliers direct for prices.`;
+// If a city has an areas list, mention a few towns in the meta description.
+// Cities without one keep the original description.
+const description =
+  city.areas && city.areas.length > 0
+    ? `Compare portable toilet hire companies serving ${city.name}, ${city.areas
+        .slice(0, 3)
+        .join(", ")} and across ${city.region}. Contact suppliers direct for prices.`
+    : `Compare portable toilet hire companies serving ${city.name} and ${city.region}, for events, building sites and weddings. Contact suppliers direct for prices.`;
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -150,6 +157,55 @@ const jsonLd = {
 
     </div>
   </section>
+
+  {(city.areasIntro || (city.areas && city.areas.length > 0)) && (
+    <section class="info-section">
+      <div class="container">
+        <h2>Areas covered around {city.name}</h2>
+        {city.areasIntro && <p>{city.areasIntro}</p>}
+        {city.areas && city.areas.length > 0 && (
+          <ul class="area-list">
+            {city.areas.map((area) => (
+              <li>{area}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </section>
+  )}
+
+  {city.useCases &&
+    city.useCases.map((useCase) => (
+      <section class="info-section">
+        <div class="container">
+          <h2>{useCase.title} in {city.name}</h2>
+          <p>{useCase.body}</p>
+        </div>
+      </section>
+    ))}
+
+  {city.pricing && (
+    <section class="info-section">
+      <div class="container">
+        <h2>How much does portable toilet hire cost in {city.name}?</h2>
+        <p>{city.pricing}</p>
+      </div>
+    </section>
+  )}
+
+  {city.faqs && city.faqs.length > 0 && (
+    <section class="info-section">
+      <div class="container">
+        <h2>Frequently asked questions</h2>
+        {city.faqs.map((faq) => (
+          <details class="faq">
+            <summary>{faq.q}</summary>
+            <p>{faq.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  )}
 
   {nearby.length > 0 && (
     <section class="nearby">
@@ -394,7 +450,8 @@ const jsonLd = {
       width: 100%;
     }
   }
-    .breadcrumb {
+
+  .breadcrumb {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -410,6 +467,57 @@ const jsonLd = {
 
   .breadcrumb a:hover {
     text-decoration: underline;
+  }
+
+  .info-section {
+    padding: 0 0 56px;
+  }
+
+  .info-section h2 {
+    margin: 0 0 14px;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+
+  .info-section p {
+    max-width: 760px;
+    margin: 0 0 14px;
+    color: #475569;
+    line-height: 1.7;
+  }
+
+  .area-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 18px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .area-list li {
+    padding: 6px 12px;
+    color: #334155;
+    background: #f1f5f9;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .faq {
+    max-width: 760px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .faq summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: #1e293b;
+  }
+
+  .faq p {
+    margin: 10px 0 0;
   }
 
   .nearby {
