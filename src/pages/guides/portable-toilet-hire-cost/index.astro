@@ -1,0 +1,300 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const pageTitle = "How Much Does Portable Toilet Hire Cost? UK Price Guide";
+const pageDescription = "Compare indicative UK portable toilet hire costs for construction sites, events, accessible units, welfare units and luxury toilet trailers.";
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      headline: pageTitle,
+      description: pageDescription,
+      mainEntityOfPage: canonicalUrl,
+      publisher: {
+        "@type": "Organization",
+        name: "Portaloo Online",
+        url: new URL("/", Astro.site).href
+      }
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How much does it cost to hire a portable toilet in the UK?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Published UK prices vary by unit type, duration, delivery distance and servicing. Standard site toilets are commonly priced weekly, while event units and luxury trailers are usually quoted per event or weekend."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Is delivery included in portable toilet hire?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "It depends on the supplier. Some quotes include delivery and collection within a core area, while others list transport separately. Ask for the complete delivered and collected price."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Is portable toilet hire subject to VAT?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Suppliers may present prices excluding VAT. Check whether VAT is included before comparing quotations."
+          }
+        }
+      ]
+    }
+  ]
+};
+---
+
+<Layout title={`${pageTitle} | Portaloo Online`} description={pageDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <main class="guide-page">
+    <section class="guide-hero">
+      <div class="container hero-container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/guides/">Guides</a><span aria-hidden="true">/</span>
+          <span>Portable toilet hire costs</span>
+        </nav>
+        <p class="eyebrow">UK cost guide</p>
+        <h1>How Much Does Portable Toilet Hire Cost?</h1>
+        <p class="hero-intro">
+          Understand typical UK price ranges, what affects the quotation and which
+          extras to check before hiring toilets for a site, wedding or event.
+        </p>
+        <div class="guide-meta"><span>9 minute read</span><span>Updated November 2026</span></div>
+      </div>
+    </section>
+
+    <div class="container article-layout">
+      <aside class="contents">
+        <div class="contents-card">
+          <p class="contents-title">In this guide</p>
+          <nav aria-label="Guide contents">
+            <a href="#quick-answer">Quick answer</a>
+            <a href="#price-table">Indicative prices</a>
+            <a href="#cost-factors">What affects the cost?</a>
+            <a href="#included">What should be included?</a>
+            <a href="#extras">Possible extra charges</a>
+            <a href="#quotes">Comparing quotations</a>
+            <a href="#budget-examples">Budget examples</a>
+            <a href="#save-money">How to control costs</a>
+            <a href="#faqs">Cost FAQs</a>
+            <a href="#find-suppliers">Find suppliers</a>
+          </nav>
+        </div>
+      </aside>
+
+      <article class="guide-content">
+        <section class="summary-box" id="quick-answer">
+          <h2>Quick answer</h2>
+          <p>
+            Portable toilet hire does not have one fixed UK price. Published supplier
+            guides show wide ranges because construction hire is normally priced weekly,
+            while weddings and events are usually quoted per weekend or event.
+          </p>
+          <ul>
+            <li>Standard construction toilets are commonly hired on a weekly rate</li>
+            <li>Short event hire carries higher delivery and collection costs per day</li>
+            <li>Accessible units and mains-flushing toilets generally cost more</li>
+            <li>Luxury trailers vary sharply according to size and specification</li>
+            <li>Delivery, servicing, VAT and difficult access can change the final total</li>
+          </ul>
+          <p>Always compare the complete delivered, serviced and collected price.</p>
+        </section>
+
+        <section id="price-table">
+          <h2>Indicative UK portable toilet hire prices</h2>
+          <p>
+            The following broad ranges combine published 2026 supplier and price-guide
+            information. They are budgeting figures only, not quotations from Portaloo Online.
+          </p>
+          <div class="table-wrapper">
+            <table>
+              <thead><tr><th>Hire type</th><th>Indicative published range</th><th>Pricing basis</th></tr></thead>
+              <tbody>
+                <tr><td>Standard site toilet</td><td>About £18 to £65</td><td>Per week, depending on duration and inclusions</td></tr>
+                <tr><td>Standard weekend event toilet</td><td>About £55 to £180</td><td>Per unit for a short event or weekend</td></tr>
+                <tr><td>Accessible event toilet</td><td>About £75 to £260</td><td>Per unit for a short event or weekend</td></tr>
+                <tr><td>Urinal unit</td><td>About £45 to £200</td><td>Per unit for a short event or weekend</td></tr>
+                <tr><td>Small luxury toilet trailer</td><td>About £375 to £900</td><td>Per event or weekend</td></tr>
+                <tr><td>Larger luxury trailer</td><td>About £600 to £1,600+</td><td>Per event or weekend</td></tr>
+                <tr><td>Small welfare unit</td><td>About £110 to £200</td><td>Per week</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="price-warning">
+            Prices may exclude VAT, delivery, collection, additional servicing, water,
+            waste tanks, generators or attendants. Check every line of the quotation.
+          </p>
+        </section>
+
+        <section id="cost-factors">
+          <h2>What affects the cost of portable toilet hire?</h2>
+          <div class="factor-grid">
+            <div><h3>Unit type</h3><p>A standard chemical cubicle costs less than an accessible unit, mains toilet, welfare unit or multi-cubicle luxury trailer.</p></div>
+            <div><h3>Hire duration</h3><p>Long construction hires often have a lower weekly rate because transport and administration are spread over more weeks.</p></div>
+            <div><h3>Delivery distance</h3><p>Suppliers usually operate from regional depots. Mileage outside a core area can increase transport charges.</p></div>
+            <div><h3>Number of units</h3><p>Several toilets delivered and serviced at one site may attract more efficient per-unit pricing.</p></div>
+            <div><h3>Servicing frequency</h3><p>Weekly service may be included for site hire. Busy or multi-day events can require extra cleaning and emptying visits.</p></div>
+            <div><h3>Access and ground</h3><p>Narrow lanes, long hose runs, security procedures, slopes or soft ground can add labour, equipment or delivery costs.</p></div>
+            <div><h3>Season and availability</h3><p>Wedding and festival demand is higher in warmer months, so popular dates and specialist trailers can be less flexible.</p></div>
+            <div><h3>Utilities and extras</h3><p>Luxury trailers may need electricity, water, waste tanks, generators, attendants or additional setup equipment.</p></div>
+          </div>
+        </section>
+
+        <section id="included">
+          <h2>What should be included in the quotation?</h2>
+          <p>Ask the supplier to state clearly whether the price includes:</p>
+          <ul>
+            <li>Delivery to the full site postcode</li>
+            <li>Setup and positioning</li>
+            <li>Collection at the end of the hire</li>
+            <li>Scheduled waste emptying and cleaning</li>
+            <li>Toilet paper, soap or sanitiser</li>
+            <li>Fresh-water and waste-tank provision where required</li>
+            <li>Damage waivers, environmental charges or fuel supplements</li>
+            <li>Emergency support during the hire</li>
+            <li>VAT</li>
+          </ul>
+          <div class="tip-box"><strong>Best comparison:</strong><p>Ask every supplier for an all-in written total using the same dates, postcode, unit type and servicing schedule.</p></div>
+        </section>
+
+        <section id="extras">
+          <h2>Possible extra charges</h2>
+          <p>A low headline unit rate can become more expensive after additional charges are applied. Check for:</p>
+          <ul>
+            <li>Delivery and collection outside the supplier's core radius</li>
+            <li>Minimum hire periods</li>
+            <li>Extra or emergency servicing visits</li>
+            <li>Weekend, bank-holiday or out-of-hours work</li>
+            <li>Generators, extension cables and distribution equipment</li>
+            <li>Fresh-water tanks and waste holding tanks</li>
+            <li>Attendants for luxury or high-volume events</li>
+            <li>Cleaning fees for excessive contamination</li>
+            <li>Damage, loss or aborted delivery charges</li>
+          </ul>
+        </section>
+
+        <section id="quotes">
+          <h2>How to compare portable toilet hire quotes</h2>
+          <div class="quote-checklist">
+            <label><input type="checkbox" /> Same unit type and capacity</label>
+            <label><input type="checkbox" /> Same hire dates and collection date</label>
+            <label><input type="checkbox" /> Same delivery postcode and access information</label>
+            <label><input type="checkbox" /> Same cleaning and emptying frequency</label>
+            <label><input type="checkbox" /> All necessary water, power and waste equipment</label>
+            <label><input type="checkbox" /> Consumables included</label>
+            <label><input type="checkbox" /> VAT status confirmed</label>
+            <label><input type="checkbox" /> Complete final total shown</label>
+          </div>
+          <p>
+            A cheaper quote is not necessarily equivalent if it provides fewer units,
+            excludes servicing or relies on utilities that are unavailable at the venue.
+          </p>
+        </section>
+
+        <section id="budget-examples">
+          <h2>Example budgeting scenarios</h2>
+          <h3>Single construction toilet</h3>
+          <p>
+            Budget for the weekly hire rate, delivery and collection, the minimum hire period
+            and scheduled servicing. Ask whether the weekly service is built into the rate.
+          </p>
+          <h3>Small private event</h3>
+          <p>
+            A one-day event may still be charged as a weekend hire because delivery and
+            collection are the same. Confirm whether Friday delivery and Monday collection apply.
+          </p>
+          <h3>Outdoor wedding</h3>
+          <p>
+            A luxury trailer quote should identify the trailer configuration, guest capacity,
+            utilities, delivery, collection and whether an accessible facility is separate.
+          </p>
+          <h3>Multi-day festival</h3>
+          <p>
+            The cost depends heavily on the number of toilets, urinals, accessible units,
+            daily servicing, attendants, waste capacity and vehicle access around the site.
+          </p>
+        </section>
+
+        <section id="save-money">
+          <h2>How to control portable toilet hire costs</h2>
+          <ul>
+            <li>Contact suitable local suppliers to reduce unnecessary mileage</li>
+            <li>Give accurate dates, attendance and access details at the first enquiry</li>
+            <li>Book specialist event and wedding units early</li>
+            <li>Combine units in one accessible service area where practical</li>
+            <li>Avoid ordering fewer toilets than required simply to reduce the headline price</li>
+            <li>Ask whether a longer hire changes the weekly rate</li>
+            <li>Compare the full total rather than the advertised unit price</li>
+          </ul>
+          <div class="link-card"><div><strong>Not sure how many units you need?</strong><p>Use the event toilet calculator before requesting comparable quotes.</p></div><a href="/guides/how-many-portable-toilets-for-an-event/">Use the calculator</a></div>
+        </section>
+
+        <section id="faqs">
+          <h2>Portable toilet hire cost FAQs</h2>
+          <div class="faq-list">
+            <details><summary>How much does it cost to hire a portable toilet in the UK?</summary><p>Published prices vary by unit, duration, delivery distance and servicing. Standard site units are usually priced weekly; event units and trailers are commonly priced per event or weekend.</p></details>
+            <details><summary>Is delivery included?</summary><p>It depends on the supplier. Some include delivery and collection within a core area, while others add transport separately. Ask for the all-in price.</p></details>
+            <details><summary>Is VAT included?</summary><p>Not always. Many commercial hire prices are displayed before VAT. Confirm the VAT status of every quote before comparing totals.</p></details>
+            <details><summary>Does weekly hire include servicing?</summary><p>Many site-hire quotations include scheduled weekly emptying, cleaning and restocking, but this is not universal. Check the written schedule and inclusions.</p></details>
+          </div>
+        </section>
+
+        <section class="sources-box">
+          <h2>Published price references</h2>
+          <p>The budgeting ranges on this page were informed by publicly available UK supplier and cost guides:</p>
+          <ul>
+            <li><a href="https://premierplus-toilet-hire.co.uk/blog/portable-toilet-hire-cost-uk-guide" target="_blank" rel="nofollow noopener noreferrer">PremierPlus UK price guide</a></li>
+            <li><a href="https://www.loolocator.co.uk/guides/portable-toilet-hire-prices/" target="_blank" rel="nofollow noopener noreferrer">LooLocator price guide</a></li>
+            <li><a href="https://www.chelfordmobileservices.co.uk/portable-toilet-hire-cost" target="_blank" rel="nofollow noopener noreferrer">Chelford Mobile Services published prices</a></li>
+            <li><a href="https://gigloo.co.uk/luxury-toilet-hire-prices-uk/" target="_blank" rel="nofollow noopener noreferrer">GigLoo luxury toilet cost guide</a></li>
+          </ul>
+        </section>
+
+        <section class="find-suppliers" id="find-suppliers">
+          <h2>Compare portable toilet hire companies</h2>
+          <p>Browse suppliers serving your area and request detailed quotes using the same specification.</p>
+          <a class="primary-button" href="/locations/">Browse toilet hire locations</a>
+        </section>
+
+        <section class="disclaimer">
+          <h2>Important</h2>
+          <p>
+            All prices are indicative published ranges, not quotations or guarantees.
+            Actual prices vary by supplier, date, location, access, specification, servicing
+            and VAT. Obtain written quotations for the exact hire required.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  :root { --navy:#0f172a; --blue:#2563eb; --blue-dark:#1d4ed8; --pale:#eff6ff; --light:#dbeafe; --text:#475569; --border:#e2e8f0; }
+  .guide-page{background:#f8fafc;color:var(--navy)} .container{width:min(1120px,calc(100% - 2rem));margin:0 auto}
+  .guide-hero{padding:2rem 0 4.5rem;color:#fff;background:radial-gradient(circle at top right,rgba(59,130,246,.35),transparent 38%),linear-gradient(135deg,#0f172a,#172554)}
+  .hero-container{max-width:900px}.breadcrumbs{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:3rem;color:var(--light);font-size:.9rem}.breadcrumbs a{color:var(--light)}.breadcrumbs a:hover{color:#fff}
+  .eyebrow{margin:0 0 .75rem;color:#93c5fd;font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.guide-hero h1{max-width:900px;margin:0;color:#fff;font-size:clamp(2.3rem,6vw,4.25rem);line-height:1.05;letter-spacing:-.045em}.hero-intro{max-width:780px;margin:1.5rem 0 0;color:var(--light);font-size:clamp(1.05rem,2.4vw,1.25rem);line-height:1.7}.guide-meta{display:flex;flex-wrap:wrap;gap:1.25rem;margin-top:1.5rem;color:#93c5fd;font-size:.9rem}
+  .article-layout{display:grid;grid-template-columns:240px minmax(0,760px);justify-content:center;gap:3rem;padding:4rem 0 5rem}.contents{position:sticky;top:6rem;align-self:start}.contents-card{padding:1.25rem;background:#fff;border:1px solid var(--border);border-radius:14px;box-shadow:0 8px 24px rgba(15,23,42,.04)}.contents-title{margin:0 0 1rem;color:var(--navy);font-weight:800}.contents nav{display:grid;gap:.75rem}.contents a{color:var(--text);font-size:.9rem;line-height:1.35;text-decoration:none}.contents a:hover{color:var(--blue);text-decoration:underline}
+  .guide-content{min-width:0}.guide-content section{margin-bottom:3rem;scroll-margin-top:6rem}.guide-content h2{margin:0 0 1rem;color:var(--navy);font-size:clamp(1.65rem,3.5vw,2.2rem);line-height:1.2;letter-spacing:-.025em}.guide-content h3{margin:2rem 0 .75rem;color:var(--navy);font-size:1.3rem}.guide-content p,.guide-content li{color:var(--text);font-size:1rem;line-height:1.8}.guide-content ul{padding-left:1.4rem}.guide-content li+li{margin-top:.45rem}
+  .summary-box,.tip-box,.sources-box{padding:1.5rem;background:var(--pale);border:1px solid #bfdbfe;border-radius:14px}.summary-box h2,.tip-box strong,.sources-box h2{color:var(--blue-dark)}.tip-box p{margin-bottom:0}.sources-box a{color:var(--blue);font-weight:700}
+  .table-wrapper{overflow-x:auto;background:#fff;border:1px solid #dbe4f0;border-radius:12px}table{width:100%;min-width:680px;border-collapse:collapse}th,td{padding:1rem;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}th{background:var(--pale);color:#1e3a8a;font-size:.9rem}td{color:var(--text)}tr:last-child td{border-bottom:0}.price-warning{padding:1rem;background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;color:#7c2d12!important}
+  .factor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.factor-grid div{padding:1.25rem;background:#fff;border:1px solid var(--border);border-radius:12px}.factor-grid h3{margin-top:0;color:var(--blue-dark)}.factor-grid p{margin-bottom:0}
+  .quote-checklist{display:grid;gap:.75rem}.quote-checklist label{display:flex;align-items:flex-start;gap:.75rem;padding:1rem;background:#fff;border:1px solid var(--border);border-radius:10px;color:var(--text);line-height:1.5}.quote-checklist input{width:1.1rem;height:1.1rem;margin-top:.15rem;accent-color:var(--blue)}
+  .link-card{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;margin-top:1.5rem;padding:1.25rem;background:#fff;border:1px solid #bfdbfe;border-radius:12px}.link-card strong{color:var(--navy)}.link-card p{margin:.35rem 0 0}.link-card a{flex:0 0 auto;padding:.75rem 1rem;background:var(--blue);color:#fff;border-radius:8px;font-weight:800;text-decoration:none}.link-card a:hover{background:var(--blue-dark)}
+  .faq-list{display:grid;gap:.75rem}.faq-list details{background:#fff;border:1px solid var(--border);border-radius:10px}.faq-list summary{padding:1rem 1.25rem;color:var(--navy);font-weight:800;cursor:pointer}.faq-list p{margin:0;padding:0 1.25rem 1.25rem}
+  .find-suppliers{padding:2rem;background:var(--navy);color:#fff;border-radius:16px}.find-suppliers h2{color:#fff}.find-suppliers p{color:var(--light)}.primary-button{display:inline-flex;justify-content:center;padding:.9rem 1.25rem;background:var(--blue);color:#fff;border-radius:9px;font-weight:800;text-decoration:none}.primary-button:hover{background:var(--blue-dark)}
+  .disclaimer{padding:1.5rem;background:#fff7ed;border:1px solid #fed7aa;border-radius:14px}.disclaimer h2{color:#9a3412}.disclaimer p{margin-bottom:0;color:#7c2d12}
+  @media(max-width:900px){.article-layout{grid-template-columns:1fr;gap:2rem}.contents{position:static}.contents nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:650px){.guide-hero{padding-bottom:3rem}.breadcrumbs{margin-bottom:2rem}.article-layout{padding-top:2.5rem;padding-bottom:3rem}.contents nav,.factor-grid{grid-template-columns:1fr}.link-card{align-items:flex-start;flex-direction:column}.link-card a,.primary-button{width:100%;text-align:center}}
+</style>
