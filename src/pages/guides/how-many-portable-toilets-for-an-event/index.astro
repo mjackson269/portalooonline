@@ -518,11 +518,16 @@ const structuredData = {
   .guide-hero {
     padding: 2rem 0 4.5rem;
     background:
-      linear-gradient(
-        135deg,
-        rgba(6, 78, 59, 0.98),
-        rgba(5, 107, 75, 0.92)
-      );
+  radial-gradient(
+    circle at top right,
+    rgba(59, 130, 246, 0.35),
+    transparent 38%
+  ),
+  linear-gradient(
+    135deg,
+    #0f172a 0%,
+    #172554 100%
+  );
     color: white;
   }
 
@@ -871,5 +876,72 @@ const structuredData = {
     .primary-button {
       width: 100%;
     }
+  }
+</style>
+
+<style is:global>
+  body .guide-page #calculate-button {
+    background: #2563eb !important;
+    background-color: #2563eb !important;
+    border-color: #2563eb !important;
+    color: #ffffff !important;
+  }
+
+  body .guide-page #calculate-button:hover,
+  body .guide-page #calculate-button:focus {
+    background: #1d4ed8 !important;
+    background-color: #1d4ed8 !important;
+    border-color: #1d4ed8 !important;
+    color: #ffffff !important;
+  }
+
+  body .guide-page .calculator-results > div {
+    background: #eff6ff !important;
+    background-color: #eff6ff !important;
+    border-color: #dbeafe !important;
+  }
+
+  body .guide-page .calculator-results strong {
+    color: #2563eb !important;
+  }
+
+  body .guide-page .calculator-field input:focus,
+  body .guide-page .calculator-field select:focus {
+    border-color: #2563eb !important;
+    outline: 3px solid rgba(37, 99, 235, 0.15) !important;
+  }
+
+  body .guide-page .summary-box,
+  body .guide-page .tip-box {
+    background: #eff6ff !important;
+    background-color: #eff6ff !important;
+    border-color: #bfdbfe !important;
+  }
+
+  body .guide-page .summary-box h2,
+  body .guide-page .tip-box strong {
+    color: #1d4ed8 !important;
+  }
+
+  body .guide-page .table-wrapper th {
+    background: #eff6ff !important;
+    background-color: #eff6ff !important;
+    color: #1e3a8a !important;
+  }
+
+  body .guide-page .source-note a,
+  body .guide-page .contents a:hover {
+    color: #2563eb !important;
+  }
+
+  body .guide-page .find-suppliers .primary-button {
+    background: #2563eb !important;
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+  }
+
+  body .guide-page .find-suppliers .primary-button:hover {
+    background: #1d4ed8 !important;
+    background-color: #1d4ed8 !important;
   }
 </style>

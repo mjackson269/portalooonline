@@ -8,55 +8,450 @@ const {
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const currentYear = new Date().getFullYear();
+
+const currentPath = Astro.url.pathname;
+
+const isActive = (path) => {
+  if (path === "/") {
+    return currentPath === "/";
+  }
+
+  return currentPath.startsWith(path);
+};
 ---
 
 <!doctype html>
+
 <html lang="en-GB">
+
   <head>
+
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
 
     <title>{title}</title>
-    <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
-    {noindex && <meta name="robots" content="noindex, nofollow" />}
 
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <meta name="theme-color" content="#2563eb" />
+    <meta
+      name="description"
+      content={description}
+    />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Portaloo Online" />
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonical} />
-    <meta name="twitter:card" content="summary" />
+    <link
+      rel="canonical"
+      href={canonical}
+    />
+
+    {
+      noindex && (
+        <meta
+          name="robots"
+          content="noindex, nofollow"
+        />
+      )
+    }
+
+    <link
+      rel="icon"
+      href="/favicon.svg"
+      type="image/svg+xml"
+    />
+
+    <meta
+      name="theme-color"
+      content="#2563eb"
+    />
+
+    <meta
+      property="og:type"
+      content="website"
+    />
+
+    <meta
+      property="og:site_name"
+      content="Portaloo Online"
+    />
+
+    <meta
+      property="og:locale"
+      content="en_GB"
+    />
+
+    <meta
+      property="og:title"
+      content={title}
+    />
+
+    <meta
+      property="og:description"
+      content={description}
+    />
+
+    <meta
+      property="og:url"
+      content={canonical}
+    />
+
+    <meta
+      name="twitter:card"
+      content="summary"
+    />
 
     <slot name="head" />
+
   </head>
 
   <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a href="/" class="site-logo">
+
+    <header class="portaloo-header">
+
+      <div class="portaloo-header-inner">
+
+        <a
+          href="/"
+          class="portaloo-logo"
+          aria-label="Portaloo Online homepage"
+        >
           Portaloo Online
         </a>
 
-        <nav class="site-nav" aria-label="Main navigation">
-          <a href="/">Home</a>
-          <a href="/locations/">Locations</a>
+        <nav
+          class="portaloo-navigation"
+          aria-label="Main navigation"
+        >
+
+          <a
+            href="/"
+            class:list={{
+              active: isActive("/")
+            }}
+          >
+            Home
+          </a>
+
+          <a
+            href="/locations/"
+            class:list={{
+              active: isActive("/locations/")
+            }}
+          >
+            Locations
+          </a>
+
+          <a
+            href="/guides/"
+            class:list={{
+              active: isActive("/guides/")
+            }}
+          >
+            Guides
+          </a>
+
         </nav>
+
       </div>
+
     </header>
 
     <main>
       <slot />
     </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>© 2026 Portaloo Online</p>
+    <footer class="portaloo-footer">
+
+      <div class="portaloo-footer-inner">
+
+        <div class="portaloo-footer-brand">
+
+          <a
+            href="/"
+            class="portaloo-footer-logo"
+          >
+            Portaloo Online
+          </a>
+
+          <p>
+            Find portable toilet hire companies serving towns and cities
+            across the UK.
+          </p>
+
+        </div>
+
+        <div class="portaloo-footer-links">
+
+          <div class="portaloo-footer-column">
+
+            <h2>Directory</h2>
+
+            <nav aria-label="Footer directory navigation">
+
+              <a href="/">Home</a>
+
+              <a href="/locations/">
+                Locations
+              </a>
+
+              <a href="/guides/">
+                Guides
+              </a>
+
+            </nav>
+
+          </div>
+
+          <div class="portaloo-footer-column">
+
+            <h2>Popular guides</h2>
+
+            <nav aria-label="Popular guides">
+
+              <a href="/guides/how-many-portable-toilets-for-an-event/">
+                Event toilet calculator
+              </a>
+
+            </nav>
+
+          </div>
+
+        </div>
+
       </div>
+
+      <div class="portaloo-footer-bottom">
+
+        <p>
+          © {currentYear} Portaloo Online
+        </p>
+
+        <p>
+          Independent portable toilet hire directory
+        </p>
+
+      </div>
+
     </footer>
+
   </body>
+
 </html>
+
+<style>
+  .portaloo-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.96);
+    border-bottom: 1px solid #e2e8f0;
+    backdrop-filter: blur(12px);
+  }
+
+  .portaloo-header-inner {
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    width: min(1180px, calc(100% - 40px));
+    min-height: 68px;
+    margin: 0 auto;
+    gap: 32px;
+  }
+
+  .portaloo-logo {
+    color: #0f172a;
+    font-size: 1.25rem;
+    font-weight: 850;
+    letter-spacing: -0.025em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .portaloo-navigation {
+    display: flex;
+    align-items: centre;
+    gap: 30px;
+  }
+
+  .portaloo-navigation a {
+    position: relative;
+    padding: 22px 0;
+    color: #475569;
+    font-size: 0.95rem;
+    font-weight: 650;
+    text-decoration: none;
+    transition: color 160ms ease;
+  }
+
+  .portaloo-navigation a:hover,
+  .portaloo-navigation a.active {
+    color: #2563eb;
+  }
+
+  .portaloo-navigation a::after {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    left: 0;
+    height: 2px;
+    background: #2563eb;
+    border-radius: 999px;
+    content: "";
+    opacity: 0;
+    transform: scaleX(0.5);
+    transition:
+      opacity 160ms ease,
+      transform 160ms ease;
+  }
+
+  .portaloo-navigation a:hover::after,
+  .portaloo-navigation a.active::after {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+
+  .portaloo-footer {
+    margin-top: 80px;
+    padding: 56px 20px 24px;
+    background: #0f172a;
+    color: #cbd5e1;
+  }
+
+  .portaloo-footer-inner {
+    display: grid;
+    width: min(1180px, 100%);
+    margin: 0 auto;
+    grid-template-columns:
+      minmax(260px, 1.4fr)
+      minmax(340px, 1fr);
+    gap: 72px;
+  }
+
+  .portaloo-footer-logo {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 850;
+    letter-spacing: -0.025em;
+    text-decoration: none;
+  }
+
+  .portaloo-footer-brand p {
+    max-width: 480px;
+    margin: 18px 0 0;
+    color: #94a3b8;
+    line-height: 1.7;
+  }
+
+  .portaloo-footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 38px;
+  }
+
+  .portaloo-footer-column h2 {
+    margin: 0 0 16px;
+    color: #ffffff;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .portaloo-footer-column nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+  }
+
+  .portaloo-footer-column a {
+    color: #94a3b8;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color 160ms ease;
+  }
+
+  .portaloo-footer-column a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .portaloo-footer-bottom {
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    width: min(1180px, 100%);
+    margin: 44px auto 0;
+    padding-top: 22px;
+    gap: 24px;
+    border-top: 1px solid #1e293b;
+    color: #64748b;
+    font-size: 0.84rem;
+  }
+
+  .portaloo-footer-bottom p {
+    margin: 0;
+  }
+
+  @media (max-width: 760px) {
+    .portaloo-header-inner {
+      width: min(100% - 28px, 1180px);
+      gap: 20px;
+    }
+
+    .portaloo-navigation {
+      gap: 18px;
+    }
+
+    .portaloo-navigation a {
+      padding: 22px 0;
+      font-size: 0.9rem;
+    }
+
+    .portaloo-footer-inner {
+      grid-template-columns: 1fr;
+      gap: 42px;
+    }
+
+    .portaloo-footer-bottom {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .portaloo-header-inner {
+      align-items: flex-start;
+      flex-direction: column;
+      padding-top: 15px;
+      padding-bottom: 12px;
+      gap: 8px;
+    }
+
+    .portaloo-navigation {
+      width: 100%;
+    }
+
+    .portaloo-navigation a {
+      padding: 8px 0 12px;
+    }
+
+    .portaloo-navigation a::after {
+      bottom: 5px;
+    }
+
+    .portaloo-footer {
+      padding-right: 14px;
+      padding-left: 14px;
+    }
+
+    .portaloo-footer-links {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+</style>

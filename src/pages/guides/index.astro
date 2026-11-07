@@ -1,0 +1,880 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const pageTitle =
+  "How Many Portable Toilets Do I Need for an Event?";
+
+const pageDescription =
+  "Calculate how many portable toilets your event may need based on attendance, event duration, alcohol, accessibility and servicing requirements.";
+
+const canonicalUrl =
+  "https://portaloo-online.co.uk/guides/how-many-portable-toilets-for-an-event/";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: pageTitle,
+  description: pageDescription,
+  mainEntityOfPage: canonicalUrl,
+  publisher: {
+    "@type": "Organization",
+    name: "Portaloo Online",
+    url: "https://portaloo-online.co.uk/"
+  }
+};
+---
+
+<Layout
+  title={`${pageTitle} | Portaloo Online`}
+  description={pageDescription}
+>
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify(structuredData)}
+  />
+
+  <main class="guide-page">
+    <section class="guide-hero">
+      <div class="container hero-container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="/guides/">Guides</a>
+          <span aria-hidden="true">/</span>
+          <span>Event toilet numbers</span>
+        </nav>
+
+        <p class="eyebrow">EVENT PLANNING GUIDE</p>
+
+        <h1>How Many Portable Toilets Do I Need for an Event?</h1>
+
+        <p class="hero-intro">
+          Use this guide to estimate the number and type of temporary toilets
+          required for your event, then confirm the final provision with your
+          chosen hire company.
+        </p>
+
+        <div class="guide-meta">
+          <span>8 minute read</span>
+          <span>Updated November 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="container article-layout">
+      <aside class="contents">
+        <div class="contents-card">
+          <p class="contents-title">In this guide</p>
+
+          <nav aria-label="Guide contents">
+            <a href="#quick-answer">Quick answer</a>
+            <a href="#calculator">Event toilet calculator</a>
+            <a href="#planning-table">Planning table</a>
+            <a href="#worked-examples">Worked examples</a>
+            <a href="#adjustments">When to add more toilets</a>
+            <a href="#accessible">Accessible toilets</a>
+            <a href="#placement">Positioning the toilets</a>
+            <a href="#questions">Questions to ask</a>
+            <a href="#find-suppliers">Find suppliers</a>
+          </nav>
+        </div>
+      </aside>
+
+      <article class="guide-content">
+        <section class="summary-box" id="quick-answer">
+          <h2>Quick answer</h2>
+
+          <p>
+            For a typical event lasting less than six hours, a useful starting
+            point is:
+          </p>
+
+          <ul>
+            <li>One female toilet for every 100 attendees</li>
+            <li>One male toilet for every 500 attendees</li>
+            <li>One male urinal for every 150 attendees</li>
+            <li>At least one dedicated accessible toilet</li>
+            <li>Suitable handwashing or hand sanitiser facilities</li>
+          </ul>
+
+          <p>
+            These are planning guidelines rather than a universal guarantee.
+            Event duration, alcohol, food, audience profile, venue layout and
+            servicing arrangements can all increase the provision required.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="calculator">Simple event toilet calculator</h2>
+
+          <p>
+            Enter your estimated attendance to produce a basic planning figure.
+            The result deliberately rounds upwards because a fraction of a
+            toilet cannot be hired.
+          </p>
+
+          <div class="calculator-card">
+            <div class="calculator-field">
+              <label for="guest-count">Expected number of attendees</label>
+
+              <input
+                id="guest-count"
+                type="number"
+                min="1"
+                max="100000"
+                step="1"
+                value="100"
+                inputmode="numeric"
+              />
+            </div>
+
+            <div class="calculator-field">
+              <label for="event-type">Event conditions</label>
+
+              <select id="event-type">
+                <option value="short">
+                  Less than 6 hours
+                </option>
+
+                <option value="long">
+                  6 hours or more, little food or alcohol
+                </option>
+
+                <option value="food-alcohol">
+                  6 hours or more with food and alcohol
+                </option>
+              </select>
+            </div>
+
+            <button id="calculate-button" type="button">
+              Calculate toilet numbers
+            </button>
+
+            <div
+              id="calculator-results"
+              class="calculator-results"
+              aria-live="polite"
+            >
+              <div>
+                <strong id="female-result">1</strong>
+                <span>Female toilets</span>
+              </div>
+
+              <div>
+                <strong id="male-result">1</strong>
+                <span>Male toilets</span>
+              </div>
+
+              <div>
+                <strong id="urinal-result">1</strong>
+                <span>Urinal facilities</span>
+              </div>
+
+              <div>
+                <strong id="accessible-result">1</strong>
+                <span>Accessible toilet</span>
+              </div>
+            </div>
+
+            <p class="calculator-note">
+              This is an initial estimate based on an assumed 50/50 audience
+              split. Ask your supplier to confirm the final requirements for
+              your venue and event.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2 id="planning-table">Event toilet planning table</h2>
+
+          <p>
+            Current UK event guidance divides provision according to the
+            duration of the event and whether substantial food or alcohol is
+            available.
+          </p>
+
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Event conditions</th>
+                  <th>Female toilets</th>
+                  <th>Male toilets</th>
+                  <th>Urinals</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Less than 6 hours</td>
+                  <td>1 per 100</td>
+                  <td>1 per 500</td>
+                  <td>1 per 150</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    6 hours or more, with little or no food or alcohol
+                  </td>
+                  <td>1 per 85</td>
+                  <td>1 per 425</td>
+                  <td>1 per 125</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    6 hours or more, with food and alcohol served
+                  </td>
+                  <td>1 per 75</td>
+                  <td>1 per 400</td>
+                  <td>1 per 100</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="source-note">
+            Source:
+            <a
+              href="https://www.thepurpleguide.co.uk/sanitation"
+              rel="nofollow"
+            >
+              The Purple Guide sanitation guidance
+            </a>.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="worked-examples">Worked examples</h2>
+
+          <h3>Wedding with 100 guests</h3>
+
+          <p>
+            For a wedding lasting most of the day and serving food and alcohol,
+            you should plan above the minimum for a short event. A small luxury
+            toilet trailer may be more suitable than several individual
+            chemical toilets.
+          </p>
+
+          <p>
+            Include an accessible unit if the chosen trailer does not provide
+            suitable accessible facilities.
+          </p>
+
+          <h3>Community event with 250 attendees</h3>
+
+          <p>
+            A short daytime event with limited refreshments could use the
+            shorter-event ratios. With an assumed even audience split, the
+            starting calculation produces two female toilets, one male toilet
+            and one urinal facility.
+          </p>
+
+          <p>
+            At least one dedicated accessible toilet should also be provided.
+          </p>
+
+          <h3>Festival with 1,000 attendees</h3>
+
+          <p>
+            A festival lasting six hours or more and serving food and alcohol
+            requires substantially more capacity. The toilet supplier should
+            also plan cleaning, restocking, waste storage and emptying during
+            the event.
+          </p>
+
+          <p>
+            Larger sites may need several toilet areas rather than one central
+            block.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="adjustments">When should you add more toilets?</h2>
+
+          <p>
+            The headline ratios are only the starting point. Increase the
+            provision when any of the following apply:
+          </p>
+
+          <ul>
+            <li>The event lasts six hours or more</li>
+            <li>Alcohol is available</li>
+            <li>Guests will consume substantial food and refreshments</li>
+            <li>There will be predictable intervals or demand peaks</li>
+            <li>The audience includes many children or older guests</li>
+            <li>The event is spread over a large site</li>
+            <li>Existing venue toilets are difficult to reach</li>
+            <li>The event includes overnight camping</li>
+            <li>Units cannot be emptied or serviced during the event</li>
+          </ul>
+
+          <div class="tip-box">
+            <strong>Planning tip:</strong>
+
+            <p>
+              Use the maximum number of people expected on site at one time,
+              not the number of tickets already sold when you request a quote.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2 id="accessible">Accessible portable toilets</h2>
+
+          <p>
+            Provide at least one dedicated accessible toilet and make sure it
+            can be reached using a suitable level route.
+          </p>
+
+          <p>
+            An accessible unit should not be hidden behind standard toilets,
+            positioned on soft ground or blocked by barriers, cables, vehicles
+            or event equipment.
+          </p>
+
+          <p>
+            For larger events, several accessible units may be necessary so
+            that guests do not need to cross the entire site.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="placement">Where should portable toilets be positioned?</h2>
+
+          <p>
+            Place toilets where they are convenient for guests while still
+            allowing access for delivery and servicing vehicles.
+          </p>
+
+          <ul>
+            <li>Use firm, reasonably level ground</li>
+            <li>Keep access routes sufficiently wide and unobstructed</li>
+            <li>Provide lighting for evening and overnight events</li>
+            <li>Avoid placing toilets immediately beside food areas</li>
+            <li>Distribute facilities around large venues</li>
+            <li>Keep accessible routes clear throughout the event</li>
+            <li>Confirm the servicing vehicle’s access requirements</li>
+          </ul>
+
+          <p>
+            Do not finalise the position without speaking to the supplier.
+            Servicing hoses and delivery vehicles have practical access limits.
+          </p>
+        </section>
+
+        <section>
+          <h2>Handwashing and ongoing servicing</h2>
+
+          <p>
+            Every toilet area should provide an appropriate way for users to
+            clean their hands. Depending on the unit and event, this may be a
+            handwashing station with water and soap or an appropriate hand
+            sanitiser dispenser.
+          </p>
+
+          <p>
+            Multi-day events and heavily used facilities require a servicing
+            plan. Confirm:
+          </p>
+
+          <ul>
+            <li>How often waste tanks will be emptied</li>
+            <li>Who will clean the units during the event</li>
+            <li>Who will replenish toilet paper and soap</li>
+            <li>Whether emergency servicing is available</li>
+            <li>How faults or blocked units will be reported</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="questions">Questions to ask a hire company</h2>
+
+          <ul>
+            <li>How many units do you recommend for our attendance?</li>
+            <li>Does the quote include delivery and collection?</li>
+            <li>Is servicing included during the hire?</li>
+            <li>Do the toilets include handwashing or sanitiser?</li>
+            <li>Can you provide accessible toilets?</li>
+            <li>Are urinals available for busy events?</li>
+            <li>What access does the delivery vehicle require?</li>
+            <li>What happens if a unit needs attention during the event?</li>
+            <li>When will the toilets be delivered and collected?</li>
+          </ul>
+        </section>
+
+        <section class="find-suppliers" id="find-suppliers">
+          <h2>Find portable toilet hire companies</h2>
+
+          <p>
+            Compare portable toilet, event toilet and luxury trailer suppliers
+            serving locations across the UK.
+          </p>
+
+          <a class="primary-button" href="/locations/">
+            Browse toilet hire locations
+          </a>
+        </section>
+
+        <section class="disclaimer">
+          <h2>Important</h2>
+
+          <p>
+            This guide provides general planning information. Requirements
+            vary according to the event, venue and local authority. Confirm
+            your final arrangements with an experienced toilet hire supplier
+            and the relevant event or licensing authority.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    const guestInput = document.querySelector("#guest-count");
+    const eventTypeInput = document.querySelector("#event-type");
+    const calculateButton = document.querySelector("#calculate-button");
+
+    const femaleResult = document.querySelector("#female-result");
+    const maleResult = document.querySelector("#male-result");
+    const urinalResult = document.querySelector("#urinal-result");
+    const accessibleResult = document.querySelector("#accessible-result");
+
+    const ratios = {
+      short: {
+        female: 100,
+        male: 500,
+        urinal: 150
+      },
+      long: {
+        female: 85,
+        male: 425,
+        urinal: 125
+      },
+      "food-alcohol": {
+        female: 75,
+        male: 400,
+        urinal: 100
+      }
+    };
+
+    function calculateToilets() {
+      const guests = Math.max(
+        1,
+        Number.parseInt(guestInput?.value || "1", 10)
+      );
+
+      const eventType = eventTypeInput?.value || "short";
+      const selectedRatios = ratios[eventType];
+
+      const femaleGuests = Math.ceil(guests / 2);
+      const maleGuests = Math.floor(guests / 2);
+
+      const femaleToilets = Math.max(
+        1,
+        Math.ceil(femaleGuests / selectedRatios.female)
+      );
+
+      const maleToilets = Math.max(
+        1,
+        Math.ceil(maleGuests / selectedRatios.male)
+      );
+
+      const urinals = Math.max(
+        1,
+        Math.ceil(maleGuests / selectedRatios.urinal)
+      );
+
+      const accessibleToilets = Math.max(
+        1,
+        Math.ceil(guests / 250)
+      );
+
+      femaleResult.textContent = String(femaleToilets);
+      maleResult.textContent = String(maleToilets);
+      urinalResult.textContent = String(urinals);
+      accessibleResult.textContent = String(accessibleToilets);
+    }
+
+    calculateButton?.addEventListener("click", calculateToilets);
+    guestInput?.addEventListener("input", calculateToilets);
+    eventTypeInput?.addEventListener("change", calculateToilets);
+
+    calculateToilets();
+  </script>
+</Layout>
+
+<style>
+  .guide-page {
+    background: #f8fafc;
+    color: #172033;
+  }
+
+  .container {
+    width: min(1120px, calc(100% - 2rem));
+    margin: 0 auto;
+  }
+
+  .guide-hero {
+    padding: 2rem 0 4.5rem;
+    background:
+  radial-gradient(
+    circle at top right,
+    rgba(59, 130, 246, 0.35),
+    transparent 38%
+  ),
+  linear-gradient(
+    135deg,
+    #0f172a 0%,
+    #172554 100%
+  );
+    color: white;
+  }
+
+  .hero-container {
+    max-width: 900px;
+  }
+
+  .breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+    color: #d1fae5;
+    font-size: 0.9rem;
+  }
+
+  .breadcrumbs a {
+    color: #d1fae5;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.75rem;
+    color: #a7f3d0;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+  }
+
+  .guide-hero h1 {
+    max-width: 900px;
+    margin: 0;
+    font-size: clamp(2.3rem, 6vw, 4.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.045em;
+  }
+
+  .hero-intro {
+    max-width: 760px;
+    margin: 1.5rem 0 0;
+    color: #d1fae5;
+    font-size: clamp(1.05rem, 2.4vw, 1.25rem);
+    line-height: 1.7;
+  }
+
+  .guide-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+    color: #a7f3d0;
+    font-size: 0.9rem;
+  }
+
+  .article-layout {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 760px);
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+
+  .contents {
+    align-self: start;
+    position: sticky;
+    top: 1.5rem;
+  }
+
+  .contents-card {
+    padding: 1.25rem;
+    background: white;
+    border: 1px solid #dfe6e3;
+    border-radius: 14px;
+  }
+
+  .contents-title {
+    margin: 0 0 1rem;
+    font-weight: 800;
+  }
+
+  .contents nav {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .contents a {
+    color: #526174;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+
+  .contents a:hover {
+    color: #047857;
+    text-decoration: underline;
+  }
+
+  .guide-content {
+    min-width: 0;
+  }
+
+  .guide-content section {
+    margin-bottom: 3rem;
+    scroll-margin-top: 2rem;
+  }
+
+  .guide-content h2 {
+    margin: 0 0 1rem;
+    font-size: clamp(1.65rem, 3.5vw, 2.2rem);
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+
+  .guide-content h3 {
+    margin: 2rem 0 0.75rem;
+    font-size: 1.3rem;
+  }
+
+  .guide-content p,
+  .guide-content li {
+    color: #445164;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .guide-content ul {
+    padding-left: 1.4rem;
+  }
+
+  .guide-content li + li {
+    margin-top: 0.45rem;
+  }
+
+  .summary-box,
+  .tip-box,
+  .disclaimer {
+    padding: 1.5rem;
+    background: #e8f5ef;
+    border: 1px solid #b8dfcf;
+    border-radius: 14px;
+  }
+
+  .summary-box h2,
+  .disclaimer h2 {
+    color: #065f46;
+  }
+
+  .tip-box strong {
+    color: #065f46;
+  }
+
+  .tip-box p {
+    margin-bottom: 0;
+  }
+
+  .calculator-card {
+    padding: 1.5rem;
+    background: white;
+    border: 1px solid #d8e2de;
+    border-radius: 16px;
+    box-shadow: 0 12px 34px rgba(18, 38, 32, 0.07);
+  }
+
+  .calculator-field {
+    margin-bottom: 1.25rem;
+  }
+
+  .calculator-field label {
+    display: block;
+    margin-bottom: 0.45rem;
+    color: #253247;
+    font-weight: 800;
+  }
+
+  .calculator-field input,
+  .calculator-field select {
+    width: 100%;
+    padding: 0.85rem;
+    background: white;
+    color: #172033;
+    border: 1px solid #b8c4cf;
+    border-radius: 8px;
+    font: inherit;
+  }
+
+  .calculator-field input:focus,
+  .calculator-field select:focus {
+    border-color: #047857;
+    outline: 3px solid rgba(4, 120, 87, 0.15);
+  }
+
+  #calculate-button,
+  .primary-button {
+    display: inline-flex;
+    justify-content: center;
+    padding: 0.9rem 1.25rem;
+    background: #047857;
+    color: white;
+    border: 0;
+    border-radius: 9px;
+    font: inherit;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #calculate-button:hover,
+  .primary-button:hover {
+    background: #065f46;
+  }
+
+  .calculator-results {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .calculator-results div {
+    padding: 1rem;
+    background: #f0f9f5;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .calculator-results strong {
+    display: block;
+    color: #047857;
+    font-size: 2rem;
+  }
+
+  .calculator-results span {
+    display: block;
+    margin-top: 0.35rem;
+    color: #526174;
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+
+  .calculator-note {
+    margin-bottom: 0;
+    font-size: 0.9rem !important;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    background: white;
+    border: 1px solid #d8e2de;
+    border-radius: 12px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 650px;
+  }
+
+  th,
+  td {
+    padding: 1rem;
+    border-bottom: 1px solid #e3e9e6;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: #e8f5ef;
+    color: #174c39;
+    font-size: 0.9rem;
+  }
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .source-note {
+    font-size: 0.85rem !important;
+  }
+
+  .source-note a {
+    color: #047857;
+  }
+
+  .find-suppliers {
+    padding: 2rem;
+    background: #173c32;
+    color: white;
+    border-radius: 16px;
+  }
+
+  .find-suppliers h2 {
+    color: white;
+  }
+
+  .find-suppliers p {
+    color: #d1fae5;
+  }
+
+  .disclaimer {
+    background: #fff9e8;
+    border-color: #efd68b;
+  }
+
+  .disclaimer h2 {
+    color: #7a5410;
+  }
+
+  @media (max-width: 900px) {
+    .article-layout {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .contents {
+      position: static;
+    }
+
+    .contents nav {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 650px) {
+    .guide-hero {
+      padding-bottom: 3rem;
+    }
+
+    .breadcrumbs {
+      margin-bottom: 2rem;
+    }
+
+    .article-layout {
+      padding-top: 2.5rem;
+      padding-bottom: 3rem;
+    }
+
+    .contents nav {
+      grid-template-columns: 1fr;
+    }
+
+    .calculator-results {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #calculate-button,
+    .primary-button {
+      width: 100%;
+    }
+  }
+</style>
