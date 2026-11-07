@@ -1,0 +1,458 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const pageTitle = "Wedding Toilet Hire: A Complete Planning Guide";
+const pageDescription = "Plan wedding toilet hire with guidance on guest numbers, luxury toilet trailers, accessible facilities, venue access, placement, servicing and supplier questions.";
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      headline: pageTitle,
+      description: pageDescription,
+      mainEntityOfPage: canonicalUrl,
+      publisher: {
+        "@type": "Organization",
+        name: "Portaloo Online",
+        url: new URL("/", Astro.site).href
+      }
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How many toilets do I need for a wedding?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The number depends on guest numbers, event duration, alcohol service, existing venue facilities and the capacity of the chosen trailer. Use current event sanitation guidance as a starting point and ask the hire supplier to confirm the final provision."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "What is included in a luxury wedding toilet trailer?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Features vary by supplier, but luxury trailers commonly offer flushing toilets, handwashing basins, mirrors, lighting and finished interiors. Confirm water, power, waste storage and access requirements before booking."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Do I need an accessible toilet at a wedding?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Accessible facilities should be considered for every wedding. If the venue does not provide a suitable accessible toilet, arrange a dedicated accessible unit with a firm, level and clearly signposted route."
+          }
+        }
+      ]
+    }
+  ]
+};
+---
+
+<Layout title={`${pageTitle} | Portaloo Online`} description={pageDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <main class="guide-page">
+    <section class="guide-hero">
+      <div class="container hero-container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="/guides/">Guides</a>
+          <span aria-hidden="true">/</span>
+          <span>Wedding toilet hire</span>
+        </nav>
+
+        <p class="eyebrow">Wedding planning guide</p>
+        <h1>Wedding Toilet Hire: A Complete Planning Guide</h1>
+        <p class="hero-intro">
+          Choose the right toilets for a marquee, barn, garden or outdoor wedding,
+          with practical advice on numbers, trailer sizes, placement, accessibility,
+          utilities and supplier questions.
+        </p>
+        <div class="guide-meta">
+          <span>9 minute read</span>
+          <span>Updated November 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="container article-layout">
+      <aside class="contents">
+        <div class="contents-card">
+          <p class="contents-title">In this guide</p>
+          <nav aria-label="Guide contents">
+            <a href="#quick-answer">Quick answer</a>
+            <a href="#types">Types of wedding toilets</a>
+            <a href="#numbers">How many toilets?</a>
+            <a href="#venue">Check the venue first</a>
+            <a href="#utilities">Water, power and waste</a>
+            <a href="#placement">Placement and access</a>
+            <a href="#accessible">Accessible facilities</a>
+            <a href="#checklist">Booking checklist</a>
+            <a href="#questions">Questions to ask</a>
+            <a href="#find-suppliers">Find suppliers</a>
+          </nav>
+        </div>
+      </aside>
+
+      <article class="guide-content">
+        <section class="summary-box" id="quick-answer">
+          <h2>Quick answer</h2>
+          <p>
+            Wedding toilet hire is usually needed when a venue has no permanent
+            toilets, too few facilities for the guest list, or toilets that are
+            reserved for staff and caterers.
+          </p>
+          <p>Before requesting quotes, confirm:</p>
+          <ul>
+            <li>The maximum number of guests and staff on site</li>
+            <li>The ceremony and reception finishing times</li>
+            <li>Whether food and alcohol will be served</li>
+            <li>Which permanent venue toilets are available to guests</li>
+            <li>Whether an accessible toilet is already provided</li>
+            <li>Delivery access, ground conditions, water and electricity</li>
+          </ul>
+          <p>
+            Luxury toilet trailers suit formal weddings, while clean standard
+            portable toilets can work for informal or budget-led celebrations.
+            Some weddings use both, with a luxury trailer as the main facility
+            and standard units as overflow.
+          </p>
+        </section>
+
+        <section id="types">
+          <h2>What type of wedding toilet hire should you choose?</h2>
+
+          <h3>Luxury toilet trailers</h3>
+          <p>
+            Luxury toilet trailers are designed to feel closer to permanent indoor
+            facilities. Depending on the supplier and model, they may include flushing
+            toilets, handwashing basins, mirrors, interior lighting, ventilation,
+            heating and finished interiors.
+          </p>
+          <p>
+            They are often the best fit for marquee receptions, country-house grounds,
+            barns and private gardens where appearance and guest comfort matter.
+          </p>
+
+          <h3>Standard portable toilets</h3>
+          <p>
+            Standard portable toilets are the simplest and usually the least expensive
+            option. They are suitable for relaxed outdoor weddings, camping areas,
+            supplier and crew facilities, or additional capacity away from the main reception.
+          </p>
+          <p>
+            Confirm whether each unit includes a handwashing basin or sanitiser dispenser,
+            toilet paper and lighting if it will be used after dark.
+          </p>
+
+          <h3>Accessible portable toilets</h3>
+          <p>
+            Accessible units provide more internal space and suitable support features.
+            They need a firm, level route and should be positioned where guests can reach
+            them without crossing soft ground, steps, cables or vehicle routes.
+          </p>
+
+          <h3>Urinals and extra capacity</h3>
+          <p>
+            Urinal units can reduce pressure on cubicles at larger receptions. They may be
+            useful where the evening guest list is substantially larger than the daytime list.
+          </p>
+        </section>
+
+        <section id="numbers">
+          <h2>How many toilets do you need for a wedding?</h2>
+          <p>
+            There is no single number that suits every wedding. The correct provision depends
+            on the capacity of each trailer, the number of existing venue toilets, guest numbers,
+            duration, alcohol service and whether overnight camping is available.
+          </p>
+          <p>
+            Current Purple Guide sanitation guidance says a typical local event should start with
+            one female toilet per 100 attendees, one male toilet per 500 attendees and one urinal
+            per 150 attendees. At least one dedicated accessible toilet should also be provided,
+            together with handwashing or sanitiser facilities.
+          </p>
+          <p>
+            Weddings often run for many hours and usually include food and alcohol, so the final
+            provision may need to be higher. Trailer capacity also varies considerably. Ask each
+            supplier to recommend a specific model and explain the stated guest capacity.
+          </p>
+
+          <div class="link-card">
+            <div>
+              <strong>Need a starting calculation?</strong>
+              <p>Use our event toilet calculator, then confirm the result with the wedding toilet supplier.</p>
+            </div>
+            <a href="/guides/how-many-portable-toilets-for-an-event/">Use the toilet calculator</a>
+          </div>
+        </section>
+
+        <section id="venue">
+          <h2>Check the wedding venue before requesting quotes</h2>
+          <p>Ask the venue or landowner these questions first:</p>
+          <ul>
+            <li>How many permanent guest toilets are working and available?</li>
+            <li>Are any toilets reserved for staff, caterers or accommodation guests?</li>
+            <li>Is there a permanent accessible toilet?</li>
+            <li>Can a delivery vehicle reach the proposed position?</li>
+            <li>Is the ground firm and level in wet weather?</li>
+            <li>Are water, electricity and drainage connections available?</li>
+            <li>Are there restrictions on delivery and collection times?</li>
+            <li>Can the facilities remain on site until the following working day?</li>
+          </ul>
+          <p>
+            A supplier cannot give a reliable recommendation without knowing which permanent
+            facilities are actually available to wedding guests.
+          </p>
+        </section>
+
+        <section id="utilities">
+          <h2>Water, electricity and waste requirements</h2>
+          <p>
+            Luxury trailers may require a suitable electrical supply, a water connection or
+            sufficient onboard storage. Requirements vary between models, so never assume the
+            trailer is fully self-contained.
+          </p>
+          <div class="check-grid">
+            <div>
+              <h3>Electricity</h3>
+              <p>Ask about plug type, power demand, cable distance and whether a generator is suitable.</p>
+            </div>
+            <div>
+              <h3>Water</h3>
+              <p>Confirm whether mains water is required or whether the supplier provides a fresh-water tank.</p>
+            </div>
+            <div>
+              <h3>Waste</h3>
+              <p>Check whether waste is stored onboard, pumped to a tank or connected to a suitable drain.</p>
+            </div>
+            <div>
+              <h3>Servicing</h3>
+              <p>For multi-day weddings or camping, confirm emptying, cleaning and consumable replenishment.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="placement">
+          <h2>Where should wedding toilets be positioned?</h2>
+          <p>
+            The best position is convenient for guests but discreet enough not to dominate the
+            reception area or photographs. The final choice must also work for delivery and servicing.
+          </p>
+          <ul>
+            <li>Use firm, level ground that can carry the loaded trailer</li>
+            <li>Provide a safe, well-lit route from the marquee or reception</li>
+            <li>Avoid steps and soft ground on the accessible route</li>
+            <li>Keep the toilets away from catering preparation areas</li>
+            <li>Check door clearance, trailer footprint and access on both sides</li>
+            <li>Allow servicing vehicles to approach where required</li>
+            <li>Keep electrical cables and water hoses protected from guests</li>
+          </ul>
+          <div class="tip-box">
+            <strong>Practical tip:</strong>
+            <p>
+              Send the supplier photographs, measurements and a simple site plan before booking.
+              A site visit may be worthwhile for narrow entrances, sloping land or restricted access.
+            </p>
+          </div>
+        </section>
+
+        <section id="accessible">
+          <h2>Accessible wedding toilet facilities</h2>
+          <p>
+            The Purple Guide says accessible toilets and changing facilities should be provided
+            and clearly signposted, with accessible onsite routes using ramps or lifts where necessary.
+          </p>
+          <p>
+            Check the entire journey, not just the toilet itself. Parking, paths, gradients,
+            thresholds, lighting and the distance from the reception all matter.
+          </p>
+          <p>
+            If the luxury trailer is not accessible, hire a separate accessible unit and position
+            it as part of the main facility area rather than hiding it at the edge of the site.
+          </p>
+        </section>
+
+        <section id="checklist">
+          <h2>Wedding toilet hire checklist</h2>
+          <div class="checklist">
+            <label><input type="checkbox" /> Confirm daytime and evening guest numbers</label>
+            <label><input type="checkbox" /> Count usable permanent venue toilets</label>
+            <label><input type="checkbox" /> Confirm accessible provision</label>
+            <label><input type="checkbox" /> Choose standard units, a luxury trailer or both</label>
+            <label><input type="checkbox" /> Check delivery width and turning space</label>
+            <label><input type="checkbox" /> Confirm firm and level positioning</label>
+            <label><input type="checkbox" /> Check water and electricity requirements</label>
+            <label><input type="checkbox" /> Agree delivery and collection times</label>
+            <label><input type="checkbox" /> Confirm cleaning, restocking and emergency support</label>
+            <label><input type="checkbox" /> Add lighting and clear directional signs</label>
+          </div>
+        </section>
+
+        <section id="questions">
+          <h2>Questions to ask a wedding toilet hire company</h2>
+          <ul>
+            <li>Which unit do you recommend for our guest numbers and event duration?</li>
+            <li>How many cubicles and urinals does the trailer contain?</li>
+            <li>What is included in delivery, setup and collection?</li>
+            <li>What water, electrical and drainage connections are required?</li>
+            <li>Can you provide an accessible unit?</li>
+            <li>Are consumables, cleaning and restocking included?</li>
+            <li>What vehicle access and ground conditions are required?</li>
+            <li>Can we view recent photographs or inspect the actual unit?</li>
+            <li>What happens if equipment fails during the wedding?</li>
+            <li>Is the quotation inclusive of VAT and all transport charges?</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Wedding toilet hire FAQs</h2>
+          <div class="faq-list">
+            <details>
+              <summary>How many toilets do I need for a wedding?</summary>
+              <p>
+                It depends on guest numbers, duration, alcohol service, existing venue facilities
+                and trailer capacity. Use current event guidance as a starting point and ask the
+                supplier to confirm a model-specific recommendation.
+              </p>
+            </details>
+            <details>
+              <summary>What is included in a luxury wedding toilet trailer?</summary>
+              <p>
+                Features vary, but commonly include flushing toilets, handwashing basins, mirrors,
+                lighting and finished interiors. Confirm utilities, waste storage, consumables and access.
+              </p>
+            </details>
+            <details>
+              <summary>Do I need an accessible toilet at a wedding?</summary>
+              <p>
+                Accessible provision should be considered for every wedding. If the venue does not
+                provide a suitable facility, arrange a dedicated accessible unit and route.
+              </p>
+            </details>
+          </div>
+        </section>
+
+        <section class="sources-box">
+          <h2>Sources and further guidance</h2>
+          <ul>
+            <li><a href="https://www.thepurpleguide.co.uk/sanitation" target="_blank" rel="nofollow noopener noreferrer">The Purple Guide: Sanitation</a></li>
+            <li><a href="https://www.thepurpleguide.co.uk/accessibility" target="_blank" rel="nofollow noopener noreferrer">The Purple Guide: Accessibility</a></li>
+          </ul>
+        </section>
+
+        <section class="find-suppliers" id="find-suppliers">
+          <h2>Find wedding toilet hire companies</h2>
+          <p>
+            Browse portable toilet and luxury toilet trailer suppliers serving towns and cities across the UK.
+          </p>
+          <a class="primary-button" href="/locations/">Browse toilet hire locations</a>
+        </section>
+
+        <section class="disclaimer">
+          <h2>Important</h2>
+          <p>
+            This guide provides general planning information. Confirm your final provision,
+            site requirements and accessibility arrangements with the venue, toilet supplier
+            and any relevant licensing or event-safety authority.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  :root {
+    --guide-navy: #0f172a;
+    --guide-blue-dark: #1d4ed8;
+    --guide-blue: #2563eb;
+    --guide-blue-light: #dbeafe;
+    --guide-blue-pale: #eff6ff;
+    --guide-text: #475569;
+    --guide-border: #e2e8f0;
+  }
+
+  .guide-page { background: #f8fafc; color: var(--guide-navy); }
+  .container { width: min(1120px, calc(100% - 2rem)); margin: 0 auto; }
+  .guide-hero { padding: 2rem 0 4.5rem; color: #fff; background: radial-gradient(circle at top right, rgba(59,130,246,.35), transparent 38%), linear-gradient(135deg, #0f172a, #172554); }
+  .hero-container { max-width: 900px; }
+  .breadcrumbs { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 3rem; color: var(--guide-blue-light); font-size: .9rem; }
+  .breadcrumbs a { color: var(--guide-blue-light); }
+  .breadcrumbs a:hover { color: #fff; }
+  .eyebrow { margin: 0 0 .75rem; color: #93c5fd; font-size: .8rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+  .guide-hero h1 { max-width: 900px; margin: 0; color: #fff; font-size: clamp(2.3rem, 6vw, 4.25rem); line-height: 1.05; letter-spacing: -.045em; }
+  .hero-intro { max-width: 780px; margin: 1.5rem 0 0; color: var(--guide-blue-light); font-size: clamp(1.05rem, 2.4vw, 1.25rem); line-height: 1.7; }
+  .guide-meta { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 1.5rem; color: #93c5fd; font-size: .9rem; }
+
+  .article-layout { display: grid; grid-template-columns: 240px minmax(0,760px); justify-content: center; gap: 3rem; padding: 4rem 0 5rem; }
+  .contents { position: sticky; top: 6rem; align-self: start; }
+  .contents-card { padding: 1.25rem; background: #fff; border: 1px solid var(--guide-border); border-radius: 14px; box-shadow: 0 8px 24px rgba(15,23,42,.04); }
+  .contents-title { margin: 0 0 1rem; color: var(--guide-navy); font-weight: 800; }
+  .contents nav { display: grid; gap: .75rem; }
+  .contents a { color: var(--guide-text); font-size: .9rem; line-height: 1.35; text-decoration: none; }
+  .contents a:hover { color: var(--guide-blue); text-decoration: underline; }
+
+  .guide-content { min-width: 0; }
+  .guide-content section { margin-bottom: 3rem; scroll-margin-top: 6rem; }
+  .guide-content h2 { margin: 0 0 1rem; color: var(--guide-navy); font-size: clamp(1.65rem,3.5vw,2.2rem); line-height: 1.2; letter-spacing: -.025em; }
+  .guide-content h3 { margin: 2rem 0 .75rem; color: var(--guide-navy); font-size: 1.3rem; }
+  .guide-content p, .guide-content li { color: var(--guide-text); font-size: 1rem; line-height: 1.8; }
+  .guide-content ul { padding-left: 1.4rem; }
+  .guide-content li + li { margin-top: .45rem; }
+
+  .summary-box, .tip-box, .sources-box { padding: 1.5rem; background: var(--guide-blue-pale); border: 1px solid #bfdbfe; border-radius: 14px; }
+  .summary-box h2, .tip-box strong, .sources-box h2 { color: var(--guide-blue-dark); }
+  .tip-box p { margin-bottom: 0; }
+  .sources-box a { color: var(--guide-blue); font-weight: 700; }
+
+  .link-card { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; margin-top: 1.5rem; padding: 1.25rem; background: #fff; border: 1px solid #bfdbfe; border-radius: 12px; }
+  .link-card strong { color: var(--guide-navy); }
+  .link-card p { margin: .35rem 0 0; }
+  .link-card a { flex: 0 0 auto; padding: .75rem 1rem; background: var(--guide-blue); color: #fff; border-radius: 8px; font-weight: 800; text-decoration: none; }
+  .link-card a:hover { background: var(--guide-blue-dark); }
+
+  .check-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+  .check-grid div { padding: 1.25rem; background: #fff; border: 1px solid var(--guide-border); border-radius: 12px; }
+  .check-grid h3 { margin-top: 0; color: var(--guide-blue-dark); }
+  .check-grid p { margin-bottom: 0; }
+
+  .checklist { display: grid; gap: .75rem; }
+  .checklist label { display: flex; align-items: flex-start; gap: .75rem; padding: 1rem; background: #fff; border: 1px solid var(--guide-border); border-radius: 10px; color: var(--guide-text); line-height: 1.5; }
+  .checklist input { width: 1.1rem; height: 1.1rem; margin-top: .15rem; accent-color: var(--guide-blue); }
+
+  .faq-list { display: grid; gap: .75rem; }
+  .faq-list details { background: #fff; border: 1px solid var(--guide-border); border-radius: 10px; }
+  .faq-list summary { padding: 1rem 1.25rem; color: var(--guide-navy); font-weight: 800; cursor: pointer; }
+  .faq-list p { margin: 0; padding: 0 1.25rem 1.25rem; }
+
+  .find-suppliers { padding: 2rem; background: var(--guide-navy); color: #fff; border-radius: 16px; }
+  .find-suppliers h2 { color: #fff; }
+  .find-suppliers p { color: var(--guide-blue-light); }
+  .primary-button { display: inline-flex; justify-content: center; padding: .9rem 1.25rem; background: var(--guide-blue); color: #fff; border-radius: 9px; font-weight: 800; text-decoration: none; }
+  .primary-button:hover { background: var(--guide-blue-dark); }
+
+  .disclaimer { padding: 1.5rem; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 14px; }
+  .disclaimer h2 { color: #9a3412; }
+  .disclaimer p { margin-bottom: 0; color: #7c2d12; }
+
+  @media (max-width: 900px) {
+    .article-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .contents { position: static; }
+    .contents nav { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  }
+
+  @media (max-width: 650px) {
+    .guide-hero { padding-bottom: 3rem; }
+    .breadcrumbs { margin-bottom: 2rem; }
+    .article-layout { padding-top: 2.5rem; padding-bottom: 3rem; }
+    .contents nav, .check-grid { grid-template-columns: 1fr; }
+    .link-card { align-items: flex-start; flex-direction: column; }
+    .link-card a, .primary-button { width: 100%; text-align: center; }
+  }
+</style>
