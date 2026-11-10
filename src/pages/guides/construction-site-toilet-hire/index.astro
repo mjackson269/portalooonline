@@ -1,0 +1,302 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const pageTitle = "Portable Toilet Hire for Construction Sites";
+const pageDescription = "UK guide to construction site toilet hire, including toilet numbers, washing facilities, servicing, positioning and wider site welfare responsibilities.";
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      headline: pageTitle,
+      description: pageDescription,
+      mainEntityOfPage: canonicalUrl,
+      publisher: {
+        "@type": "Organization",
+        name: "Portaloo Online",
+        url: new URL("/", Astro.site).href
+      }
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How many portable toilets are needed on a construction site?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "HSE guidance notes a BSI recommendation of one portable chemical toilet for seven people working a 40-hour week. Actual provision must also reflect use and servicing frequency."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Can chemical toilets be used on construction sites?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "HSE says portable chemical toilets are acceptable where flushing toilets cannot be provided, including temporary, smaller or remote parts of sites."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Does a site toilet need handwashing facilities?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Construction welfare must include suitable washing facilities. HSE says washing facilities should normally be next to toilets and provide warm running water, soap and suitable drying facilities."
+          }
+        }
+      ]
+    }
+  ]
+};
+---
+
+<Layout title={`${pageTitle} | Portaloo Online`} description={pageDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <main class="guide-page">
+    <section class="guide-hero">
+      <div class="container hero-container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/guides/">Guides</a><span aria-hidden="true">/</span>
+          <span>Construction site toilet hire</span>
+        </nav>
+        <p class="eyebrow">Construction welfare guide</p>
+        <h1>Portable Toilet Hire for Construction Sites</h1>
+        <p class="hero-intro">
+          Plan toilets, washing facilities, servicing and wider welfare provision
+          for building sites, renovations, infrastructure work and temporary projects.
+        </p>
+        <div class="guide-meta"><span>10 minute read</span><span>Updated October 2026</span></div>
+      </div>
+    </section>
+
+    <div class="container article-layout">
+      <aside class="contents">
+        <div class="contents-card">
+          <p class="contents-title">In this guide</p>
+          <nav aria-label="Guide contents">
+            <a href="#quick-answer">Quick answer</a>
+            <a href="#responsibility">Who is responsible?</a>
+            <a href="#toilet-types">Toilet options</a>
+            <a href="#toilet-numbers">How many toilets?</a>
+            <a href="#washing">Washing facilities</a>
+            <a href="#servicing">Cleaning and servicing</a>
+            <a href="#positioning">Positioning facilities</a>
+            <a href="#welfare-units">Wider welfare provision</a>
+            <a href="#checklist">Hire checklist</a>
+            <a href="#faqs">FAQs</a>
+            <a href="#find-suppliers">Find suppliers</a>
+          </nav>
+        </div>
+      </aside>
+
+      <article class="guide-content">
+        <section class="summary-box" id="quick-answer">
+          <h2>Quick answer</h2>
+          <p>
+            Construction workers must have access to suitable toilets and washing
+            facilities from the start of a project until it finishes. Flushing toilets
+            should be provided where possible. Portable chemical toilets can be used when
+            flushing facilities are not reasonably available.
+          </p>
+          <ul>
+            <li>Plan welfare before work starts</li>
+            <li>Provide toilets suitable for the workforce and the work</li>
+            <li>Provide suitable handwashing next to the toilets</li>
+            <li>Arrange cleaning, emptying and consumable restocking</li>
+            <li>Keep facilities accessible throughout the project</li>
+            <li>Review provision when worker numbers or site conditions change</li>
+          </ul>
+        </section>
+
+        <section id="responsibility">
+          <h2>Who is responsible for construction welfare?</h2>
+          <p>
+            The Health and Safety Executive says contractors must provide the right welfare
+            facilities for workers under their control. Commercial clients must make sure
+            suitable arrangements are in place, and principal contractors must ensure welfare
+            is provided from the start of the project until completion.
+          </p>
+          <p>
+            Schedule 2 of the Construction (Design and Management) Regulations 2015 covers
+            welfare facilities including toilets, washing, changing, eating and rest areas.
+            Welfare is therefore not something to add after the site becomes established.
+          </p>
+          <div class="tip-box"><strong>Planning point:</strong><p>Confirm the welfare layout, utility requirements, delivery access and servicing arrangements before workers arrive.</p></div>
+        </section>
+
+        <section id="toilet-types">
+          <h2>Flushing toilets or portable chemical toilets?</h2>
+          <div class="option-grid">
+            <article><h3>Flushing toilets</h3><p>HSE says flushing toilets connected to mains water and drainage should be provided where possible.</p></article>
+            <article><h3>Self-contained flushing units</h3><p>Where mains connections are unavailable, units with built-in water supplies and drainage tanks may provide a more complete option.</p></article>
+            <article><h3>Portable chemical toilets</h3><p>Chemical toilets are acceptable where flushing toilets cannot be provided and are common on temporary, smaller or remote parts of sites.</p></article>
+            <article><h3>Toilet and welfare units</h3><p>Towable or static welfare units can combine toilets with washing, rest, changing, drying and canteen facilities.</p></article>
+          </div>
+          <p>
+            The most suitable option depends on project duration, workforce, utilities,
+            ground conditions, work activities and the distance to existing facilities.
+          </p>
+        </section>
+
+        <section id="toilet-numbers">
+          <h2>How many portable toilets are needed?</h2>
+          <p>
+            HSE guidance says the number depends on worker numbers and the proportion of men
+            and women. For portable chemical toilets, the guidance notes a BSI recommendation
+            of one toilet for seven people working a 40-hour week.
+          </p>
+          <div class="ratio-card"><strong>Planning indication</strong><span>1 portable chemical toilet</span><span>for every 7 people working a 40-hour week</span></div>
+          <p>
+            This is an indication rather than a substitute for site-specific planning. More
+            units or more frequent servicing may be needed where use is heavy, shifts overlap,
+            the site is muddy or workers are distributed across a large area.
+          </p>
+          <p>
+            Men and women may use the same toilet where it is in a separate lockable room and
+            separate from urinals. Facilities used by female workers should include sanitary
+            waste disposal.
+          </p>
+        </section>
+
+        <section id="washing">
+          <h2>Handwashing and washing facilities</h2>
+          <p>
+            A portable toilet alone may not satisfy the full washing requirement. HSE says
+            washing facilities should normally be next to toilets and changing rooms and include:
+          </p>
+          <ul>
+            <li>Clean hot and cold, or warm, running water</li>
+            <li>Soap or another suitable cleaning method</li>
+            <li>Towels or another suitable drying method</li>
+            <li>Adequate lighting and ventilation</li>
+            <li>Washbasins large enough for hands, face and forearms</li>
+            <li>Showers where required by the work and associated risks</li>
+          </ul>
+          <p>
+            HSE specifically notes that a small sink and hand sanitiser inside some portable
+            toilets may be inadequate unless other suitable washing facilities are nearby.
+          </p>
+          <div class="warning-box"><strong>Contamination control</strong><p>Provide washing separately from eating and rest areas where work involves substances such as cement, lead or micro-organisms.</p></div>
+        </section>
+
+        <section id="servicing">
+          <h2>Cleaning, emptying and servicing</h2>
+          <p>
+            Portable chemical toilets are commonly serviced weekly as part of a hire agreement,
+            but weekly servicing is not automatically adequate for every site. Consider workforce
+            size, shift pattern, site conditions and how heavily each unit is used.
+          </p>
+          <ul>
+            <li>Agree the standard servicing frequency in writing</li>
+            <li>Provide a route and access point for servicing vehicles</li>
+            <li>Arrange additional visits when use increases</li>
+            <li>Keep enough toilet paper, soap and drying supplies available</li>
+            <li>Record faults, damage, blocked units and missed services</li>
+            <li>Review cleaning frequency during wet or muddy conditions</li>
+          </ul>
+          <p>
+            HSE warns that daily cleaning may still be insufficient on a muddy site. Facilities
+            must remain clean, lit, ventilated and stocked throughout working hours.
+          </p>
+        </section>
+
+        <section id="positioning">
+          <h2>Where should site toilets be positioned?</h2>
+          <p>Position welfare so workers can reach it quickly and servicing can take place safely.</p>
+          <ul>
+            <li>Keep the route from work areas as short as reasonably possible</li>
+            <li>Consider whether facilities will need moving as work progresses</li>
+            <li>Provide firm, level ground suitable for the unit</li>
+            <li>Maintain vehicle access for delivery, emptying and collection</li>
+            <li>Protect units from construction traffic and lifting operations</li>
+            <li>Provide additional or satellite facilities for remote areas of large sites</li>
+            <li>Keep access usable in poor weather and changing ground conditions</li>
+          </ul>
+          <p>
+            Existing toilets in nearby buildings or other premises may sometimes be used, but
+            HSE says there must be proper agreement, continuous availability during working hours,
+            and arrangements for cleaning and restocking.
+          </p>
+        </section>
+
+        <section id="welfare-units">
+          <h2>Toilets are only part of site welfare</h2>
+          <p>Construction welfare may also need to include:</p>
+          <div class="welfare-grid">
+            <div><strong>Rest and eating</strong><span>A clean room with seating and facilities for preparing or heating food and drinks.</span></div>
+            <div><strong>Changing and storage</strong><span>Secure storage for clothing and somewhere to change where work requires it.</span></div>
+            <div><strong>Drying facilities</strong><span>Provision for drying wet workwear and personal clothing.</span></div>
+            <div><strong>Drinking water</strong><span>A suitable supply available to workers.</span></div>
+            <div><strong>Showers</strong><span>Needed where required by the nature of the work or exposure risks.</span></div>
+            <div><strong>Remote welfare</strong><span>Mobile or satellite units where a central compound is not quickly accessible.</span></div>
+          </div>
+        </section>
+
+        <section id="checklist">
+          <h2>Construction toilet hire checklist</h2>
+          <div class="checklist">
+            <label><input type="checkbox" /> Maximum number of workers confirmed</label>
+            <label><input type="checkbox" /> Shift patterns and working hours confirmed</label>
+            <label><input type="checkbox" /> Toilet type selected</label>
+            <label><input type="checkbox" /> Washing facilities specified</label>
+            <label><input type="checkbox" /> Delivery and service access checked</label>
+            <label><input type="checkbox" /> Cleaning and emptying frequency agreed</label>
+            <label><input type="checkbox" /> Consumable restocking agreed</label>
+            <label><input type="checkbox" /> Sanitary waste provision considered</label>
+            <label><input type="checkbox" /> Rest, changing and drying facilities planned</label>
+            <label><input type="checkbox" /> Facilities reviewed as the project changes</label>
+          </div>
+        </section>
+
+        <section id="faqs">
+          <h2>Construction site toilet hire FAQs</h2>
+          <div class="faq-list">
+            <details><summary>How many portable toilets are needed on a construction site?</summary><p>HSE guidance notes a BSI recommendation of one portable chemical toilet for seven people working a 40-hour week. Use and servicing frequency must also be considered.</p></details>
+            <details><summary>Can chemical toilets be used?</summary><p>Yes. HSE states that portable chemical toilets are acceptable where flushing toilets cannot be provided.</p></details>
+            <details><summary>Is hand sanitiser enough?</summary><p>Not necessarily. HSE says suitable washing facilities should normally provide warm running water, soap and drying facilities. A small sink and sanitiser may be inadequate without other facilities nearby.</p></details>
+            <details><summary>How often should site toilets be serviced?</summary><p>Weekly servicing is common, but the suitable frequency depends on use, worker numbers and conditions. More frequent cleaning or emptying may be needed.</p></details>
+          </div>
+        </section>
+
+        <section class="sources-box">
+          <h2>Official sources</h2>
+          <p>This guide uses official construction welfare information from the Health and Safety Executive.</p>
+          <ul>
+            <li><a href="https://www.hse.gov.uk/construction/healthrisks/welfare/index.htm" target="_blank" rel="nofollow noopener noreferrer">HSE construction welfare overview</a></li>
+            <li><a href="https://www.hse.gov.uk/construction/healthrisks/welfare/toilets-and-washing.htm" target="_blank" rel="nofollow noopener noreferrer">HSE toilets and washing guidance</a></li>
+            <li><a href="https://www.hse.gov.uk/construction/faq-welfare.htm" target="_blank" rel="nofollow noopener noreferrer">HSE construction welfare FAQs</a></li>
+          </ul>
+        </section>
+
+        <section class="find-suppliers" id="find-suppliers">
+          <h2>Find construction site toilet hire companies</h2>
+          <p>Browse suppliers offering portable toilets, hot-wash units, toilet blocks and welfare facilities across the UK.</p>
+          <a class="primary-button" href="/locations/">Browse toilet hire locations</a>
+        </section>
+
+        <section class="disclaimer">
+          <h2>Important</h2>
+          <p>
+            This guide summarises general construction welfare information. The correct provision
+            depends on the project, workforce, work activities and risks. Check current HSE guidance
+            and obtain competent advice for the specific site.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  :root{--navy:#0f172a;--blue:#2563eb;--blue-dark:#1d4ed8;--pale:#eff6ff;--light:#dbeafe;--text:#475569;--border:#e2e8f0}.guide-page{background:#f8fafc;color:var(--navy)}.container{width:min(1120px,calc(100% - 2rem));margin:0 auto}.guide-hero{padding:2rem 0 4.5rem;color:#fff;background:radial-gradient(circle at top right,rgba(59,130,246,.35),transparent 38%),linear-gradient(135deg,#0f172a,#172554)}.hero-container{max-width:900px}.breadcrumbs{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:3rem;color:var(--light);font-size:.9rem}.breadcrumbs a{color:var(--light)}.breadcrumbs a:hover{color:#fff}.eyebrow{margin:0 0 .75rem;color:#93c5fd;font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.guide-hero h1{max-width:900px;margin:0;color:#fff;font-size:clamp(2.3rem,6vw,4.25rem);line-height:1.05;letter-spacing:-.045em}.hero-intro{max-width:780px;margin:1.5rem 0 0;color:var(--light);font-size:clamp(1.05rem,2.4vw,1.25rem);line-height:1.7}.guide-meta{display:flex;flex-wrap:wrap;gap:1.25rem;margin-top:1.5rem;color:#93c5fd;font-size:.9rem}
+  .article-layout{display:grid;grid-template-columns:240px minmax(0,760px);justify-content:center;gap:3rem;padding:4rem 0 5rem}.contents{position:sticky;top:6rem;align-self:start}.contents-card{padding:1.25rem;background:#fff;border:1px solid var(--border);border-radius:14px;box-shadow:0 8px 24px rgba(15,23,42,.04)}.contents-title{margin:0 0 1rem;color:var(--navy);font-weight:800}.contents nav{display:grid;gap:.75rem}.contents a{color:var(--text);font-size:.9rem;line-height:1.35;text-decoration:none}.contents a:hover{color:var(--blue);text-decoration:underline}.guide-content{min-width:0}.guide-content section{margin-bottom:3rem;scroll-margin-top:6rem}.guide-content h2{margin:0 0 1rem;color:var(--navy);font-size:clamp(1.65rem,3.5vw,2.2rem);line-height:1.2;letter-spacing:-.025em}.guide-content h3{margin:0 0 .75rem;color:var(--navy);font-size:1.22rem}.guide-content p,.guide-content li{color:var(--text);font-size:1rem;line-height:1.8}.guide-content ul{padding-left:1.4rem}.guide-content li+li{margin-top:.45rem}
+  .summary-box,.tip-box,.sources-box{padding:1.5rem;background:var(--pale);border:1px solid #bfdbfe;border-radius:14px}.summary-box h2,.tip-box strong,.sources-box h2{color:var(--blue-dark)}.tip-box p{margin-bottom:0}.sources-box a{color:var(--blue);font-weight:700}.option-grid,.welfare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.option-grid article,.welfare-grid div{padding:1.25rem;background:#fff;border:1px solid var(--border);border-radius:12px}.option-grid p{margin-bottom:0}.welfare-grid div{display:grid;gap:.35rem}.welfare-grid strong{color:var(--blue-dark)}.welfare-grid span{color:var(--text);line-height:1.65}
+  .ratio-card{display:grid;gap:.4rem;margin:1.5rem 0;padding:1.5rem;background:#172554;border-radius:14px;color:#fff;text-align:center}.ratio-card strong{color:#93c5fd;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase}.ratio-card span:nth-of-type(1){font-size:1.8rem;font-weight:850}.ratio-card span:nth-of-type(2){color:var(--light)}.warning-box{padding:1.5rem;background:#fff7ed;border:1px solid #fed7aa;border-radius:14px}.warning-box strong{color:#9a3412}.warning-box p{margin-bottom:0;color:#7c2d12}
+  .checklist{display:grid;gap:.75rem}.checklist label{display:flex;align-items:flex-start;gap:.75rem;padding:1rem;background:#fff;border:1px solid var(--border);border-radius:10px;color:var(--text);line-height:1.5}.checklist input{width:1.1rem;height:1.1rem;margin-top:.15rem;accent-color:var(--blue)}.faq-list{display:grid;gap:.75rem}.faq-list details{background:#fff;border:1px solid var(--border);border-radius:10px}.faq-list summary{padding:1rem 1.25rem;color:var(--navy);font-weight:800;cursor:pointer}.faq-list p{margin:0;padding:0 1.25rem 1.25rem}.find-suppliers{padding:2rem;background:var(--navy);color:#fff;border-radius:16px}.find-suppliers h2{color:#fff}.find-suppliers p{color:var(--light)}.primary-button{display:inline-flex;justify-content:center;padding:.9rem 1.25rem;background:var(--blue);color:#fff;border-radius:9px;font-weight:800;text-decoration:none}.primary-button:hover{background:var(--blue-dark)}.disclaimer{padding:1.5rem;background:#fff7ed;border:1px solid #fed7aa;border-radius:14px}.disclaimer h2{color:#9a3412}.disclaimer p{margin-bottom:0;color:#7c2d12}
+  @media(max-width:900px){.article-layout{grid-template-columns:1fr;gap:2rem}.contents{position:static}.contents nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:650px){.guide-hero{padding-bottom:3rem}.breadcrumbs{margin-bottom:2rem}.article-layout{padding-top:2.5rem;padding-bottom:3rem}.contents nav,.option-grid,.welfare-grid{grid-template-columns:1fr}.primary-button{width:100%;text-align:center}}
+</style>
